@@ -10,6 +10,67 @@
                  DRUŽINA
             </a>
         </div>
+<div style="text-align: left;margin-left:12px;">
+            <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+        </div>
+        <script>
+            function openNav() {
+              document.getElementById("mysidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mysidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+<div id="mysidenav" class="sidenav">   
+            <a href="index.html" class="postava" style="color: azure;">DRUŽINA</a> 
+            <h2> Postavy </h2>
+            <hr class="solid">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="emer.html" class="postava">Emer z Dorinu</a> 
+            <a href="kharak.html" class="postava">Kharak Narantl</a> 
+            <a href="margaret.html" class="postava">Margaret</a> 
+            <a href="pertan.html" class="postava">Pertan Perlík</a> 
+            <a href="sirael.html" class="postava">Sirael Cockven</a> 
+            <a href="stark.html" class="postava">Stark</a> 
+            <a href="zuana.html" class="postava">Zuana</a>   
+            <br>
+            <h2> NPC </h2>
+            <hr class="solid">
+            <a href="neera.html" class="postava">Neera</a> 
+            <a href="narmer.html" class="postava">Narmer</a> 
+            <br>
+            <h2> Svět </h2>
+            <hr class="solid">
+            <a href="mapa.html" class="mapa">Mapa </a>
+            <button class="dropdown-btn">Místa
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-div">
+                <a href="mista/garagor/garagor.html" class="postava">Garagor</a> 
+                <a href="mista/pelzacz/pelzacz.html" class="postava">Pełzacz </a>
+                
+            </div>
+        </div>
+        <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                 var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+                } else {
+                dropdownContent.style.display = "block";
+                }
+                });
+            }
+            </script>
         <div><h1>Margaret Noblesová</h1></div>
         <div class="postrani_obr">  ¨
             <img src="Postavy/Obrázky/Margaret Noblesová 2.png" class="postrani_obr">
