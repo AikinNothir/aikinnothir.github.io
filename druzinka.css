@@ -3,7 +3,7 @@
   }
 
 body { 
-    background-color: rgb(168, 127, 88);
+    background-color: rgb(70, 68, 67);
     text-align: center;
     
 }
@@ -34,6 +34,7 @@ div.podlogo {
     margin-top: 24px;
     margin-bottom:1px;
     background-color: rgb(75, 8, 8);
+    border-radius: 0px 0px 16px 16px;
 }
 
 .flex {
@@ -122,6 +123,9 @@ a.postava {
 img.postrani_obr {
     max-width: 480px;
     max-height: 480px;
+    border-radius: 0 0 24px 24px;
+    border: 2px black solid;
+    border-bottom:3px rgb(139, 3, 3) solid;
 
 }
 
