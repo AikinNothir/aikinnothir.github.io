@@ -67,7 +67,7 @@ hr.solid {
     width: 70%;
 }
 
-a.postava {
+.postava {
     color: rgb(218, 202, 58);
     background-color: black;
 }
@@ -101,6 +101,10 @@ a.postava {
   
 .sidenav a:hover {
     color: #810909;
+}
+
+.sidenav a.misto {
+    text-align: left;
 }
 
 .sidenav .closebtn {
@@ -152,13 +156,13 @@ div.postrani_obr {
   
   /* On mouse-over */
  .dropdown-btn:hover {
-    color: #ffffff;
+    color: #810909;
   }
 
   /* Add an active class to the active dropdown button */
 .active {
-    background-color: #810909;
-    color: white;
+    background-color: #070707;
+    color: #810909;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
