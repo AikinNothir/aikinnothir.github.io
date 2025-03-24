@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Družinka </title>
+        <link rel="stylesheet" href="druzinka.css">
+    
+    </head>
+    <body>
+        <div style="text-align: left;margin-left:12px;">
+            <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+        </div>
+        <script>
+            function openNav() {
+              document.getElementById("mysidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mysidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+
+        <div id="main">
+            <h1>DRUŽINA</h1>
+        </div>
+        <div id="mysidenav" class="sidenav">   
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/Druzinka.html" class="postava" style="color: azure;">DRUŽINA</a> 
+            <h2> Postavy </h2>
+            <hr class="solid">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/emer.html" class="postava">Emer z Dorinu</a> 
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/kharak.html" class="postava">Kharak Narantl</a> 
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/margaret.html" class="postava">Margaret</a> 
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/pertan.html" class="postava">Pertan Perlík</a> 
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/sirael.html" class="postava">Sirael Cockven</a> 
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/stark.html" class="postava">Stark</a> 
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/zuana.html" class="postava">Zuana</a>   
+            <br>
+            <h2> NPC </h2>
+            <hr class="solid">
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/neera.html" class="postava">Neera</a> 
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/narmer.html" class="postava">Narmer</a> 
+            <br>
+            <h2> Svět </h2>
+            <hr class="solid">
+            <a href="file:///C:/Users/Fischa/Desktop/DnD/mapa.html" class="mapa">Mapa </a>
+            <button class="dropdown-btn">Místa
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-div">
+                <a href="file:///C:/Users/Fischa/Desktop/DnD/garagor.html" class="postava">Garagor</a> 
+                <a href="file:///C:/Users/Fischa/Desktop/DnD/pelzacz.html" class="postava">Pełzacz </a>
+                
+            </div>
+        </div>
+        <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                 var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+                } else {
+                dropdownContent.style.display = "block";
+                }
+                });
+            }
+            </script>
+        
+        
+    </body>
+</html>    

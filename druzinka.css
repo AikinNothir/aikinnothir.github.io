@@ -1,0 +1,135 @@
+body { 
+    background-color: rgb(168, 127, 88);
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+
+h1:hover {
+    color: #810909;
+
+}
+
+h2 {
+    padding: 8px 8px 0px 32px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #c3e2b7;
+    display: block;
+    transition: 0.3s;   
+    text-decoration: none;
+}
+
+hr.solid {
+    color: #fff348;
+    border-top: 1px solid #fff348;
+    width: 70%;
+}
+
+a.postava {
+    color: rgb(218, 202, 58);
+    background-color: black;
+}
+
+.sidenav a.mapa {
+    color: chartreuse;
+    
+}
+
+.sidenav {
+    height: 100% ; 
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top:60px
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #810909;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+img.postrani_obr {
+    max-width: 480px;
+    max-height: 480px;
+
+}
+
+div.postrani_obr {
+    max-width: 100%;
+    align-content: flex-end;
+}
+
+/* Style the sidenav links and the dropdown button */
+.dropdown-btn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* On mouse-over */
+ .dropdown-btn:hover {
+    color: #ffffff;
+  }
+
+  /* Add an active class to the active dropdown button */
+.active {
+    background-color: #810909;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+
+  /* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
