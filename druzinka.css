@@ -167,7 +167,8 @@ div.obsah_subpage {
 
 div.popis_subpage {
     width: 70%;
-    padding-left: 240px;
+    padding-left: 120px;
+    padding-right: 120px;
     text-align: left;
 }
 
