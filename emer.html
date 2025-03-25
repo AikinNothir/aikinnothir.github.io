@@ -86,53 +86,54 @@
                     <a target="_self" alt="Všehostrom" title="Všehostrom" class="misto" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
                 </div>
             </div>
-        </div>
-        <!-- zavrenej id main -->
-                <script>
-                            /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-                                var dropdown = document.getElementsByClassName("dropdown-btn");
-                                var i;
+        
+                    <script>
+                                /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                                    var dropdown = document.getElementsByClassName("dropdown-btn");
+                                    var i;
 
-                                for (i = 0; i < dropdown.length; i++) {
-                                    dropdown[i].addEventListener("click", function() {
-                                    this.classList.toggle("active");
-                                    var dropdownContent = this.nextElementSibling;
-                                    if (dropdownContent.style.display === "block") {
-                                    dropdownContent.style.display = "none";
-                                    } else {
-                                    dropdownContent.style.display = "block";
+                                    for (i = 0; i < dropdown.length; i++) {
+                                        dropdown[i].addEventListener("click", function() {
+                                        this.classList.toggle("active");
+                                        var dropdownContent = this.nextElementSibling;
+                                        if (dropdownContent.style.display === "block") {
+                                        dropdownContent.style.display = "none";
+                                        } else {
+                                        dropdownContent.style.display = "block";
+                                        }
+                                        });
                                     }
-                                    });
-                                }
-                </script>
-        <div class="obsah_subpage"> 
-                <div class="popis_subpage">
-                    <div style="text-align: center;">
-                        <h1 style="text-decoration: underline 5px;">
-                            Emer z Dolinu
-                        </h1>
+                    </script>
+            <div class="obsah_subpage"> 
+                    <div class="popis_subpage">
+                        <div style="text-align: center;">
+                            <h1 style="text-decoration: underline 5px;">
+                                Emer z Dolinu
+                            </h1>
+                        </div>
+                        <p>
+                            Pełzacz je malá vesnička, která dohromady čítá asi 30-40 domů. Je zde hospoda, kovář, mlýn, dvě pole patřící statkáři Jeszetovi, který má na kraji vesnice i statek se zvířaty (ovce, prasata, kozy, tři koně, pár krav).<br>
+                            Zdejší rychtář Nebík je dobrý člověk a ve svých 40 letech se těší dobrému zdraví. Co je dobré zmínit je, že skoro každý ve vesnici si pálí nějaký vlastní alkohol. <br>
+                            Rodina Gröhlichů, která vlastní sad a menší pole mezi vesnicí a lesem pak z medu z vlastních úlů dělá medovinu a z ječmene co jim roste na poli pivo, tyto komodity pak tvoří hlavn9 export Pełzacze. <br>
+                            Na jihu vesničky je řeka, kterou využívá mlynář Dernhelm (jeden z bratrů půlorků, druhý je dřevorubcem)<br>
+                            Kousek na severozápad od Pełzacze v lese je stará ruina.
+                        </p>
+                        <br>
+                        <p>
+                            Dobrodružství, která se zde odehrála:<br>
+                        </p>
+                        <dl>
+                            <dt>Hledání ztraceného syna</dt>
+                            <dd>- Franci Jeszetovi se ztratil syn, boj s vlky</dd>
+                            <dt>Doprovod karavany</dt>
+                            <dd>- doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
+                        </dl>
                     </div>
-                    <p>
-                        Pełzacz je malá vesnička, která dohromady čítá asi 30-40 domů. Je zde hospoda, kovář, mlýn, dvě pole patřící statkáři Jeszetovi, který má na kraji vesnice i statek se zvířaty (ovce, prasata, kozy, tři koně, pár krav).<br>
-                        Zdejší rychtář Nebík je dobrý člověk a ve svých 40 letech se těší dobrému zdraví. Co je dobré zmínit je, že skoro každý ve vesnici si pálí nějaký vlastní alkohol. <br>
-                        Rodina Gröhlichů, která vlastní sad a menší pole mezi vesnicí a lesem pak z medu z vlastních úlů dělá medovinu a z ječmene co jim roste na poli pivo, tyto komodity pak tvoří hlavn9 export Pełzacze. <br>
-                        Na jihu vesničky je řeka, kterou využívá mlynář Dernhelm (jeden z bratrů půlorků, druhý je dřevorubcem)<br>
-                        Kousek na severozápad od Pełzacze v lese je stará ruina.
-                    </p>
-                    <br>
-                    <p>
-                        Dobrodružství, která se zde odehrála:<br>
-                    </p>
-                    <dl>
-                        <dt>Hledání ztraceného syna</dt>
-                        <dd>- Franci Jeszetovi se ztratil syn, boj s vlky</dd>
-                        <dt>Doprovod karavany</dt>
-                        <dd>- doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
-                    </dl>
-                </div>
+            </div>
+            <div class="postrani_obr">  
+                    <img src="Postavy/Obrázky/Emer.png" class="postrani_obr">
+            </div>   
         </div>
-        <div class="postrani_obr">  
-                <img src="Postavy/Obrázky/Emer.png" class="postrani_obr">
-        </div>        
+        <!-- zavrenej id main -->     
     </body>
 </html>

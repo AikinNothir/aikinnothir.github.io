@@ -18,7 +18,7 @@
                 <div style="width:33%">
                 </div>
             </div>
-        <script>
+            <script>
             function openNav() {
               document.getElementById("mysidenav").style.width = "290px";
               document.getElementById("main").style.marginLeft = "250px";
@@ -28,8 +28,8 @@
               document.getElementById("mysidenav").style.width = "0";
               document.getElementById("main").style.marginLeft = "0";
             }
-        </script>
-<div id="mysidenav" class="sidenav">   
+            </script>
+            <div id="mysidenav" class="sidenav">   
             <a href="/index.html" class="postava" style="color: azure;">DRUŽINA</a> 
             <h2> Postavy </h2>
             <hr class="solid">
@@ -85,26 +85,26 @@
                 <a target="_self" alt="Věž" title="Věž" class="misto" href="/mista/vez/vez.html">Věž</a>
                 <a target="_self" alt="Všehostrom" title="Všehostrom" class="misto" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
             </div>
-        </div>
-        </div>
-<script>
-        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-            var dropdown = document.getElementsByClassName("dropdown-btn");
-            var i;
+            </div>
+        
+            <script>
+                /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                    var dropdown = document.getElementsByClassName("dropdown-btn");
+                    var i;
 
-            for (i = 0; i < dropdown.length; i++) {
-                dropdown[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                 var dropdownContent = this.nextElementSibling;
-                if (dropdownContent.style.display === "block") {
-                dropdownContent.style.display = "none";
-                } else {
-                dropdownContent.style.display = "block";
-                }
-                });
-            }
+                    for (i = 0; i < dropdown.length; i++) {
+                        dropdown[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var dropdownContent = this.nextElementSibling;
+                        if (dropdownContent.style.display === "block") {
+                        dropdownContent.style.display = "none";
+                        } else {
+                        dropdownContent.style.display = "block";
+                        }
+                        });
+                    }
             </script>
-        <div class="obsah_subpage"> 
+            <div class="obsah_subpage"> 
                 <div class="popis_subpage">
                     <div style="text-align: center;">
                         <h1 style="text-decoration: underline 5px;">Narmer</h1>
@@ -127,9 +127,10 @@
                         <dd>- doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
                     </dl>
                 </div>
-        <div class="postrani_obr">
-            <img src="Postavy/Obrázky/Narmer.png" class="postrani_obr">
-        </div>
-        
+                <div class="postrani_obr">
+                    <img src="Postavy/Obrázky/Narmer.png" class="postrani_obr">
+                </div>
+            </div>
+         </div>
     </body>
 </html>
