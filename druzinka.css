@@ -163,7 +163,8 @@ div.postrani_obr {
     bottom:0px;
     width:30%;
     max-width: 30%;
-    height:100svh;
+    min-height:100svh;
+    height:fit-content;
     display:flex;
     flex-direction: column;
     align-content: center;
