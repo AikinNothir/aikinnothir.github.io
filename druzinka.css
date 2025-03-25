@@ -154,12 +154,10 @@ img.postrani_obr {
     float:right;
 }
 
-
-
 div.postrani_obr {
     position: relative;
     right:0;
-    top:-140px;
+    top: -140px;
     bottom:0px;
     width:30%;
     max-width: 30%;
