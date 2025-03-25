@@ -161,6 +161,7 @@ div.postrani_obr {
     right:0;
     top:0;
     bottom:0;
+    width:30%;
     max-width: 30%;
     height:auto;
     display:flex;
