@@ -61,6 +61,16 @@ h2 {
     text-decoration: none;
 }
 
+p {
+    font-size: 150%;
+}
+
+.popis_postrani {
+    color:#fff348
+}
+
+/* FANCY DIVIDER BASICALLY */
+
 hr.solid {
     color: #fff348;
     border-top: 1px solid #fff348;
@@ -133,19 +143,36 @@ hr.solid {
 }
 
 img.postrani_obr {
-    max-width: 480px;
-    max-height: 480px;
+    max-width: 100%;
     border-radius: 0 0 24px 24px;
-    border: 2px black solid;
-    border-bottom:3px rgb(139, 3, 3) solid;
-
+    padding: 16px;
+    float:right;
 }
+
+
 
 div.postrani_obr {
-    max-width: 100%;
-    align-content: flex-end;
+    max-width: 30%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #070707;
 }
 
+div.obsah_subpage {
+    display: flex ;
+}
+
+div.popis_subpage {
+    width: 70%;
+    padding-left: 240px;
+    text-align: left;
+}
+
+
+/* DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN */
 /* Style the sidenav links and the dropdown button */
 .dropdown-btn {
     padding: 8px 8px 8px 32px;
@@ -186,6 +213,7 @@ div.postrani_obr {
     padding-right: 8px;
   }
 
+  /* CUSTOM SCROLLBAR CUSTOM SCROLLBAR CUSTOM SCROLLBAR */
   /* width */
 ::-webkit-scrollbar {
     width: 6px;
