@@ -171,6 +171,7 @@ div.postrani_obr {
     background-color: #070707;
     z-index: -1;
     padding-top: 160px;
+    overflow-y: auto;
 }
 
 div.obsah_subpage {
