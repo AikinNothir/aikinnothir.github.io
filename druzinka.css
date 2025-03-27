@@ -172,6 +172,8 @@ div.postrani_obr {
     padding-top: 160px;
     overflow-y: auto;
     padding-bottom: 120px;
+    border-bottom-left-radius: 50% 120px; 
+    border-bottom-right-radius: 50% 120px; 
 }
 
 div.obsah_subpage {
