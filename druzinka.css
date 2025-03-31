@@ -223,6 +223,14 @@ div.postrani_obr {
     border-bottom-right-radius: 50% 120px; 
 }
 
+.obrazek-a-border::after {
+    content: url(/border.svg);
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
 div.obsah_subpage {
     display: flex ;
 }
