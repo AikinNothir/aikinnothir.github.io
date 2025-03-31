@@ -224,7 +224,7 @@ div.postrani_obr {
 }
 
 .obrazek-a-border::after {
-    content: url(/border.svg);
+    content: url(border.svg);
     position:absolute;
     height: 100%;
     width: 100%;
