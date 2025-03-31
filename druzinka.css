@@ -101,6 +101,11 @@ hr.solid {
     background-color: black;
 }
 
+.nadpis {
+    text-decoration: underline 5px;
+    text-align: center;
+}
+
 .sidenav a.mapa {
     color: chartreuse;
     
