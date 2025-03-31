@@ -193,10 +193,12 @@ hr.solid {
 }
 
 img.postrani_obr {
-    max-width: 100%;
+    max-width: 500px;
+    max-height: 500px;
     border-radius: 0 0 24px 24px;
     padding: 16px;
     float:right;
+    object-fit: cover;
 }
 
 
@@ -223,21 +225,23 @@ div.postrani_obr {
 }
 
 div.obrazek-a-border {
-    content: url(border.svg);
     position:relative;
-    width:100%;
-    height:100%;
+    width: 500px;
+    height:500px;
     z-index: 9;
+}
 
-}
 div.obrazek-a-border::after {
-    content: url(border.svg);
-    position:absolute;
-    width: 30%;
-    height: 30%;
-    max-width: 30%;
+    content: "";
+    position: absolute;
+    background-image: url(border.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
     z-index: 10;
-}
+    left:-10%;
+  }
 
 div.obsah_subpage {
     display: flex ;
