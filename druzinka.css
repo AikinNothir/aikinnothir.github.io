@@ -49,6 +49,7 @@ div.podlogo {
 h1 {
     font-size: 500%;
     font-weight: 700;
+    text-shadow: 1px 1px 3px #fff348;
 }
 
 h1:hover {
