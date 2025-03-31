@@ -3,7 +3,7 @@
   }
 
 body { 
-    background-color: rgb(70, 68, 67);
+    background-color: rgb(192, 179, 173);
     text-align: center;
     position: relative;
     margin:0px;
@@ -109,7 +109,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%; /* Velikost přechodu */
-    background: linear-gradient(rgb(70, 68, 67), transparent); /* Změň barvu podle pozadí stránky */
+    background: linear-gradient(rgb(192, 179, 173), transparent); /* Změň barvu podle pozadí stránky */
     ;
 }
 
@@ -200,9 +200,6 @@ img.postrani_obr {
     float:right;
 }
 
-img.postrani_obr::after {
-    content:url(/border.svg)
-}
 
 div.postrani_obr {
     position: relative;
