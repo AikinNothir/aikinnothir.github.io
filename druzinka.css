@@ -12,6 +12,7 @@ body {
 a.logo {
     color:black;background-color:rgb(134, 125, 125);
     text-decoration: none;
+    text-shadow: 2px 2px 2px #262626;
     font-size:400%;
     font-weight:500;
     padding: 12px 18px 18px 18px; 
