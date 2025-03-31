@@ -80,6 +80,10 @@ dt {
     font-variant: small-caps;
 }
 
+.aktualni_stav {
+    text-decoration: underline;
+}
+
 .popis_postrani {
     color:#fff348
 }
