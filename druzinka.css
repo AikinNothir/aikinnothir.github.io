@@ -12,11 +12,11 @@ body {
 a.logo {
     color:black;background-color:rgb(134, 125, 125);
     text-decoration: none;
-    text-shadow: 2px 2px 2px #f72307;
+    text-shadow: 2px 2px 2px #4e0a01;
     font-size:400%;
     font-weight:500;
     padding: 12px 18px 18px 18px; 
-    border: 6px, rgb(139, 3, 3) solid;
+    border: 6px, rgb(82, 1, 1) solid;
     border-radius: 0px 0px 36px 36px;
     transition: 0.2s;
 }
