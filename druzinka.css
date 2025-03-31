@@ -72,6 +72,11 @@ p {
     font-variant: small-caps;
 }
 
+p::first-letter {
+    font-size: 170%;
+    color:#410202;
+}
+
 dd {
     font-variant: small-caps;
 }
@@ -193,6 +198,10 @@ img.postrani_obr {
     border-radius: 0 0 24px 24px;
     padding: 16px;
     float:right;
+}
+
+img.postrani_obr::after {
+    content:url(/border.svg)
 }
 
 div.postrani_obr {
