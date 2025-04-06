@@ -77,6 +77,11 @@ p::first-letter {
     color:#410202;
 }
 
+p.popis_postrani::first-letter {
+    color: #ca5252;
+}
+
+
 dd {
     font-variant: small-caps;
 }
