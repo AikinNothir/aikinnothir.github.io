@@ -81,6 +81,10 @@ p.popis_postrani::first-letter {
     color: #ca5252;
 }
 
+i {
+    text-align: center;
+}
+
 
 dd {
     font-variant: small-caps;
