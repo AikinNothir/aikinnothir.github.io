@@ -296,6 +296,10 @@ a.odkaz_subpage:visited {
     color:#ca5252;
 }
 
+a:visited {
+    color:#ca5252;
+}
+
 
 /* DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN */
 /* Style the sidenav links and the dropdown button */
