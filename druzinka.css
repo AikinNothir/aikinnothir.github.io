@@ -9,6 +9,10 @@ body {
     margin:0px;
 }
 
+a:visited {
+    color:#ca5252;
+}
+
 a.logo {
     color:black;background-color:rgb(134, 125, 125);
     text-decoration: none;
@@ -293,10 +297,6 @@ a.odkaz_subpage:hover {
 }
 
 a.odkaz_subpage:visited {
-    color:#ca5252;
-}
-
-a:visited {
     color:#ca5252;
 }
 
