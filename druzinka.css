@@ -49,7 +49,7 @@ div.podlogo {
 h1 {
     font-size: 500%;
     font-weight: 700;
-    text-shadow: 1px 1px 3px #fff348;
+    text-shadow: 2px 2px 2px rgb(61, 1, 1);
 }
 
 h1:hover {
@@ -206,7 +206,6 @@ img.postrani_obr {
     max-width: 500px;
     max-height: 500px;
     border-radius: 0 0 24px 24px;
-    padding: 16px;
     float:right;
     object-fit: cover;
 }
@@ -215,7 +214,6 @@ img.shadow_obr {
     max-width: 500px;
     max-height: 500px;
     border-radius: 0 0 24px 24px;
-    padding: 16px;
     opacity: 0;
     position:absolute;
     object-fit: cover;
@@ -224,6 +222,7 @@ img.shadow_obr {
 
 img.shadow_obr:hover {
     opacity: 1.0;
+    box-shadow: 10px 10px #ffffff, -10px -10px #ffffff, -10px 10px #ffffff, 10px -10px #ffffff ; 
 }
 
 .obr_main {
