@@ -228,6 +228,8 @@ img.shadow_obr:hover {
 
 .obr_main {
     max-width: 100%;
+    border: #070707 solid 3px;
+    border-radius: 28px;
 }
 
 
