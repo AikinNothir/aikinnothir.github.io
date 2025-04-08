@@ -9,10 +9,6 @@ body {
     margin:0px;
 }
 
-a:visited {
-    color:#ca5252;
-}
-
 a.logo {
     color:black;background-color:rgb(134, 125, 125);
     text-decoration: none;
