@@ -284,6 +284,18 @@ div.popis_subpage {
     text-align: left;
 }
 
+a.odkaz_subpage {
+    color: #410202;
+}
+
+a.odkaz_subpage:hover {
+    color: #9c2121;
+}
+
+a.odkaz_subpage:visited {
+    color:#ca5252;
+}
+
 
 /* DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN */
 /* Style the sidenav links and the dropdown button */
