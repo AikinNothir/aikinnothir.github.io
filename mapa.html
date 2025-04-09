@@ -96,23 +96,8 @@
             </div>
         </div>
         
-            <script>
-            /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-            var dropdown = document.getElementsByClassName("dropdown-btn");
-            var i;
-
-            for (i = 0; i < dropdown.length; i++) {
-                dropdown[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                 var dropdownContent = this.nextElementSibling;
-                if (dropdownContent.style.display === "block") {
-                dropdownContent.style.display = "none";
-                } else {
-                dropdownContent.style.display = "block";
-                }
-                });
-            }
-            </script>
+            <script src="/dropdown.js">
+        </script>
             <img class="mapa_img" src="varka.jpg" usemap="#image-map" style="margin-top: 36px;">
                 <map name="image-map">
                     <area target="_self" alt="Varka" title="Varka" href="mista/varka/varka.html" coords="1468,1494,1191,1379" shape="rect">
