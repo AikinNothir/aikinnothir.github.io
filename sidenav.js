@@ -14,8 +14,8 @@ function napisSidebar() {
             <a href="/stark.html" class="postava">Stark</a> 
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
-            <button class="dropdown-btn active">NPC</button>
-            <div class="dropdown-div">
+            <button class="dropdown-btn">NPC</button>
+            <div class="dropdown-div active">
             <a href="/NPC/neera.html" class="postava">Neera</a> 
             <a href="/NPC/narmer.html" class="postava">Narmer</a>
             <a href="/NPC/dan.html" class="postava">Dan</a> 
@@ -27,7 +27,7 @@ function napisSidebar() {
             <button class="dropdown-btn">Místa
                 <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-div">
+            <div class="dropdown-div active">
                 <a target="_self" alt="Adanosův chrám" title="Adanosův chrám" class="misto" href="/mista/adanos/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" title="Ruiny Al Katu" class="misto" href="/mista/al_kat/al_kat.html">Al-Kat</a>
                 <a target="_self" alt="Denthir" title="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
@@ -60,9 +60,9 @@ function napisSidebar() {
                 <a target="_self" alt="Všehostrom" title="Všehostrom" class="misto" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
             </div>
             <button class="dropdown-btn">Frakce
-                <i class="fa fa-caret-down"></i>
+                <i class="fa-caret-down"></i>
             </button>
-            <div class="dropdown-div">
+            <div class="dropdown-div active">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto" href="/frakce/aloca.html">Aloca</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto" href="/frakce/stribro.html">Stříbrné lemování</a>
