@@ -298,7 +298,7 @@ a.odkaz_subpage:visited {
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
+.dropdown-div {
     display: none;
     background-color: #4d3333;
     padding-left: 8px;
