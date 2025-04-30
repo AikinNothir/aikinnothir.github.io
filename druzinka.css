@@ -334,6 +334,10 @@ a.odkaz_subpage:visited {
     background: #410202; 
   }
 
+  .podtrh {
+    border-top:#818181 solid 1px;
+    border-bottom: #555555 solid 2px;
+  }
 
 
   /* MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA border */
