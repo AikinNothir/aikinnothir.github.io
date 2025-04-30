@@ -2,11 +2,13 @@
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
 
-dropdown.addEventListener("click", function () {
-  var dropdownContent = document.getElementsByClassName("dropdown-div");
-  if (dropdownContent.style.display === "none") {
-    dropdownContent.style.display = "block";
-  } else {
-    dropdownContent.style.display = "none";
-  }
-});
+for (var i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function () {
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "none") {
+      dropdownContent.style.display = "block";
+    } else {
+      dropdownContent.style.display = "none";
+    }
+  });
+}
