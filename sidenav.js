@@ -17,8 +17,6 @@ function napisSidebar() {
             <button class="dropdown-btn">NPC
                 <i class="fa fa-caret-down"></i>
             </button>
-            <h2> NPC </h2>
-            <hr class="solid">
             <div class="dropdown-div">
             <a href="/NPC/neera.html" class="postava">Neera</a> 
             <a href="/NPC/narmer.html" class="postava">Narmer</a>

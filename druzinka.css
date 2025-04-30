@@ -157,7 +157,6 @@ hr.solid {
     transition: 0.5s;
     padding-top:60px;
 }
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -166,23 +165,12 @@ hr.solid {
     display: block;
     transition: 0.3s;
 }
-  
 .sidenav a:hover {
     color: #810909;
 }
-
 .misto {
     text-align: left;
 }
-
-.mapa_img {
-    border-top: #070707 6px solid;
-    border-right: #070707 6px solid;
-    border-left: #070707 6px solid;
-    border-bottom: #810909 7px solid;
-    border-radius: 12px 12px 16px 16px;
-}
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -190,17 +178,14 @@ hr.solid {
     font-size: 36px;
     margin-left: 50px;
 }
-
 #main {
     transition: .5s;    
     flex:1
 }
-
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
 img.postrani_obr {
     max-width: 500px;
     max-height: 500px;
@@ -208,7 +193,6 @@ img.postrani_obr {
     float:right;
     object-fit: cover;
 }
-
 img.shadow_obr {
     max-width: 500px;
     max-height: 500px;
@@ -218,20 +202,16 @@ img.shadow_obr {
     object-fit: cover;
     transition: 0.9s;
 }
-
 img.shadow_obr:hover {
     opacity: 1.0;
     transition:1.0s;
     transform: scale(1.03,1.03);
     }
-
 .obr_main {
     max-width: 100%;
     border: #070707 solid 3px;
     border-radius: 28px;
 }
-
-
 div.postrani_obr {
     position: relative;
     right:0;
@@ -253,14 +233,12 @@ div.postrani_obr {
     border-bottom-left-radius: 50% 120px; 
     border-bottom-right-radius: 50% 120px; 
 }
-
 div.obrazek-a-border {
     position:relative;
     width: 500px;
     height:500px;
     z-index: 9;
 }
-
 div.obrazek-a-border::after {
     content: "";
     position: absolute;
@@ -271,26 +249,21 @@ div.obrazek-a-border::after {
     height: 100%;
     z-index: 10;
   }
-
 div.obsah_subpage {
     display: flex ;
 }
-
 div.popis_subpage {
     width: 70%;
     padding-left: 120px;
     padding-right: 120px;
     text-align: left;
 }
-
 a.odkaz_subpage {
     color: #410202;
 }
-
 a.odkaz_subpage:hover {
     color: #9c2121;
 }
-
 a.odkaz_subpage:visited {
     color:#ca5252;
 }
@@ -361,3 +334,14 @@ a.odkaz_subpage:visited {
   ::-webkit-scrollbar-thumb:hover {
     background: #410202; 
   }
+
+
+
+  /* MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA border */
+.mapa_img {
+    border-top: #070707 6px solid;
+    border-right: #070707 6px solid;
+    border-left: #070707 6px solid;
+    border-bottom: #810909 7px solid;
+    border-radius: 12px 12px 16px 16px;
+}
