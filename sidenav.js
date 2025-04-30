@@ -15,7 +15,7 @@ function napisSidebar() {
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
             <button class="dropdown-btn">NPC</button>
-            <div class="dropdown-div active">
+            <div class="dropdown-div active" style="display:none">
             <a href="/NPC/neera.html" class="postava podtrh">Neera</a> 
             <a href="/NPC/narmer.html" class="postava podtrh">Narmer</a>
             <a href="/NPC/dan.html" class="postava podtrh">Dan</a> 
@@ -27,7 +27,7 @@ function napisSidebar() {
             <button class="dropdown-btn">Místa
                 <i class="fa-caret-down"></i>
             </button>
-            <div class="dropdown-div active">
+            <div class="dropdown-div" style="display:none">
                 <a target="_self" alt="Adanosův chrám" title="Adanosův chrám" class="misto podtrh" href="/mista/adanos/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" title="Ruiny Al Katu" class="misto podtrh" href="/mista/al_kat/al_kat.html">Al-Kat</a>
                 <a target="_self" alt="Denthir" title="Denthir" class="misto podtrh" href="/mista/denthir/denthir.html">Denthir</a>
@@ -62,7 +62,7 @@ function napisSidebar() {
             <button class="dropdown-btn">Frakce
                 <i class="fa-caret-down"></i>
             </button>
-            <div class="dropdown-div active">
+            <div class="dropdown-div" style="display:none">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto podtrh" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto podtrh" href="/frakce/stribro.html">Stříbrné lemování</a>

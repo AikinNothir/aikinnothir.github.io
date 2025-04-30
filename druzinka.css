@@ -162,7 +162,6 @@ hr.solid {
     text-decoration: none;
     font-size: 25px;
     color: #818181;
-    display: block;
     transition: 0.3s;
 }
 .sidenav a:hover {
@@ -290,11 +289,6 @@ a.odkaz_subpage:visited {
  .dropdown-btn:hover {
     color: #810909;
   }
-
-  /* Add an active class to the active dropdown button */
-.active {
-    background-color: #4d3333;
-}
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-div {
