@@ -301,6 +301,7 @@ a.odkaz_subpage:visited {
     background-color: #000000;
     padding-left: 8px;
     border-left: #410202 6px solid;
+    position:absolute;
   }
 
   /* Optional: Style the caret down icon */
