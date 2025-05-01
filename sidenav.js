@@ -14,11 +14,11 @@ function napisSidebar() {
             <a href="/stark.html" class="postava">Stark</a> 
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
-            <button class="dropdown-btn" onclick="rozbal("1")">NPC 
+            <button class="dropdown-btn" onclick="rozbal('1')">NPC 
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
               <hr class="solid">
             </button>
-            <div class="dropdown-div" id="1" style="display:block">
+            <div class="dropdown-div" id="1" style="display:none">
             <a href="/NPC/neera.html" class="postava podtrh">Neera</a> 
             <a href="/NPC/narmer.html" class="postava podtrh">Narmer</a>
             <a href="/NPC/dan.html" class="postava podtrh">Dan</a> 
@@ -27,7 +27,7 @@ function napisSidebar() {
             <h2> Svět </h2>
             <hr class="solid">
             <a href="/mapa.html" class="mapa">Mapa </a>
-            <button class="dropdown-btn" onclick="rozbal("2")">Místa
+            <button class="dropdown-btn" onclick="rozbal('2')">Místa
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
                 <hr class="solid">
             </button>
@@ -63,11 +63,11 @@ function napisSidebar() {
                 <a target="_self" alt="Věž" title="Věž" class="misto podtrh" href="/mista/vez/vez.html">Věž</a>
                 <a target="_self" alt="Všehostrom" title="Všehostrom" class="misto podtrh" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
             </div>
-            <button class="dropdown-btn" onclick="rozbal("3")">Frakce
+            <button class="dropdown-btn" onclick="rozbal('3')">Frakce
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
                 <hr class="solid">
             </button>
-            <div class="dropdown-div" style="display:block" id="3">
+            <div class="dropdown-div" style="display:none" id="3">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto podtrh" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto podtrh" href="/frakce/stribro.html">Stříbrné lemování</a>
