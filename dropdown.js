@@ -1,14 +1,8 @@
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (var i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function () {
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
+function rozbal(idDivu) {
+  if (document.getElementById(idDivu).style.display === "block") {
+    document.getElementById(idDivu).style.display = "none";
+  } else {
+    document.getElementById(idDivu).style.display = "block";
+  }
 }
