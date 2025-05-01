@@ -14,8 +14,10 @@ function napisSidebar() {
             <a href="/stark.html" class="postava">Stark</a> 
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
-            <button class="dropdown-btn">NPC</button>
-            <div class="dropdown-div active" style="display:none">
+            <button class="dropdown-btn">NPC 
+              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+            </button>
+            <div class="dropdown-div" style="display:none">
             <a href="/NPC/neera.html" class="postava podtrh">Neera</a> 
             <a href="/NPC/narmer.html" class="postava podtrh">Narmer</a>
             <a href="/NPC/dan.html" class="postava podtrh">Dan</a> 
@@ -25,7 +27,7 @@ function napisSidebar() {
             <hr class="solid">
             <a href="/mapa.html" class="mapa">Mapa </a>
             <button class="dropdown-btn">Místa
-                <i class="fa-caret-down"></i>
+                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
             <div class="dropdown-div" style="display:none">
                 <a target="_self" alt="Adanosův chrám" title="Adanosův chrám" class="misto podtrh" href="/mista/adanos/adanos.html">Adanosův chrám</a>
