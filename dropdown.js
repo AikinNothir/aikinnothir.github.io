@@ -5,10 +5,10 @@ var i;
 for (var i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function () {
     var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "none") {
-      dropdownContent.style.display = "block";
-    } else {
+    if (dropdownContent.style.display === "block") {
       dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
     }
   });
 }
