@@ -60,7 +60,7 @@ function napisSidebar() {
                 <a target="_self" alt="Všehostrom" title="Všehostrom" class="misto podtrh" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
             </div>
             <button class="dropdown-btn">Frakce
-                <i class="fa-caret-down"></i>
+                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
             <div class="dropdown-div" style="display:none">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
