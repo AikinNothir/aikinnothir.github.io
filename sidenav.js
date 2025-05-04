@@ -84,7 +84,7 @@ function napisSidebar() {
             <a href="/bohove/adanos.html" class="postava podtrh">Adanos</a>
             <a href="/bohove/bane.html" class="postava podtrh">Bane</a>
             <a href="/bohove/beliar.html" class="postava podtrh">Beliar</a>
-            <a href="/bohove/slepa.html" class="postava podtrh">Bhaal</a>
+            <a href="/bohove/bhaal.html" class="postava podtrh">Bhaal</a>
             <a href="/bohove/ilmater.html" class="postava podtrh">Ilmater</a>
             <a href="/bohove/innos.html" class="postava podtrh">Innos</a>
             <a href="/bohove/magran.html" class="postava podtrh">Magran</a>
