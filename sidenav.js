@@ -75,6 +75,24 @@ function napisSidebar() {
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto podtrh" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto podtrh" href="/frakce/stribro.html">Stříbrné lemování</a>
-            </div>`;
+            </div>
+            <button class="dropdown-btn" onclick="rozbal('4')">Bohové 
+              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+              <hr class="solid">
+            </button>
+            <div class="dropdown-div" id="4" style="display:none">
+            <a href="/bohove/adanos.html" class="postava podtrh">Adanos</a>
+            <a href="/bohove/bane.html" class="postava podtrh">Bane</a>
+            <a href="/bohove/beliar.html" class="postava podtrh">Beliar</a>
+            <a href="/bohove/slepa.html" class="postava podtrh">Bhaal</a>
+            <a href="/bohove/ilmater.html" class="postava podtrh">Ilmater</a>
+            <a href="/bohove/innos.html" class="postava podtrh">Innos</a>
+            <a href="/bohove/magran.html" class="postava podtrh">Magran</a>
+            <a href="/bohove/slepa.html" class="postava podtrh">Slepá</a>
+            <a href="/bohove/posledni.html" class="postava podtrh">Ten Poslední</a>
+            <a href="/bohove/woedika.html" class="postava podtrh">Woedika</a>
+            <a href="/bohove/zkrouceny.html" class="postava podtrh">Zkroucený</a>
+            <a href="/bohove/panna.html" class="postava podtrh">Žulová Panna</a>            
+            `;
   console.log(document.getElementById(SIDE));
 }
