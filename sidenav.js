@@ -20,6 +20,8 @@ function napisSidebar() {
             </button>
             <div class="dropdown-div" id="1" style="display:none">
             <a href="/NPC/dan.html" class="postava podtrh">Dan</a>
+            <a href="/NPC/dernhelm.html" class="postava podtrh">Dernhelm</a> 
+            <a href="/NPC/hugo.html" class="postava podtrh">Hugo</a>  
             <a href="/NPC/narmer.html" class="postava podtrh">Narmer</a>
             <a href="/NPC/neera.html" class="postava podtrh">Neera</a>
             <a href="/NPC/treti.html" class="postava podtrh">Třetí</a>  
