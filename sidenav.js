@@ -32,6 +32,7 @@ function napisSidebar() {
             <hr class="solid">
             <a href="/mapa.html" class="mapa">Mapa </a>
             <a href="/roll.html" class="mapa">Kostky!</a>
+            <a href="/denik.pdf" class="mapa" download>Deník!</a>
             <button class="dropdown-btn" onclick="rozbal('div2')">Místa
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
                 <hr class="solid">
@@ -74,7 +75,8 @@ function napisSidebar() {
             </button>
             <div class="dropdown-div" style="display:none" id="div3">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
-                <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/lov.html">Bratrstvo lovu</a>
+                <a target="_self" alt="bratrstvo lovu" title="Bratrstvo lovu" class="misto podtrh" href="/frakce/lov.html">Bratrstvo lovu</a>
+                <a target="_self" alt="stráž garagoru" title="Garagorská stráž" class="misto podtrh" href="/frakce/straz.html">Gargorská stráž</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto podtrh" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto podtrh" href="/frakce/stribro.html">Stříbrné lemování</a>
             </div>
