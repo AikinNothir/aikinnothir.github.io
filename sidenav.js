@@ -74,6 +74,7 @@ function napisSidebar() {
             </button>
             <div class="dropdown-div" style="display:none" id="div3">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
+                <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/lov.html">Bratrstvo lovu</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto podtrh" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto podtrh" href="/frakce/stribro.html">Stříbrné lemování</a>
             </div>
