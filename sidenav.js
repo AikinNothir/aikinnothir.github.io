@@ -5,6 +5,7 @@ function napisSidebar() {
             <h2> Postavy </h2>
             <hr class="solid">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/brom.html" class="postava">Brom</a> 
             <a href="/emer.html" class="postava">Emer z Dorinu</a> 
             <a href="/joe.html" class="postava">Joe</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
