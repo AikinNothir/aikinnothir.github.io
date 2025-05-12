@@ -7,6 +7,7 @@ function napisSidebar() {
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="/brom.html" class="postava">Brom</a> 
             <a href="/emer.html" class="postava">Emer z Dorinu</a> 
+            <a href="/folgrim.html" class="postava">Folgrim</a> 
             <a href="/joe.html" class="postava">Joe</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
             <a href="/margaret.html" class="postava">Margaret</a> 
