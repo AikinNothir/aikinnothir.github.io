@@ -1,10 +1,12 @@
 function rozbal(idDivu) {
   const tenDiv = document.getElementById(idDivu);
-  let displayDivu = getComputedStyle(tenDiv).display;
+  let aktVisibility = getComputedStyle(tenDiv).visibility;
 
-  if (document.getElementById(idDivu).style.display === "block") {
-    document.getElementById(idDivu).style.display = "none";
+  if (aktVisibility === "hidden") {
+    tenDiv.style.visibility = "visible";
+    tenDiv.style.maxHeight = "2000px";
   } else {
-    document.getElementById(idDivu).style.display = "block";
+    tenDiv.style.visibility = "hidden";
+    tenDiv.style.maxHeight = "0px";
   }
 }

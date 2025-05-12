@@ -20,7 +20,7 @@ function napisSidebar() {
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
               <hr class="solid">
             </button>
-            <div class="dropdown-div" id="div1" style="display:none">
+            <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
             <a href="/NPC/dan.html" class="postava podtrh">Dan</a>
             <a href="/NPC/dernhelm.html" class="postava podtrh">Dernhelm</a> 
             <a href="/NPC/hugo.html" class="postava podtrh">Hugo</a>  
@@ -39,7 +39,7 @@ function napisSidebar() {
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
                 <hr class="solid">
             </button>
-            <div class="dropdown-div" id="div2" style="display:none">
+            <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
                 <a target="_self" alt="Adanosův chrám" title="Adanosův chrám" class="misto podtrh" href="/mista/adanos/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" title="Ruiny Al Katu" class="misto podtrh" href="/mista/al_kat/al_kat.html">Al-Kat</a>
                 <a target="_self" alt="Denthir" title="Denthir" class="misto podtrh" href="/mista/denthir/denthir.html">Denthir</a>
@@ -75,7 +75,7 @@ function napisSidebar() {
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
                 <hr class="solid">
             </button>
-            <div class="dropdown-div" style="display:none" id="div3">
+            <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
                 <a target="_self" alt="bratrstvo lovu" title="Bratrstvo lovu" class="misto podtrh" href="/frakce/lov.html">Bratrstvo lovu</a>
                 <a target="_self" alt="stráž garagoru" title="Garagorská stráž" class="misto podtrh" href="/frakce/straz.html">Gargorská stráž</a>
@@ -86,7 +86,7 @@ function napisSidebar() {
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
               <hr class="solid">
             </button>
-            <div class="dropdown-div" id="div4" style="display:none">
+            <div class="dropdown-div" id="div4" style="visibility:hidden;max-height:0px">
             <a href="/bohove/adanos.html" class="postava podtrh">Adanos</a>
             <a href="/bohove/bane.html" class="postava podtrh">Bane</a>
             <a href="/bohove/beliar.html" class="postava podtrh">Beliar</a>
