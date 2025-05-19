@@ -35,6 +35,7 @@ function napisSidebar() {
             <a href="/mapa.html" class="mapa">Mapa </a>
             <a href="/roll.html" class="mapa">Kostky!</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
+            <a href="/spellbook.html" class="mapa" >Spellbook!</a>
             <button class="dropdown-btn" onclick="rozbal('div2')">Místa
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
                 <hr class="solid">
