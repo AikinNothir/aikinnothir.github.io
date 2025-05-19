@@ -16,6 +16,19 @@ function napisSidebar() {
             <a href="/stark.html" class="postava">Stark</a> 
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
+            <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
+                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+                <hr class="solid">
+            </button>
+            <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
+              <a href="/Spellbook/druidSb.html" class="postava podtrh">Druid</a>
+              <a href="/Spellbook/klerikSb.html" class="postava podtrh">Klerik</a>  
+              <a href="/Spellbook/palaSb.html" class="postava podtrh">Paladin</a>
+              <a href="/Spellbook/sorcSb.html" class="postava podtrh">Sorcerer</a>  
+              <a href="/Spellbook/fighterSb.html" class="postava podtrh">Válečník</a> 
+            </div>
+            <br>
+            
             <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
               <hr class="solid">
@@ -35,7 +48,7 @@ function napisSidebar() {
             <a href="/mapa.html" class="mapa">Mapa </a>
             <a href="/roll.html" class="mapa">Kostky!</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
-            <a href="/spellbook.html" class="mapa" >Spellbook!</a>
+            
             <button class="dropdown-btn" onclick="rozbal('div2')">Místa
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
                 <hr class="solid">
