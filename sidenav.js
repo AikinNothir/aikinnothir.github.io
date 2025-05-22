@@ -21,10 +21,11 @@ function napisSidebar() {
                 <hr class="solid">
             </button>
             <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
-              <a href="/Spellbook/druidSb.html" class="postava podtrh">Druid</a>
-              <a href="/Spellbook/klerikSb.html" class="postava podtrh">Klerik</a>  
-              <a href="/Spellbook/palaSb.html" class="postava podtrh">Paladin</a>
-              <a href="/Spellbook/sorcSb.html" class="postava podtrh">Sorcerer</a>  
+              <a href="https://dnd5e.wikidot.com/spells:druid" class="postava podtrh">Druid</a>
+              <a href="https://dnd5e.wikidot.com/spells:cleric" class="postava podtrh">Klerik</a>  
+              <a href="https://dnd5e.wikidot.com/spells:paladin" class="postava podtrh">Paladin</a>
+              <a href="https://dnd5e.wikidot.com/spells:sorcerer" class="postava podtrh">Sorcerer</a>  
+              <a href="https://dnd5e.wikidot.com/spells:ranger" class="postava podtrh">Ranger</a> 
               <a href="/Spellbook/fighterSb.html" class="postava podtrh">Válečník</a> 
             </div>
             <br>
