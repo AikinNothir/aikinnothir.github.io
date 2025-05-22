@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" type="image/png" href="/favicon.png">
-        <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
-        <title>Paladin</title>
-        <link rel="stylesheet" href="/druzinka.css">
-    </head>
-    <body>
-        <div id="main">
-            <div class="podlogo flex" id="header">
-                <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
-                    <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
-                </div>
-                <div class="logo" style="width:33%;">
-                    <a href="index.html" class="logo">
-                        DRUŽINA
-                    </a>
-                </div>
-                <div style="width:33%"></div>
+
+<head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
+    <title>Paladin</title>
+    <link rel="stylesheet" href="/druzinka.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="podlogo flex" id="header">
+            <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
+                <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
+            </div>
+            <div class="logo" style="width:33%;">
+                <a href="/index.html" class="logo">
+                    DRUŽINA
+                </a>
+            </div>
+            <div style="width:33%"></div>
         </div>
         <script>
             function openNav() {
-              document.getElementById("mysidenav").style.width = "290px";
-              document.getElementById("main").style.marginLeft = "250px";
+                document.getElementById("mysidenav").style.width = "290px";
+                document.getElementById("main").style.marginLeft = "250px";
             }
-            
+
             function closeNav() {
-              document.getElementById("mysidenav").style.width = "0";
-              document.getElementById("main").style.marginLeft = "0";
+                document.getElementById("mysidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
             }
         </script>
-<div id="mysidenav" class="sidenav">   
+        <div id="mysidenav" class="sidenav">
             <div id="SIDE"></div>
- <script src="/sidenav.js"></script></div>
-<script src="/dropdown.js">
+            <script src="/sidenav.js"></script>
+        </div>
+        <script src="/dropdown.js">
         </script>
-        <div class="obsah_subpage"> 
-                <div class="popis_subpage">
-                    <div style="text-align: center;">
-                        <h1 class="nadpis">Spellbook: Paladin</h1>
-                    </div>
-                       <iframe src="https://dnd5e.wikidot.com/spells:paladin" frameborder="0" style="width: 80%; height: auto; "></iframe>
-                    </div>
-        <div class="postrani_obr">
-            <img src="/obrazky/Engraving-two-Druids-walk-English-countryside-18th-century.webp" class="postrani_obr">
+        <div class="obsah_subpage">
+            <div class="popis_subpage">
+                <div style="text-align: center;">
+                    <h1 class="nadpis">Spellbook: Paladin</h1>
+                </div>
+                <iframe src="https://dnd5e.wikidot.com/spells:paladin" frameborder="0"
+                    style="width: 80%; height: auto; "></iframe>
+            </div>
+            <div class="postrani_obr">
+                <img src="/obrazky/Engraving-two-Druids-walk-English-countryside-18th-century.webp"
+                    class="postrani_obr">
+            </div>
         </div>
     </div>
-</div>
-     <footer>
-            <div class="footer-overlay"></div>
-            <img src="/cave_footer.jpg" alt="footer bottom :P" class="footer">
-         </footer>
-    </body>
+    <footer>
+        <div class="footer-overlay"></div>
+        <img src="/cave_footer.jpg" alt="footer bottom :P" class="footer">
+    </footer>
+</body>
+
 </html>

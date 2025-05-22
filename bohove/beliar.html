@@ -1,84 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" type="image/png" href="/favicon.png">
-        <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
-        <title>Beliar</title>
-        <link rel="stylesheet" href="/druzinka.css">
-    </head>
-    <body>
-        <div id="main">
-            <div class="podlogo flex" id="header">
-                <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
-                    <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
-                </div>
-                <div class="logo" style="width:33%;">
-                    <a href="index.html" class="logo">
-                        DRUŽINA
-                    </a>
-                </div>
-                <div style="width:33%"></div>
-            </div>
-            <script>
-            function openNav() {
-              document.getElementById("mysidenav").style.width = "290px";
-              document.getElementById("main").style.marginLeft = "250px";
-            }
-            
-            function closeNav() {
-              document.getElementById("mysidenav").style.width = "0";
-              document.getElementById("main").style.marginLeft = "0";
-            }
-            </script>
-            <div id="mysidenav" class="sidenav">   
-            <div id="SIDE"></div>
- <script src="/sidenav.js"></script></div>       
-            <script src="/dropdown.js">
-        </script>
-            <div class="obsah_subpage"> 
-                <div class="popis_subpage">
-                    <div style="text-align: center;">
-                        <h1 class="nadpis">Beliar</h1>
-                    </div>
-                    <p>
-                        <b class="underline_text">Beliar – Stín za každým světlem</b><br>
-                        <br>
-                        Beliar je temný, ale ne nutně zlý. Je bohem přerodu, zkázy, ambice a svobody bez řádu. Tam, kde Innos staví, Beliar bourá. Kde Adanos váží, Beliar rozvazuje.
-                         A přesto je jeho existence ve světě Varky nepostradatelná – protože kde není stín, není světlo. <br>
-                         Jeho stoupenci se rekrutují z řad odpadlíků, proroků změny, nekromantů, ale i reformátorů. Ne každý, kdo ho uctívá, touží po smrti a zkáze. 
-                         Někteří v něm vidí sílu k překročení přirozeného řádu, boha, který neodmítá slabé, ale nabízí moc a svobodu těm, kdo se jinam nevešli.
-                    </p>
-                    <br>
-                    <p class="underline_text">
-                        Vztahy k ostatním bohům<br>
-                    </p>
-                    <p>
 
-                        <b class="underline_text">Innos (Bůh ohně a světla): </b><br>
-                        Beliar a Innos jsou věčnými protiklady, dvě síly, které jsou zároveň v přímém konfliktu i vzájemné závislosti. Innos je bohem řádu, světla, práva a povinnosti. Beliar je chaos, temnota, individualismus a touha. <br>
-                        Jejich stoupenci mezi sebou často vedou svaté války, zvláště v oblastech, kde se temná magie a paladinské řády střetávají (např. u ruin Al-Katu nebo v okolí Kriegbergu). Nicméně tyto řády nejsou nijak extra velké. <br>
-                        Příběhy často líčí Innose a Beliara jako bratry, kteří se odvrátili jeden od druhého poté, co svět nabyl podoby, jakou dnes má – každý totiž věřil, že jen jeho vize světa je správná.
-                        <br></p><p>
-                        <b class="underline_text">Magran (Bohyně války, ohně a změny):</b><br>
-                        Beliar se v Temné Trojici smrti neobjevuje jako jejich vládce, ale jako jejich pra-princip, ohnisko, ze kterého vzešli. Zatímco Myrkul zosobňuje neodvratnou smrt, Bhaal krvavé zabíjení a Bane moc a tyranii, Beliar je zdroj jejich sil, nebo alespoň jejich tichý patron. <br>
-                        <br>
-                        Některé kulty tvrdí, že právě Beliar je ten, kdo vdechl těmto třem bohům vědomí v dobách, kdy se smrt a moc poprvé oddělily od přírody a staly se z nich archetypy. <br>
-                        V očích církví Innose nebo Adanose jsou Myrkul, Bhaal a Bane zvrácenými projevy Beliarova principu, který se vymkl kontrole a získal vlastní božství.<br></p>
-                        <b class="underline_text">Beliarův kult ve světě</b><br>  
-                        <p>Beliarovi stoupenci často působí v ilegalitě – nicméně to nejsou jen nekromanti. Můžou to být revolucionáři, podzemní filozofové, zabijáci i vizionáři, kteří se odmítli podřídit „božím zákonům“ Innose nebo Adanose. <br>
-                         Ve městech jako Garagor působí skryté svatyně Beliara, zatímco v divočině se říká, že jeho hlas šeptá ze stínů, především v Kriegbergu nebo temném Chvozdu ale kdo ví, co je na tom pravdy. 
-                         Narozdíl od Trojice Smrti své projevy totiž nenechává tolik viditelné a pracuje skrze utajené prostředníky.
-                        </p>
+<head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
+    <title>Beliar</title>
+    <link rel="stylesheet" href="/druzinka.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="podlogo flex" id="header">
+            <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
+                <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
+            </div>
+            <div class="logo" style="width:33%;">
+                <a href="/index.html" class="logo">
+                    DRUŽINA
+                </a>
+            </div>
+            <div style="width:33%"></div>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mysidenav").style.width = "290px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mysidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+        <div id="mysidenav" class="sidenav">
+            <div id="SIDE"></div>
+            <script src="/sidenav.js"></script>
+        </div>
+        <script src="/dropdown.js">
+        </script>
+        <div class="obsah_subpage">
+            <div class="popis_subpage">
+                <div style="text-align: center;">
+                    <h1 class="nadpis">Beliar</h1>
                 </div>
-                <div class="postrani_obr">
-                    <img src="/Postavy/Obrázky/Beliar_altar_Gothic2.webp" class="postrani_obr">
-                    <p class="popis_postrani">Beliarův oltář</p><br>
-                </div>
+                <p>
+                    <b class="underline_text">Beliar – Stín za každým světlem</b><br>
+                    <br>
+                    Beliar je temný, ale ne nutně zlý. Je bohem přerodu, zkázy, ambice a svobody bez řádu. Tam, kde
+                    Innos staví, Beliar bourá. Kde Adanos váží, Beliar rozvazuje.
+                    A přesto je jeho existence ve světě Varky nepostradatelná – protože kde není stín, není světlo. <br>
+                    Jeho stoupenci se rekrutují z řad odpadlíků, proroků změny, nekromantů, ale i reformátorů. Ne každý,
+                    kdo ho uctívá, touží po smrti a zkáze.
+                    Někteří v něm vidí sílu k překročení přirozeného řádu, boha, který neodmítá slabé, ale nabízí moc a
+                    svobodu těm, kdo se jinam nevešli.
+                </p>
+                <br>
+                <p class="underline_text">
+                    Vztahy k ostatním bohům<br>
+                </p>
+                <p>
+
+                    <b class="underline_text">Innos (Bůh ohně a světla): </b><br>
+                    Beliar a Innos jsou věčnými protiklady, dvě síly, které jsou zároveň v přímém konfliktu i vzájemné
+                    závislosti. Innos je bohem řádu, světla, práva a povinnosti. Beliar je chaos, temnota,
+                    individualismus a touha. <br>
+                    Jejich stoupenci mezi sebou často vedou svaté války, zvláště v oblastech, kde se temná magie a
+                    paladinské řády střetávají (např. u ruin Al-Katu nebo v okolí Kriegbergu). Nicméně tyto řády nejsou
+                    nijak extra velké. <br>
+                    Příběhy často líčí Innose a Beliara jako bratry, kteří se odvrátili jeden od druhého poté, co svět
+                    nabyl podoby, jakou dnes má – každý totiž věřil, že jen jeho vize světa je správná.
+                    <br>
+                </p>
+                <p>
+                    <b class="underline_text">Magran (Bohyně války, ohně a změny):</b><br>
+                    Beliar se v Temné Trojici smrti neobjevuje jako jejich vládce, ale jako jejich pra-princip, ohnisko,
+                    ze kterého vzešli. Zatímco Myrkul zosobňuje neodvratnou smrt, Bhaal krvavé zabíjení a Bane moc a
+                    tyranii, Beliar je zdroj jejich sil, nebo alespoň jejich tichý patron. <br>
+                    <br>
+                    Některé kulty tvrdí, že právě Beliar je ten, kdo vdechl těmto třem bohům vědomí v dobách, kdy se
+                    smrt a moc poprvé oddělily od přírody a staly se z nich archetypy. <br>
+                    V očích církví Innose nebo Adanose jsou Myrkul, Bhaal a Bane zvrácenými projevy Beliarova principu,
+                    který se vymkl kontrole a získal vlastní božství.<br>
+                </p>
+                <b class="underline_text">Beliarův kult ve světě</b><br>
+                <p>Beliarovi stoupenci často působí v ilegalitě – nicméně to nejsou jen nekromanti. Můžou to být
+                    revolucionáři, podzemní filozofové, zabijáci i vizionáři, kteří se odmítli podřídit „božím zákonům“
+                    Innose nebo Adanose. <br>
+                    Ve městech jako Garagor působí skryté svatyně Beliara, zatímco v divočině se říká, že jeho hlas
+                    šeptá ze stínů, především v Kriegbergu nebo temném Chvozdu ale kdo ví, co je na tom pravdy.
+                    Narozdíl od Trojice Smrti své projevy totiž nenechává tolik viditelné a pracuje skrze utajené
+                    prostředníky.
+                </p>
+            </div>
+            <div class="postrani_obr">
+                <img src="/Postavy/Obrázky/Beliar_altar_Gothic2.webp" class="postrani_obr">
+                <p class="popis_postrani">Beliarův oltář</p><br>
             </div>
         </div>
-     <footer>
-            <div class="footer-overlay"></div>
-            <img src="/bottom.jpg" alt="footer bottom :P" class="footer">
-         </footer>
-    </body>
+    </div>
+    <footer>
+        <div class="footer-overlay"></div>
+        <img src="/bottom.jpg" alt="footer bottom :P" class="footer">
+    </footer>
+</body>
+
 </html>

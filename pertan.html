@@ -1,110 +1,121 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" type="image/png" href="/favicon.png">
-        <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
-        <title>Pertan Perlík</title>
-        <link rel="stylesheet" href="/druzinka.css">
-    </head>
-    <body>
-        <div id="main">
-            <div class="podlogo flex" id="header">
-                <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
-                    <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
-                </div>
-                <div class="logo" style="width:33%;">
-                    <a href="index.html" class="logo">
-                        DRUŽINA
-                    </a>
-                </div>
-                <div style="width:33%"></div>
+
+<head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
+    <title>Pertan Perlík</title>
+    <link rel="stylesheet" href="/druzinka.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="podlogo flex" id="header">
+            <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
+                <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
             </div>
-            <script>
-                function openNav() {
+            <div class="logo" style="width:33%;">
+                <a href="/index.html" class="logo">
+                    DRUŽINA
+                </a>
+            </div>
+            <div style="width:33%"></div>
+        </div>
+        <script>
+            function openNav() {
                 document.getElementById("mysidenav").style.width = "290px";
                 document.getElementById("main").style.marginLeft = "250px";
-                }
-                
-                function closeNav() {
+            }
+
+            function closeNav() {
                 document.getElementById("mysidenav").style.width = "0";
                 document.getElementById("main").style.marginLeft = "0";
-                }
-            </script>
-            <div id="mysidenav" class="sidenav">   
-                <div id="SIDE"></div>
-                    <script src="/sidenav.js"></script>
+            }
+        </script>
+        <div id="mysidenav" class="sidenav">
+            <div id="SIDE"></div>
+            <script src="/sidenav.js"></script>
+        </div>
+        <script src="/dropdown.js">
+        </script>
+        <div class="obsah_subpage">
+            <div class="popis_subpage">
+                <div style="text-align: center;">
+                    <h1 class="nadpis">Pertan Perlík</h1>
                 </div>
-                <script src="/dropdown.js">
-                </script>
-                <div class="obsah_subpage"> 
-                    <div class="popis_subpage">
-                        <div style="text-align: center;">
-                            <h1 class="nadpis">Pertan Perlík</h1>
-                        </div>
-                        <p>
-                            Vesnice, kterou obýval i se svojí rodinou byla vydrancována bezejmennou hrůzou, Terorem mimo jejich chápání. 
-                            Ten poté bezestopy zmizel.  Pertan byl jediný přeživší, nadosmrti poznamenaný touto ztrátou. 
-                            Rozhodl se, že se tím nenechá zpomalovat, a stane se paladinem. <br>
-                            Ovšem jeho trauma sahá hlouběji, než si dokázal Pertan představit. 
-                            Už během jeho mládí a paladinském tréninku se sem tam vyplavaly na povrch jeho temné tužby. 
-                            Tužby působit bolest pomstychtivost, ale zároveň něco, čemu by se možná dalo říkat kuráž. <br>
-                            Pertan svádí boj dobra se zlem. Zvítězí Pertanova kuráž nebo ho pohltí temnota, která v něm po té hrůzné události zůstala?
-                            <br>
-                        </p>
-                        <p>
-                            Pertan se do Pełzacze dostal v doprovodu Zuany, odkud ta se vzala to ví jen ona sama a Lloth. V Pełzaczi trávil nějaký čas, než se naskytly dobré skutky, které vykonat. <br>
-                        </p>
-                        <br>
-                        <p class="underline_text">
-                            Dobrodružství, které prožil:<br>
-                        </p>
-                        <dl>
-                            <dt>Hledání ztraceného syna</dt>
-                            <dd>- Franci Jeszetovi se ztratil syn, boj s vlky</dd>
-                            <dt>Doprovod karavany</dt>
-                            <dd>- doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
-                            <dt>Průzkum rozbitých chodeb podzemí</dt>
-                            <dd>- průzkum podzemních komplexů, na který dostal Emer zakázku, Pertan zde velmi tápal ve tmě</dd>
-                            <dt>Hledání Neery pt.1</dt>
-                            <dd>- Neeru někdo unesl, vyšetřování kdo jí unesl, Perlíkův moment boje, setkání s GGG a Alocou</dd>
-                            <dt>Hledání Neery pt.2</dt>
-                            <dd>- Neera se konečně dostala do Věže, kde družinu přivítal Raistlin a slíbil, že Neera se bude učit a bude mít ve Věži útočiště</dd>                   
-                            <dt style="text-decoration: underline;">Tribunál Velkého Čaroděje pt.I</dt>
-                            <dd>
-                                Do Pełzacze přijela Garagorská stráž se zatykačem na Huga. Družina s Dernhelmem to vyřešila/pozdržela a vydala se do Garagoru zjistit, co se děje.
-                                Našli sérii dalších falešných zatykačů a zjistili, že je vydává V.Č., našli obviněného Toníka, který jim řekl o Tribunálu Velkého Čaroděje.
-                            </dd>
-                            <dt style="text-decoration: underline;">Tribunál Velkého Čaroděje pt.II</dt>
-                            <dd>
-                                Družina hledá tři Soudce. Pomocí stop vypátrali soudkyni Justii Kroell, tu byli nuceni zabít.
-                                Poté našli Voletha Dranna, toho vyslechli a nechali ho jít, protože zjistili, že je jen 
-                                tragickým nečinným přihlížejícím. Ten je ještě varoval před posledním soudcem Borwaldem Gellem.
-                                Zuana byla zatknuta a odvedena.
-                            </dd>
-                            <dt style="text-decoration: underline;">Tribunál Velkého Čaroděje pt.III</dt>
-                            <dd>
-                                Družina dostihla soudce Borwalda Gella a zabila jej. Strhli jeho svatyni pro Bhaala a vyzvedli odměnu.
-                                Odpočívali a přemýšleli co s Velkým Čarodějem. Následně byli svědkem upálení Zuany a velkého projevu Dana,
-                                nového kapitána Garagorské stráže. Pertan získal Popravčí Sekeru.
-                            </dd>
-                        </dl>
-                    </div>
-                    <div class="postrani_obr">
-                        <img src="Postavy/Obrázky/Pertan.png" class="postrani_obr">
-                        <img src="Postavy/Obrázky/pertan.jpg" class="shadow_obr">
-                        <p class="popis_postrani">Člověk Paladin</p><br>
-                        <img src="Postavy/Obrázky/PerAi.png" class="postrani_obr"> <br>
-                        <div class="obrazek-a-border">
-                            <img src="Postavy/Obrázky/pertan-small.jpg" class="postrani_obr" style="padding:20px;">
-                        </div>                    
-                        <p class="popis_postrani">Malý Pertan</p><br>
-                    </div>
+                <p>
+                    Vesnice, kterou obýval i se svojí rodinou byla vydrancována bezejmennou hrůzou, Terorem mimo jejich
+                    chápání.
+                    Ten poté bezestopy zmizel. Pertan byl jediný přeživší, nadosmrti poznamenaný touto ztrátou.
+                    Rozhodl se, že se tím nenechá zpomalovat, a stane se paladinem. <br>
+                    Ovšem jeho trauma sahá hlouběji, než si dokázal Pertan představit.
+                    Už během jeho mládí a paladinském tréninku se sem tam vyplavaly na povrch jeho temné tužby.
+                    Tužby působit bolest pomstychtivost, ale zároveň něco, čemu by se možná dalo říkat kuráž. <br>
+                    Pertan svádí boj dobra se zlem. Zvítězí Pertanova kuráž nebo ho pohltí temnota, která v něm po té
+                    hrůzné události zůstala?
+                    <br>
+                </p>
+                <p>
+                    Pertan se do Pełzacze dostal v doprovodu Zuany, odkud ta se vzala to ví jen ona sama a Lloth. V
+                    Pełzaczi trávil nějaký čas, než se naskytly dobré skutky, které vykonat. <br>
+                </p>
+                <br>
+                <p class="underline_text">
+                    Dobrodružství, které prožil:<br>
+                </p>
+                <dl>
+                    <dt>Hledání ztraceného syna</dt>
+                    <dd>- Franci Jeszetovi se ztratil syn, boj s vlky</dd>
+                    <dt>Doprovod karavany</dt>
+                    <dd>- doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
+                    <dt>Průzkum rozbitých chodeb podzemí</dt>
+                    <dd>- průzkum podzemních komplexů, na který dostal Emer zakázku, Pertan zde velmi tápal ve tmě</dd>
+                    <dt>Hledání Neery pt.1</dt>
+                    <dd>- Neeru někdo unesl, vyšetřování kdo jí unesl, Perlíkův moment boje, setkání s GGG a Alocou</dd>
+                    <dt>Hledání Neery pt.2</dt>
+                    <dd>- Neera se konečně dostala do Věže, kde družinu přivítal Raistlin a slíbil, že Neera se bude
+                        učit a bude mít ve Věži útočiště</dd>
+                    <dt style="text-decoration: underline;">Tribunál Velkého Čaroděje pt.I</dt>
+                    <dd>
+                        Do Pełzacze přijela Garagorská stráž se zatykačem na Huga. Družina s Dernhelmem to
+                        vyřešila/pozdržela a vydala se do Garagoru zjistit, co se děje.
+                        Našli sérii dalších falešných zatykačů a zjistili, že je vydává V.Č., našli obviněného Toníka,
+                        který jim řekl o Tribunálu Velkého Čaroděje.
+                    </dd>
+                    <dt style="text-decoration: underline;">Tribunál Velkého Čaroděje pt.II</dt>
+                    <dd>
+                        Družina hledá tři Soudce. Pomocí stop vypátrali soudkyni Justii Kroell, tu byli nuceni zabít.
+                        Poté našli Voletha Dranna, toho vyslechli a nechali ho jít, protože zjistili, že je jen
+                        tragickým nečinným přihlížejícím. Ten je ještě varoval před posledním soudcem Borwaldem Gellem.
+                        Zuana byla zatknuta a odvedena.
+                    </dd>
+                    <dt style="text-decoration: underline;">Tribunál Velkého Čaroděje pt.III</dt>
+                    <dd>
+                        Družina dostihla soudce Borwalda Gella a zabila jej. Strhli jeho svatyni pro Bhaala a vyzvedli
+                        odměnu.
+                        Odpočívali a přemýšleli co s Velkým Čarodějem. Následně byli svědkem upálení Zuany a velkého
+                        projevu Dana,
+                        nového kapitána Garagorské stráže. Pertan získal Popravčí Sekeru.
+                    </dd>
+                </dl>
+            </div>
+            <div class="postrani_obr">
+                <img src="Postavy/Obrázky/Pertan.png" class="postrani_obr">
+                <img src="Postavy/Obrázky/pertan.jpg" class="shadow_obr">
+                <p class="popis_postrani">Člověk Paladin</p><br>
+                <img src="Postavy/Obrázky/PerAi.png" class="postrani_obr"> <br>
+                <div class="obrazek-a-border">
+                    <img src="Postavy/Obrázky/pertan-small.jpg" class="postrani_obr" style="padding:20px;">
                 </div>
+                <p class="popis_postrani">Malý Pertan</p><br>
             </div>
         </div>
+    </div>
+    </div>
     <footer>
-            <div class="footer-overlay"></div>
-            <img src="/bottom.jpg" alt="footer bottom :P" class="footer">
-         </footer>
-    </body>
+        <div class="footer-overlay"></div>
+        <img src="/bottom.jpg" alt="footer bottom :P" class="footer">
+    </footer>
+</body>
+
 </html>
