@@ -1,44 +1,45 @@
 * {
     box-sizing: border-box;
-  }
+}
 
-body { 
+body {
     background-color: rgb(192, 179, 173);
     text-align: center;
     position: relative;
-    margin:0px;
+    margin: 0px;
 }
 
 a.logo {
-    color:black;background-color:rgb(134, 125, 125);
+    color: black;
+    background-color: rgb(171, 229, 132);
     text-decoration: none;
     text-shadow: 2px 2px 2px #4e0a01;
-    font-size:400%;
-    font-weight:500;
-    padding: 12px 18px 18px 18px; 
+    font-size: 400%;
+    font-weight: 500;
+    padding: 12px 18px 18px 18px;
     border: 6px, rgb(82, 1, 1) solid;
     border-radius: 0px 0px 36px 36px;
     transition: 0.2s;
 }
 
 a.logo:hover {
-font-size: 4.4rem;
+    font-size: 4.4rem;
 }
 
 div.logo {
     text-align: center;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin-left: 0px
 }
 
 div.podlogo {
-    position:static;
-    right:0;
-    left:0;
-    top:0;
+    position: static;
+    right: 0;
+    left: 0;
+    top: 0;
     margin-top: 24px;
-    margin-bottom:1px;
+    margin-bottom: 1px;
     background-color: rgb(75, 8, 8);
 }
 
@@ -63,7 +64,7 @@ h2 {
     font-weight: 300;
     color: #c3e2b7;
     display: block;
-    transition: 0.3s;   
+    transition: 0.3s;
     text-decoration: none;
 }
 
@@ -74,7 +75,7 @@ p {
 
 p::first-letter {
     font-size: 170%;
-    color:#410202;
+    color: #410202;
 }
 
 p.popis_postrani::first-letter {
@@ -100,7 +101,7 @@ dt {
 }
 
 .popis_postrani {
-    color:#fff348
+    color: #fff348
 }
 
 footer {
@@ -115,11 +116,15 @@ footer {
 
 .footer-overlay {
     position: absolute;
-    bottom: 0; /* Výška přechodu */
+    bottom: 0;
+    /* Výška přechodu */
     left: 0;
     width: 100%;
-    height: 100%; /* Velikost přechodu */
-    background: linear-gradient(rgb(192, 179, 173), transparent); /* Změň barvu podle pozadí stránky */;
+    height: 100%;
+    /* Velikost přechodu */
+    background: linear-gradient(rgb(192, 179, 173), transparent);
+    /* Změň barvu podle pozadí stránky */
+    ;
 }
 
 /* FANCY DIVIDER BASICALLY */
@@ -142,11 +147,11 @@ hr.solid {
 
 .sidenav a.mapa {
     color: chartreuse;
-    
+
 }
 
 .sidenav {
-    height: 100% ; 
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -155,8 +160,9 @@ hr.solid {
     background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top:60px;
+    padding-top: 60px;
 }
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -165,12 +171,15 @@ hr.solid {
     display: block;
     transition: 0.3s;
 }
+
 .sidenav a:hover {
     color: #810909;
 }
+
 .misto {
     text-align: left;
 }
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -178,50 +187,62 @@ hr.solid {
     font-size: 36px;
     margin-left: 50px;
 }
+
 #main {
-    transition: .5s;    
-    flex:1
+    transition: .5s;
+    flex: 1
 }
+
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
+
 img.postrani_obr {
     max-width: 500px;
     max-height: 500px;
     border-radius: 0 0 24px 24px;
-    float:right;
+    float: right;
     object-fit: cover;
 }
+
 img.shadow_obr {
     max-width: 500px;
     max-height: 500px;
     border-radius: 0 0 24px 24px;
     opacity: 0;
-    position:absolute;
+    position: absolute;
     object-fit: cover;
     transition: 0.9s;
 }
+
 img.shadow_obr:hover {
     opacity: 1.0;
-    transition:1.0s;
-    transform: scale(1.03,1.03);
-    }
+    transition: 1.0s;
+    transform: scale(1.03, 1.03);
+}
+
 .obr_main {
     max-width: 100%;
     border: #070707 solid 3px;
     border-radius: 28px;
 }
+
 div.postrani_obr {
     position: relative;
-    right:0;
+    right: 0;
     top: -140px;
-    bottom:0px;
-    width:30%;
+    bottom: 0px;
+    width: 30%;
     max-width: 30%;
-    min-height:100svh;
-    height:fit-content;
-    display:flex;
+    min-height: 100svh;
+    height: fit-content;
+    display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -230,15 +251,17 @@ div.postrani_obr {
     padding-top: 160px;
     overflow-y: auto;
     padding-bottom: 120px;
-    border-bottom-left-radius: 50% 120px; 
-    border-bottom-right-radius: 50% 120px; 
+    border-bottom-left-radius: 50% 120px;
+    border-bottom-right-radius: 50% 120px;
 }
+
 div.obrazek-a-border {
-    position:relative;
+    position: relative;
     width: 500px;
-    height:500px;
+    height: 500px;
     z-index: 9;
 }
+
 div.obrazek-a-border::after {
     content: "";
     position: absolute;
@@ -248,24 +271,29 @@ div.obrazek-a-border::after {
     width: 100%;
     height: 100%;
     z-index: 10;
-  }
-div.obsah_subpage {
-    display: flex ;
 }
+
+div.obsah_subpage {
+    display: flex;
+}
+
 div.popis_subpage {
     width: 70%;
     padding-left: 120px;
     padding-right: 120px;
     text-align: left;
 }
+
 a.odkaz_subpage {
     color: #410202;
 }
+
 a.odkaz_subpage:hover {
     color: #9c2121;
 }
+
 a.odkaz_subpage:visited {
-    color:#ca5252;
+    color: #ca5252;
 }
 
 
@@ -279,17 +307,17 @@ a.odkaz_subpage:visited {
     display: block;
     border: none;
     background: none;
-    width:100%;
+    width: 100%;
     text-align: center;
     cursor: pointer;
     outline: none;
     font-family: 'Times New Roman', Times, serif;
-  }
-  
-  /* On mouse-over */
- .dropdown-btn:hover {
+}
+
+/* On mouse-over */
+.dropdown-btn:hover {
     color: #810909;
-  }
+}
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-div {
@@ -298,46 +326,46 @@ a.odkaz_subpage:visited {
     border-left: #410202 6px solid;
     overflow: hidden;
     transition: 1s;
-  }
+}
 
-  /* Optional: Style the caret down icon */
+/* Optional: Style the caret down icon */
 .fa-caret-down {
     float: right;
     padding-right: 8px;
-    color:#818181;
+    color: #818181;
     transition: 1s;
-  }
+}
 
-  /* CUSTOM SCROLLBAR CUSTOM SCROLLBAR CUSTOM SCROLLBAR */
-  /* width */
+/* CUSTOM SCROLLBAR CUSTOM SCROLLBAR CUSTOM SCROLLBAR */
+/* width */
 ::-webkit-scrollbar {
     width: 9px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #810909; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #810909; 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #410202; 
-  }
+}
 
-  .podtrh {
-    border-top:#818181 solid 1px;
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #810909;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #810909;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #410202;
+}
+
+.podtrh {
+    border-top: #818181 solid 1px;
     border-bottom: #555555 solid 2px;
-  }
+}
 
 
-  /* MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA border */
+/* MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA border */
 .mapa_img {
     border-top: #070707 6px solid;
     border-right: #070707 6px solid;
