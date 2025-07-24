@@ -37,9 +37,11 @@ function napisSidebar() {
             <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
             <a href="/NPC/dan.html" class="postava podtrh">Dan</a>
             <a href="/NPC/dernhelm.html" class="postava podtrh">Dernhelm</a> 
-            <a href="/NPC/hugo.html" class="postava podtrh">Hugo</a>  
+            <a href="/NPC/hugo.html" class="postava podtrh">Hugo</a>
+            <a href="/NPC/motieur.html" class="postava podtrh">Motieur</a>  
             <a href="/NPC/narmer.html" class="postava podtrh">Narmer</a>
             <a href="/NPC/neera.html" class="postava podtrh">Neera</a>
+            <a href="/NPC/tibalt.html" class="postava podtrh">Tibalt</a>  
             <a href="/NPC/treti.html" class="postava podtrh">Třetí</a>  
             <a href="/NPC/zrzek.html" class="postava podtrh">Zrzek</a>  
             </div>
