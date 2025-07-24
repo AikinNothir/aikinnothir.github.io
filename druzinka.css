@@ -35,7 +35,8 @@ div.logo {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 0px
+    margin-left: 0px;
+    z-index: 5;
 }
 
 div.podlogo {
@@ -209,27 +210,12 @@ hr.solid {
 }
 
 img.postrani_obr {
-    max-width: 500px;
+    max-width: 90%;
     max-height: 500px;
-    border-radius: 0 0 24px 24px;
+    border-radius: 4px;
     float: right;
     object-fit: cover;
-}
-
-img.shadow_obr {
-    max-width: 500px;
-    max-height: 500px;
-    border-radius: 0 0 24px 24px;
-    opacity: 0;
-    position: absolute;
-    object-fit: cover;
-    transition: 0.9s;
-}
-
-img.shadow_obr:hover {
-    opacity: 1.0;
-    transition: 1.0s;
-    transform: scale(1.03, 1.03);
+    margin: 0 0 12px;
 }
 
 .obr_main {
