@@ -7,6 +7,11 @@ body {
     text-align: center;
     position: relative;
     margin: 0px;
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
 }
 
 a.logo {
@@ -279,9 +284,10 @@ div.obsah_subpage {
 
 div.popis_subpage {
     width: 70%;
-    padding-left: 120px;
-    padding-right: 120px;
+    margin: 0px 60px;
+    padding: 0 2rem;
     text-align: left;
+    background: linear-gradient(to right, transparent 0%, rgb(191, 179, 173,0.5)2%, rgb(191, 179, 173,0.5)98%, transparent);
 }
 
 a.odkaz_subpage {
