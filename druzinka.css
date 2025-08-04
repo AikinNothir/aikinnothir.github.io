@@ -12,10 +12,15 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: hard-light;
+    min-height: 100vh;
 }
 
 .main-body-class {
     background-position-y: 90px;
+}
+
+.main-body-cave {
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/cave_footer.jpg);;
 }
 
 a.logo {
