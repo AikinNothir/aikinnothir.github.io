@@ -289,8 +289,8 @@ div.obsah_subpage {
 }
 
 div.popis_subpage {
-    width: 70%;
-    margin: 0px 60px;
+    width: 80%;
+    margin: 0px 30px;
     padding: 0 2rem;
     text-align: left;
     background: linear-gradient(to right, transparent 0%, rgb(191, 179, 173, 0.5)2%, rgb(191, 179, 173, 0.5)98%, transparent);
