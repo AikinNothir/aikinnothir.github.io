@@ -249,8 +249,8 @@ div.postrani_obr {
     right: 0;
     top: -140px;
     bottom: 0px;
-    width: 30%;
-    max-width: 30%;
+    width: 20%;
+    max-width: 20%;
     min-height: 100svh;
     height: fit-content;
     display: flex;
@@ -261,9 +261,9 @@ div.postrani_obr {
     z-index: 0;
     padding-top: 160px;
     overflow-y: auto;
-    padding-bottom: 120px;
-    border-bottom-left-radius: 50% 120px;
-    border-bottom-right-radius: 50% 120px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 div.obrazek-a-border {
