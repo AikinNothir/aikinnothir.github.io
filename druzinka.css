@@ -52,10 +52,6 @@ a.logo {
     transition: 0.2s;
 }
 
-a.logo:hover {
-    font-size: 4.4rem;
-}
-
 div.logo {
     text-align: center;
     align-items: center;
@@ -69,7 +65,6 @@ div.podlogo {
     right: 0;
     left: 0;
     top: 0;
-    margin-top: 24px;
     margin-bottom: 1px;
     background-color: rgb(75, 8, 8);
 }
