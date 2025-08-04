@@ -20,7 +20,23 @@ body {
 }
 
 .main-body-cave {
-    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/cave_footer.jpg);;
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/wp10092349-fantasy-cave-wallpapers.jpg);
+    ;
+}
+
+.main-body-cave2 {
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/wp10092352-fantasy-cave-wallpapers.jpg);
+    ;
+}
+
+.main-body-sea2 {
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/uwp4623123.jpeg);
+    ;
+}
+
+.main-body-forest {
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/uwp4737075.jpeg);
+    ;
 }
 
 a.logo {
@@ -282,7 +298,7 @@ div.popis_subpage {
     margin: 0px 60px;
     padding: 0 2rem;
     text-align: left;
-    background: linear-gradient(to right, transparent 0%, rgb(191, 179, 173,0.5)2%, rgb(191, 179, 173,0.5)98%, transparent);
+    background: linear-gradient(to right, transparent 0%, rgb(191, 179, 173, 0.5)2%, rgb(191, 179, 173, 0.5)98%, transparent);
 }
 
 a.odkaz_subpage {
