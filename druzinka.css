@@ -20,22 +20,32 @@ body {
 }
 
 .main-body-cave {
-    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/wp10092349-fantasy-cave-wallpapers.jpg);
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave.jpg);
     ;
 }
 
 .main-body-cave2 {
-    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/wp10092352-fantasy-cave-wallpapers.jpg);
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave2.jpg);
     ;
 }
 
 .main-body-sea2 {
-    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/uwp4623123.jpeg);
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/more.jpeg);
     ;
 }
 
 .main-body-forest {
-    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/uwp4737075.jpeg);
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest-sirael.jpeg);
+    ;
+}
+
+.main-body-forest2 {
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest.jpg);
+    ;
+}
+
+.main-body-desert {
+    background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/desert.jpg);
     ;
 }
 
