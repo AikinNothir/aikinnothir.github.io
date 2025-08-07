@@ -79,6 +79,10 @@ div.podlogo {
     background-color: rgb(75, 8, 8);
 }
 
+.podlogo span {
+    color: #c3e2b7;
+}
+
 .flex {
     display: flex;
 }
