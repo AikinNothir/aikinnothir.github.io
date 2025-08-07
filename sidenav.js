@@ -19,7 +19,8 @@ function napisSidebar() {
             <a href="/mapa.html" class="mapa">Mapa </a>
             <a href="/roll.html" class="mapa">Kostky!</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
-            
+            <br>
+
             <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
