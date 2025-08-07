@@ -16,19 +16,9 @@ function napisSidebar() {
             <a href="/stark.html" class="postava">Stark</a> 
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
-            <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
-                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
-            </button>
-            <hr class="solid">
-            <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
-              <a href="https://dnd5e.wikidot.com/spells:druid" class="postava">Druid</a>
-              <a href="https://dnd5e.wikidot.com/spells:cleric" class="postava">Klerik</a>  
-              <a href="https://dnd5e.wikidot.com/spells:paladin" class="postava">Paladin</a>
-              <a href="https://dnd5e.wikidot.com/spells:sorcerer" class="postava">Sorcerer</a>  
-              <a href="https://dnd5e.wikidot.com/spells:ranger" class="postava">Ranger</a> 
-              <a href="/Spellbook/fighterSb.html" class="postava">Válečník</a> 
-            </div>
-            <br>
+            <a href="/mapa.html" class="mapa">Mapa </a>
+            <a href="/roll.html" class="mapa">Kostky!</a>
+            <a href="/denik.pdf" class="mapa" download>Deník!</a>
             
             <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
@@ -46,12 +36,7 @@ function napisSidebar() {
             <a href="/NPC/zrzek.html" class="postava">Zrzek</a>  
             </div>
             <br>
-            <h2> Svět </h2>
-            <hr class="solid">
-            <a href="/mapa.html" class="mapa">Mapa </a>
-            <a href="/roll.html" class="mapa">Kostky!</a>
-            <a href="/denik.pdf" class="mapa" download>Deník!</a>
-            
+
             <button class="dropdown-btn" onclick="rozbal('div2')">Místa
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
@@ -88,6 +73,8 @@ function napisSidebar() {
                 <a target="_self" alt="Věž" title="Věž" class="misto" href="/mista/vez/vez.html">Věž</a>
                 <a target="_self" alt="Všehostrom" title="Všehostrom" class="misto" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
             </div>
+            <br>
+
             <button class="dropdown-btn" onclick="rozbal('div3')">Frakce
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
@@ -100,6 +87,8 @@ function napisSidebar() {
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto" href="/frakce/stribro.html">Stříbrné lemování</a>
                 <a target="_self" alt="Stráž Al-katu" title="Stráž Al-Katu" class="misto" href="/frakce/straze_al-katu.html">Stráž Al-Katu</a>
             </div>
+            <br>
+
             <button class="dropdown-btn" onclick="rozbal('div4')">Bohové 
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
@@ -116,7 +105,23 @@ function napisSidebar() {
             <a href="/bohove/posledni.html" class="postava">Ten Poslední</a>
             <a href="/bohove/woedika.html" class="postava">Woedika</a>
             <a href="/bohove/zkrouceny.html" class="postava">Zkroucený</a>
-            <a href="/bohove/panna.html" class="postava">Žulová Panna</a>            
+            <a href="/bohove/panna.html" class="postava">Žulová Panna</a>   
+            </div>
+            <br>
+
+            <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
+                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+            </button>
+            <hr class="solid">
+            <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
+              <a href="https://dnd5e.wikidot.com/spells:druid" class="postava">Druid</a>
+              <a href="https://dnd5e.wikidot.com/spells:cleric" class="postava">Klerik</a>  
+              <a href="https://dnd5e.wikidot.com/spells:paladin" class="postava">Paladin</a>
+              <a href="https://dnd5e.wikidot.com/spells:sorcerer" class="postava">Sorcerer</a>  
+              <a href="https://dnd5e.wikidot.com/spells:ranger" class="postava">Ranger</a> 
+              <a href="/Spellbook/fighterSb.html" class="postava">Válečník</a> 
+            </div>
+            <br>
             `;
   console.log(document.getElementById(SIDE));
 }
