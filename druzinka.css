@@ -167,7 +167,8 @@ footer {
 hr.solid {
     color: #fff348;
     border-top: 1px solid #fff348;
-    width: 100%;
+    width: 90%;
+    
 }
 
 .postava {
@@ -329,7 +330,7 @@ a.odkaz_subpage:visited {
 /* DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN DROPDOWN */
 /* Style the sidenav links and the dropdown button */
 .dropdown-btn {
-    padding: 12px 0px;
+    padding: 12px 24px;
     font-size: 25px;
     color: #c3e2b7;
     display: block;
@@ -350,9 +351,8 @@ a.odkaz_subpage:visited {
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-div {
     background-color: #000000;
-    border-left: #410202 3px solid;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.6s;
 }
 
 /* Optional: Style the caret down icon */
@@ -385,12 +385,6 @@ a.odkaz_subpage:visited {
 ::-webkit-scrollbar-thumb:hover {
     background: #410202;
 }
-
-.podtrh {
-    border-top: #818181 solid 1px;
-    border-bottom: #555555 solid 2px;
-}
-
 
 /* MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA MAPA border */
 .mapa_img {
