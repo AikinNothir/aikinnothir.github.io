@@ -1,7 +1,7 @@
 function napisSidebar() {
   document.getElementById(
     "SIDE"
-  ).innerHTML = `<a href="/index.html" class="postava" style="color: azure;">DRUŽINA</a> 
+  ).innerHTML = `<a href="/index.html" class="postava" style="color: azure;"><h2>DRUŽINA</h2></a> 
             <h2> Postavy </h2>
             <hr class="solid">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -18,8 +18,8 @@ function napisSidebar() {
             <br>
             <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
-                <hr class="solid">
             </button>
+            <hr class="solid">
             <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
               <a href="https://dnd5e.wikidot.com/spells:druid" class="postava podtrh">Druid</a>
               <a href="https://dnd5e.wikidot.com/spells:cleric" class="postava podtrh">Klerik</a>  
@@ -32,8 +32,8 @@ function napisSidebar() {
             
             <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
-              <hr class="solid">
             </button>
+            <hr class="solid">
             <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
             <a href="/NPC/dan.html" class="postava podtrh">Dan</a>
             <a href="/NPC/dernhelm.html" class="postava podtrh">Dernhelm</a> 
@@ -54,8 +54,8 @@ function napisSidebar() {
             
             <button class="dropdown-btn" onclick="rozbal('div2')">Místa
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
-                <hr class="solid">
             </button>
+            <hr class="solid">
             <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
                 <a target="_self" alt="Adanosův chrám" title="Adanosův chrám" class="misto podtrh" href="/mista/adanos/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" title="Ruiny Al Katu" class="misto podtrh" href="/mista/al_kat/al_kat.html">Al-Kat</a>
@@ -90,8 +90,8 @@ function napisSidebar() {
             </div>
             <button class="dropdown-btn" onclick="rozbal('div3')">Frakce
                 <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
-                <hr class="solid">
             </button>
+            <hr class="solid">
             <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto podtrh" href="/frakce/aloca.html">Aloca</a>
                 <a target="_self" alt="bratrstvo lovu" title="Bratrstvo lovu" class="misto podtrh" href="/frakce/lov.html">Bratrstvo lovu</a>
@@ -101,8 +101,8 @@ function napisSidebar() {
             </div>
             <button class="dropdown-btn" onclick="rozbal('div4')">Bohové 
               <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
-              <hr class="solid">
             </button>
+            <hr class="solid">
             <div class="dropdown-div" id="div4" style="visibility:hidden;max-height:0px">
             <a href="/bohove/adanos.html" class="postava podtrh">Adanos</a>
             <a href="/bohove/bane.html" class="postava podtrh">Bane</a>
