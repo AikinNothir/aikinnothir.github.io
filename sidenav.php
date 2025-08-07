@@ -1,8 +1,10 @@
-            <a href="/index.html" class="postava" style="color: azure;">DRUŽINA</a> 
+<a href="/index.html" class="postava" style="color: azure;"><h2>DRUŽINA</h2></a> 
             <h2> Postavy </h2>
             <hr class="solid">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/brom.html" class="postava">Brom</a> 
             <a href="/emer.html" class="postava">Emer z Dorinu</a> 
+            <a href="/folgrim.html" class="postava">Folgrim</a> 
             <a href="/joe.html" class="postava">Joe</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
             <a href="/margaret.html" class="postava">Margaret</a> 
@@ -11,18 +13,33 @@
             <a href="/stark.html" class="postava">Stark</a> 
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
-            <h2> NPC </h2>
-            <hr class="solid">
-            <a href="/neera.html" class="postava">Neera</a> 
-            <a href="/narmer.html" class="postava">Narmer</a> 
-            <br>
-            <h2> Svět </h2>
-            <hr class="solid">
             <a href="/mapa.html" class="mapa">Mapa </a>
-            <button class="dropdown-btn">Místa
-                <i class="fa fa-caret-down"></i>
+            <a href="/roll.html" class="mapa">Kostky!</a>
+            <a href="/denik.pdf" class="mapa" download>Deník!</a>
+            <br>
+
+            <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
+              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
-            <div class="dropdown-div">
+            <hr class="solid">
+            <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
+            <a href="/NPC/dan.html" class="postava">Dan</a>
+            <a href="/NPC/dernhelm.html" class="postava">Dernhelm</a> 
+            <a href="/NPC/hugo.html" class="postava">Hugo</a>
+            <a href="/NPC/motieur.html" class="postava">Motieur</a>  
+            <a href="/NPC/narmer.html" class="postava">Narmer</a>
+            <a href="/NPC/neera.html" class="postava">Neera</a>
+            <a href="/NPC/tibalt.html" class="postava">Tibalt</a>  
+            <a href="/NPC/treti.html" class="postava">Třetí</a>  
+            <a href="/NPC/zrzek.html" class="postava">Zrzek</a>  
+            </div>
+            <br>
+
+            <button class="dropdown-btn" onclick="rozbal('div2')">Místa
+                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+            </button>
+            <hr class="solid">
+            <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
                 <a target="_self" alt="Adanosův chrám" title="Adanosův chrám" class="misto" href="/mista/adanos/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" title="Ruiny Al Katu" class="misto" href="/mista/al_kat/al_kat.html">Al-Kat</a>
                 <a target="_self" alt="Denthir" title="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
@@ -54,11 +71,52 @@
                 <a target="_self" alt="Věž" title="Věž" class="misto" href="/mista/vez/vez.html">Věž</a>
                 <a target="_self" alt="Všehostrom" title="Všehostrom" class="misto" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
             </div>
-            <button class="dropdown-btn">Frakce
-                <i class="fa fa-caret-down"></i>
+            <br>
+
+            <button class="dropdown-btn" onclick="rozbal('div3')">Frakce
+                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
             </button>
-            <div class="dropdown-div">
+            <hr class="solid">
+            <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto" href="/frakce/aloca.html">Aloca</a>
+                <a target="_self" alt="bratrstvo lovu" title="Bratrstvo lovu" class="misto" href="/frakce/lov.html">Bratrstvo lovu</a>
+                <a target="_self" alt="stráž garagoru" title="Garagorská stráž" class="misto" href="/frakce/straz.html">Gargorská stráž</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto" href="/frakce/stribro.html">Stříbrné lemování</a>
+                <a target="_self" alt="Stráž Al-katu" title="Stráž Al-Katu" class="misto" href="/frakce/straze_al-katu.html">Stráž Al-Katu</a>
             </div>
+            <br>
+
+            <button class="dropdown-btn" onclick="rozbal('div4')">Bohové 
+              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+            </button>
+            <hr class="solid">
+            <div class="dropdown-div" id="div4" style="visibility:hidden;max-height:0px">
+            <a href="/bohove/adanos.html" class="postava">Adanos</a>
+            <a href="/bohove/bane.html" class="postava">Bane</a>
+            <a href="/bohove/beliar.html" class="postava">Beliar</a>
+            <a href="/bohove/bhaal.html" class="postava">Bhaal</a>
+            <a href="/bohove/ilmater.html" class="postava">Ilmater</a>
+            <a href="/bohove/innos.html" class="postava">Innos</a>
+            <a href="/bohove/magran.html" class="postava">Magran</a>
+            <a href="/bohove/slepa.html" class="postava">Slepá</a>
+            <a href="/bohove/posledni.html" class="postava">Ten Poslední</a>
+            <a href="/bohove/woedika.html" class="postava">Woedika</a>
+            <a href="/bohove/zkrouceny.html" class="postava">Zkroucený</a>
+            <a href="/bohove/panna.html" class="postava">Žulová Panna</a>   
+            </div>
+            <br>
+
+            <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
+                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+            </button>
+            <hr class="solid">
+            <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
+              <a href="https://dnd5e.wikidot.com/spells:druid" class="postava">Druid</a>
+              <a href="https://dnd5e.wikidot.com/spells:cleric" class="postava">Klerik</a>  
+              <a href="https://dnd5e.wikidot.com/spells:paladin" class="postava">Paladin</a>
+              <a href="https://dnd5e.wikidot.com/spells:sorcerer" class="postava">Sorcerer</a>  
+              <a href="https://dnd5e.wikidot.com/spells:ranger" class="postava">Ranger</a> 
+              <a href="/Spellbook/fighterSb.html" class="postava">Válečník</a> 
+            </div>
+            <br>
