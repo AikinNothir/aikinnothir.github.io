@@ -260,6 +260,10 @@ img.postrani_obr {
     margin: 0 0 12px;
 }
 
+img.postrani_obr:hover {
+    box-shadow: #d7c90c70 1px 1px, #c5b5b570 -1px -1px, #bfba7b70 -1px 1px, #bfba7b70 1px -1px;
+}
+
 .obr_main {
     max-width: 100%;
     border: #070707 solid 3px;
