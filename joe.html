@@ -90,14 +90,50 @@
             </div>
             <div class="postrani_obr">
                 <p class="popis_postrani">Člověk Warrior</p><br>
-                <img src="Postavy/Obrázky/JoeAi.png" alt="Joe" class="postrani_obr">
-                <img src="Postavy/Obrázky/joe.png" class="postrani_obr">
-                <img src="Postavy/Obrázky/joe_s.jpg" class="postrani_obr">
-                <img src="Postavy/Obrázky/joe2.jpg" class="postrani_obr" style="padding: 24px;">
+                <img src="Postavy/Obrázky/JoeAi.png" onclick="openModal();currentSlide(1)" class="postrani_obr"
+                    alt="brom">
+                <img src="Postavy/Obrázky/joe.jpg" onclick="openModal();currentSlide(1)" class="postrani_obr">
+                <img src="Postavy/Obrázky/joe_s.jpg" onclick="openModal();currentSlide(1)" class="postrani_obr">
+                <img src="Postavy/Obrázky/joe2.jpg" onclick="openModal();currentSlide(1)" class="postrani_obr">
+                <script src="lightbox.js"></script>
             </div>
         </div>
     </div>
-    
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="/Postavy/Obrázky/JoeAi.png" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="/Postavy/Obrázky/Sirael.png" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="Postavy/Obrázky/sirael.jpg" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="Postavy/Obrázky/sirael.jpg" class="modalObr">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
