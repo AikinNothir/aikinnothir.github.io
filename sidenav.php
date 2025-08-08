@@ -23,6 +23,7 @@
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
+            <a href="/NPC/Bestie.html" class="postava">Bestie</a>
             <a href="/NPC/dan.html" class="postava">Dan</a>
             <a href="/NPC/dernhelm.html" class="postava">Dernhelm</a> 
             <a href="/NPC/hugo.html" class="postava">Hugo</a>
