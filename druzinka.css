@@ -258,6 +258,7 @@ img.postrani_obr {
     float: right;
     object-fit: cover;
     margin: 0 0 12px;
+    cursor: pointer;
 }
 
 img.postrani_obr:hover {
