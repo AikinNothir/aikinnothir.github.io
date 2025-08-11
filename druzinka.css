@@ -236,6 +236,17 @@ hr.solid {
     margin: 0px;
 }
 
+
+.new-map {
+    max-width: 90%;
+    max-height: 60%;
+    padding: 12px 5%;
+}
+
+.new-map img{
+    max-width: 100%;
+}
+
 #main {
     transition: .5s;
     flex: 1
