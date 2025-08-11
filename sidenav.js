@@ -10,9 +10,9 @@ function napisSidebar() {
             <a href="/folgrim.html" class="postava">Folgrim</a> 
             <a href="/joe.html" class="postava">Joe</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
+            <a href="/mort.html" class="postava">Mort</a> 
             <a href="/pertan.html" class="postava">Pertan Perlík</a> 
-            <a href="/sirael.html" class="postava">Sirael Cockven</a> 
-            <a href="/stark.html" class="postava">Stark</a> 
+            <a href="/sirael.html" class="postava">Sirael Cockven</a>
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
             <a href="/mapa.html" class="mapa">Mapa </a>
