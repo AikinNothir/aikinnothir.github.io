@@ -247,6 +247,10 @@ hr.solid {
     max-width: 50vh;
 }
 
+.new-map img:hover{
+    cursor:pointer
+}
+
 #main {
     transition: .5s;
     flex: 1
