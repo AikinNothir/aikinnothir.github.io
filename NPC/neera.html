@@ -6,6 +6,7 @@
     <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
     <title>Neera</title>
     <link rel="stylesheet" href="/druzinka.css">
+    <link rel="stylesheet" href="/lightbox.css">
 </head>
 
 <body>
@@ -75,13 +76,65 @@
                 </p>
             </div>
             <div class="postrani_obr">
-                <img src="/Postavy/Obrázky/Neera_NEERA_Portrait_BG1EE.webp" class="postrani_obr">
-                <img src="/Postavy/Obrázky/Neera_NEERA_Prebarvena.png" class="postrani_obr">
-                <img src="/Postavy/Obrázky/Neera.jpg" alt="">
+                <img src="/Postavy/Obrázky/Neera_NEERA_Portrait_BG1EE.webp" onclick="openModal();currentSlide(1)" class="postrani_obr">
+                <img src="/Postavy/Obrázky/Neera_NEERA_Prebarvena.png" onclick="openModal();currentSlide(2)" class="postrani_obr">
+                <img src="/Postavy/Obrázky/Neera.jpg" onclick="openModal();currentSlide(3)" class="postrani_obr">
+                <img src="/Postavy/Obrázky/Neera s kordem.png" onclick="openModal();currentSlide(4)" class="postrani_obr">
+                <script src="/lightbox.js"></script>
             </div>
         </div>
     </div>
-    
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="/Postavy/Obrázky/Neera_NEERA_Portrait_BG1EE.webp" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="/Postavy/Obrázky/Neera_NEERA_Prebarvena.png" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="/Postavy/Obrázky/Neera.jpg" class="modalObr">
+            </div>
+
+             <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="/Postavy/Obrázky/Neera s kordem.png.jpg" class="modalObr">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column4">
+                <img class="demo" src="/Postavy/Obrázky/Neera_NEERA_Portrait_BG1EE.webp" onclick="currentSlide(1)" alt="Emer pojídající nakládaného úhoře">
+            </div>
+
+            <div class="column4">
+                <img class="demo" src="/Postavy/Obrázky/Neera_NEERA_Prebarvena.png" onclick="currentSlide(2)" alt="Emer">
+            </div>
+
+            <div class="column4">
+                <img class="demo" src="/Postavy/Obrázky/aclb-74-neera-wild-mage.jpg" onclick="currentSlide(3)" alt="Emer">
+            </div>
+            
+            <div class="column4">
+                <img class="demo" src="/Postavy/Obrázky/Neera s kordem.png" onclick="currentSlide(4)" alt="Emer">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
