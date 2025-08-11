@@ -39,6 +39,11 @@
   width: 50%;
 }
 
+.column8 {
+  float: left;
+  width: 12.5%;
+}
+
 
 
 /* The Modal (background) */
