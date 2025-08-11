@@ -89,6 +89,40 @@
             </div>
         </div>
     </div>
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="/Postavy/Obrázky/Stark.png" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="/Postavy/Obrázky/stark.jpg" class="modalObr">
+            </div>
+        </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column2">
+                <img class="demo" src="/Postavy/Obrázky/Stark.png" onclick="currentSlide(1)" alt="Stark">
+            </div>
+
+            <div class="column2">
+                <img class="demo" src="/Postavy/Obrázky/stark.jpg" onclick="currentSlide(2)" alt="Stark">
+            </div>
+        </div>
+    </div>
     
 </body>
 
