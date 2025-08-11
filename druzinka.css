@@ -250,7 +250,8 @@ hr.solid {
 }
 
 .new-map img:hover{
-    cursor:pointer
+    cursor:pointer;
+    box-shadow: #d7c90c70 1px 1px, #c5b5b570 -1px -1px, #bfba7b70 -1px 1px, #bfba7b70 1px -1px;
 }
 
 #main {
