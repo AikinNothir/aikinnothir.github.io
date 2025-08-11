@@ -247,6 +247,7 @@ hr.solid {
     max-width: 50vh;
     border-radius: 12px;
     cursor: pointer;
+    border: #000000 1px solid;
 }
 
 .new-map img:hover{
