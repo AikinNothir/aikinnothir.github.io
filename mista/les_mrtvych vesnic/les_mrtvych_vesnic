@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
+    <title>Les Mrtvých Vesnic</title>
+    <link rel="stylesheet" href="../../druzinka.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="podlogo flex" id="header">
+            <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
+                <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
+            </div>
+            <div class="logo" style="width:33%;">
+                <a href="/index.html" class="logo">
+                    DRUŽINA
+                </a>
+            </div>
+            <div style="width:33%"></div>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mysidenav").style.width = "290px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mysidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+        <div id="mysidenav" class="sidenav">
+            <div id="SIDE"></div>
+            <script src="/sidenav.js"></script>
+        </div>
+        <script src="/dropdown.js">
+        </script>
+        <div class="obsah_subpage">
+            <div class="popis_subpage">
+                <div style="text-align: center;">
+                    <h1 class="nadpis">Les Mrtvých Vesnic</h1>
+                </div>
+                <p>
+                    Les mrtvých vesnic je velká oblast kolem Al-Katu, kde kdysi bylo několikero vesnic. Tyto vesnice napadla takzvaná Tichá Hrůza 
+                    a její obyvatelé až na většinu zmizeli buď beze stopy, nebo se z nich staly stíny terorizující okolí. 
+                </p>
+                <br>
+                <p class="underline_text">
+                    Dobrodružství, která se zde odehrála:<br>
+                </p>
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dt>-</dt>
+                    <dd>-</dd>
+                </dl>
+            </div>
+            <div class="postrani_obr">
+                <img src="/mista/les_mrtvych vesnic/les_mrtvych_vesnic.png" onclick="openModal();currentSlide(1)" class="postrani_obr"
+                    alt="les mrtvých vesnic">
+                <p class="popis_postrani">Les mrtvých vesnic na mapě</p><br>
+                <img src="/mista/les_mrtvych vesnic/les.jpg" onclick="openModal();currentSlide(2)" class="postrani_obr">
+                <img src="/mista/les_mrtvych vesnic/les2.jpg" onclick="openModal();currentSlide(3)" class="postrani_obr">
+                <img src="/mista/les_mrtvych vesnic/les3.jpg" onclick="openModal();currentSlide(4)" class="postrani_obr">
+                <img src="/mista/les_mrtvych vesnic/velky_vrzkov_enea.png" onclick="openModal();currentSlide(5)" class="postrani_obr">
+                <img src="/mista/les_mrtvych vesnic/velky_vrzkov.png" onclick="openModal();currentSlide(6)" class="postrani_obr">
+                <script src="/lightbox.js"></script>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="/mista/les_mrtvych vesnic/les_mrtvych_vesnic.png" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="/mista/les_mrtvych vesnic/les.jpg" class="modalObr">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="/mista/les_mrtvych vesnic/les2.jpg" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="/mista/les_mrtvych vesnic/les3.jpg" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="/mista/les_mrtvych vesnic/velky_vrzkov_enea.png" class="modalObr">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="/mista/les_mrtvych vesnic/velky_vrzkov.png" class="modalObr">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column6">
+                <img class="demo" src="/Postavy/Obrázky/EmerAi.png" onclick="currentSlide(1)" alt="Les Mrtvých Vesnic na mapě">
+            </div>
+
+            <div class="column6">
+                <img class="demo" src="/mista/les_mrtvych vesnic/les.jpg" onclick="currentSlide(2)" alt="Les Mrtvých Vesnic">
+            </div>
+
+            <div class="column6">
+                <img class="demo" src="/mista/les_mrtvych vesnic/les3.jpg" onclick="currentSlide(3)" alt="Les Mrtvých Vesnic">
+            </div>
+
+            <div class="column6">
+                <img class="demo" src="/mista/les_mrtvych vesnic/les3.jpg" onclick="currentSlide(4)" alt="Malý Vrzkov">
+            </div>
+            
+            <div class="column6">
+                <img class="demo" src="/mista/les_mrtvych vesnic/velky_vrzkov_enea.png" onclick="currentSlide(5)" alt="Strom Eney Mary - Velký Vrzkov">
+            </div>
+            
+            <div class="column6">
+                <img class="demo" src="/mista/les_mrtvych vesnic/velky_vrzkov.png" onclick="currentSlide(6)" alt="Strom Eney Mary - Velký Vrzkov">
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
