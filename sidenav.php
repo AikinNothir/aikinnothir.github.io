@@ -7,7 +7,6 @@
             <a href="/folgrim.html" class="postava">Folgrim</a> 
             <a href="/joe.html" class="postava">Joe</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
-            <a href="/margaret.html" class="postava">Margaret</a> 
             <a href="/pertan.html" class="postava">Pertan Perlík</a> 
             <a href="/sirael.html" class="postava">Sirael Cockven</a> 
             <a href="/stark.html" class="postava">Stark</a> 
