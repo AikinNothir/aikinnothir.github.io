@@ -150,9 +150,12 @@
 
 img.demo {
   opacity: 0.6;
-  width: 25%;
+  width: auto;
   max-height: 50px;
-  
+}
+
+img.demo:hover {
+  cursor: pointer;
 }
 
 .active,
