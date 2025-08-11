@@ -9,9 +9,34 @@
 }
 
 /* Create four equal columns that floats next to eachother */
-.column {
+.column4 {
   float: left;
   width: 25%;
+}
+
+.column3 {
+  float: left;
+  width: 33%;
+}
+
+.column5 {
+  float: left;
+  width: 20%;
+}
+
+.column6 {
+  float: left;
+  width: 16%;
+}
+
+.column7 {
+  float: left;
+  width: 14.28%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
 }
 
 /* The Modal (background) */
@@ -119,6 +144,8 @@
 
 img.demo {
   opacity: 0.6;
+  width: 25%;
+  
 }
 
 .active,
