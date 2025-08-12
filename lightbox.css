@@ -79,7 +79,8 @@
 }
 
 .modalObr {
-    height: 70vh
+    height: 70vh;
+    max-width: 100%;
 }
 
 /* The Close Button */
