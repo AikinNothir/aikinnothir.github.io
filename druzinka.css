@@ -22,6 +22,7 @@ body {
     background-position-y: 70px;
 }
 
+/*Backgrounds avif a jpg*/
 .main-body-cave {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/cave.avif) type("image/avif"), url(/backgrounds/cave.jpg) type("image/jpeg")
