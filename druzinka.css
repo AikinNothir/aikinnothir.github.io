@@ -24,31 +24,41 @@ body {
 
 .main-body-cave {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave.jpg);
-    ;
+    background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/cave.avif) type("image/avif"), url(/backgrounds/cave.jpg) type("image/jpeg")
+    );
 }
 
 .main-body-cave2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave2.jpg);
+    background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/cave2.avif) type("image/avif"), url(/backgrounds/cave2.jpg) type("image/jpeg")
+    )
     ;
 }
 
 .main-body-sea2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/more.jpeg);
+    background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/more.avif) type("image/avif"), url(/backgrounds/more.jpeg) type("image/jpeg")
+    );
     ;
 }
 
 .main-body-forest {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest-sirael.jpeg);
+    background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/forest-sirael.avif) type("image/avif"), url(/backgrounds/forest-sirael.jpeg) type("image/jpeg")
+    )
     ;
 }
 
 .main-body-forest2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest.jpg);
-    ;
+    background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/forest.avif) type("image/avif"), url(/backgrounds/forest.jpg) type("image/jpeg")
+    );
 }
 
 .main-body-desert {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/desert.jpg);
+    background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/desert.avif) type("image/avif"), url(/backgrounds/desert.jpg) type("image/jpeg")
+    );
     ;
 }
 
