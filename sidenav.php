@@ -33,7 +33,8 @@
             <a href="/NPC/motieur.html" class="postava">Motieur</a>  
             <a href="/NPC/narmer.html" class="postava">Narmer</a>
             <a href="/NPC/neera.html" class="postava">Neera</a>
-            <a href="/NPC/tibalt.html" class="postava">Tibalt</a>  
+            <a href="/NPC/tibalt.html" class="postava">Tibalt</a>
+            <a href="/NPC/tonik.html" class="postava">Toník</a>   
             <a href="/NPC/treti.html" class="postava">Třetí</a>  
             <a href="/NPC/zrzek.html" class="postava">Zrzek</a>  
             </div>
