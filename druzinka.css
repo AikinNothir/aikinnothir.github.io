@@ -63,6 +63,10 @@ body {
     ;
 }
 
+img {
+    width: 100%;
+}
+
 a.logo {
     color: black;
     background-color: rgb(171, 229, 132);
