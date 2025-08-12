@@ -16,10 +16,12 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-document.addEventListener("keydown", logKey);
+vindow.addEventListener("keydown", logKey);
 
 function logKey(e) {
-    if (document.getElementById("myModal").style.display === "block") {
+  console.log("detekuji");
+  console.log(e.code);  
+  if (document.getElementById("myModal").style.display === "block") {
       if (e.code === "ArrowLeft") {
       plusSlides(-1)
     }
@@ -28,6 +30,7 @@ function logKey(e) {
     }
   }
 }
+
 
 // Thumbnail image controls
 function currentSlide(n) {
