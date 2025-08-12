@@ -59,7 +59,7 @@ function napisSidebar() {
                 <a target="_self" alt="Kriegstein" title="Kriegstein" class="misto" href="/mista/kriegstein/kriegstein.html">Kriegstein</a>
                 <a target="_self" alt="Laréze" title="Laréze" class="misto" href="/mista/lareze/lareze.html">Laréze</a>
                 <a target="_self" alt="Liedemar" title="Liedemar" class="misto" href="/mista/liedemar/liedemar.html">Liedemar</a>
-                <a target="_self" alt="Les Mrtvých Vesnic" title="Les Mrtvých Vesnic" class="misto" href="/mista/les_mrtvych vesnic/les_mrtvych_vesnic.html">Les Mrtvých Vesnic</a>
+                <a target="_self" alt="Les Mrtvých Vesnic" title="Les Mrtvých Vesnic" class="misto" href="/mista/les_mrtvych_vesnic/les_mrtvych_vesnic.html">Les Mrtvých Vesnic</a>
                 <a target="_self" alt="Pełzacz" title="Pełzacz" href="/mista/pelzacz/pelzacz.html" class="misto">Pełzacz </a>
                 <a target="_self" alt="Morgstadt" title="Morgstadt" class="misto" href="/mista/morgstadt/morgstadt.html">Morgstadt</a>
                 <a target="_self" alt="Mýtinná" title="Mýtinná" class="misto" href="/mista/mytinna/mytinna.html">Mýtinná</a>
