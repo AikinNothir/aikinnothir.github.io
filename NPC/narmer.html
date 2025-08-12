@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/druzinka.css">
     </head>
     <body class="main-body-cave">
-         <div id="main">
+        <div id="main">
             <div class="podlogo flex" id="header">
                 <div style="text-align:left;margin-left:12px;width:18%;align-content: center;justify-content: center;">
                     <span style="font-size:30px;cursor:pointer;" onclick="openNav();napisSidebar()">&#9776; </span>
@@ -34,10 +34,10 @@
             </script>
             <div id="mysidenav" class="sidenav">   
             <div id="SIDE"></div>
- <script src="/sidenav.js"></script></div>
+            <script src="/sidenav.js"></script></div>
         
             <script src="/dropdown.js">
-        </script>
+            </script>
             <div class="obsah_subpage"> 
                 <div class="popis_subpage">
                     <div style="text-align: center;">
@@ -65,10 +65,34 @@
                     </p>
                 </div>
                 <div class="postrani_obr">
-                    <img src="/Postavy/Obrázky/narmer.jpg" class="postrani_obr">
+                    <p class="popis_postrani">Stařík</p><br>
+                    <img src="/Postavy/Obrázky/narmer.jpg" onclick="openModal();currentSlide(1)" class="postrani_obr" alt="Narmer">
+                    <script src="/lightbox.js"></script>
                 </div>
             </div>
-         </div>
-    
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 1</div>
+                    <img src="/Postavy/Obrázky/narmer.jpg" class="modalObr">
+                </div>
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail image controls -->
+                <div class="column1">
+                    <img class="demo" src="/Postavy/Obrázky/narmer.jpg" onclick="currentSlide(1)" alt="Narmer">
+                </div>
+            </div>
+        </div>
     </body>
 </html>
