@@ -8,6 +8,10 @@ body {
     position: relative;
     margin: 0px;
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/bottom.jpg);
+    background-image: image-set(
+        linear-gradient(rgb(192, 179, 173), transparent), url(/bottom.avif) type("image/avif"),
+        linear-gradient(rgb(192, 179, 173), transparent), url(/bottom.jpg) type("image/jpeg")
+    );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
