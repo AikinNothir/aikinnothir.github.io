@@ -19,11 +19,13 @@ function plusSlides(n) {
 document.addEventListener("keydown", logKey);
 
 function logKey(e) {
-  if (e.code === "ArrowLeft") {
-    plusSlides(-1)
-  }
-  else if (e.code === "ArrowRight") {
-    plusSlides(1)
+    if (document.getElementById("myModal").style.display === "block") {
+      if (e.code === "ArrowLeft") {
+      plusSlides(-1)
+    }
+    else if (e.code === "ArrowRight") {
+      plusSlides(1)
+    }
   }
 }
 
