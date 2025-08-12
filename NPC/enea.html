@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+    <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
+        <title>Enea Mara</title>
+        <link rel="stylesheet" href="/druzinka.css">
+    <link rel="stylesheet" href="/lightbox.css">
+</head>
+    <body class="main-body-cave">
+        <div id="main">
+            <div class="podlogo flex" id="header">
+                <div class="podlogoFirstDiv">
+                    <span class="spanNahore" onclick="openNav();napisSidebar()">&#9776; </span>
+                </div>
+                <div class="logo w33">
+                <a href="/index.html" class="logo">
+                    DRUŽINA
+                </a>
+                </div>
+                <div class="w33">
+                </div>
+            </div>
+            <script>
+            function openNav() {
+              document.getElementById("mysidenav").style.width = "290px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mysidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft = "0";
+            }
+            </script>
+            <div id="mysidenav" class="sidenav">   
+            <div id="SIDE"></div>
+            <script src="/sidenav.js"></script></div>
+        
+            <script src="/dropdown.js">
+            </script>
+            <div class="obsah_subpage"> 
+                <div class="popis_subpage">
+                    <div class="tAlignC">
+                        <h1 class="nadpis">Enea Mara - matka</h1>
+                    </div>
+                    <p>
+                        Enea Mara byla matkou Neery. Informace, které o ní máte jsou kusé, ale přesto nějaké máte. <br>
+                        Jako mladá studovala na Denthirské univerzitě, odkud byla kvůli nestabilní magii a n
+                    </p>
+                    
+                </div>
+                <div class="postrani_obr">
+                    <p class="popis_postrani">Matka</p><br>
+                    <img src="/NPC/obr/enea.png" onclick="openModal();currentSlide(1)" class="postrani_obr" alt="Narmer">
+                    <script src="/lightbox.js"></script>
+                </div>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 1</div>
+                    <img src="/NPC/obr/enea.png" class="modalObr">
+                </div>
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail image controls -->
+                <div class="column1">
+                    <img class="demo" src="/NPC/obr/enea.png" onclick="currentSlide(1)" alt="Gellis">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

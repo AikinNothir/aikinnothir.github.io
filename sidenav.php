@@ -26,6 +26,7 @@
             <a href="/NPC/Bestie.html" class="postava">Bestie</a>
             <a href="/NPC/dan.html" class="postava">Dan</a>
             <a href="/NPC/dernhelm.html" class="postava">Dernhelm</a> 
+            <a href="/NPC/enea.html" class="postava">Enea Mara</a> 
             <a href="/NPC/hugo.html" class="postava">Hugo</a>
             <a href="/NPC/Gellis.html" class="postava">Gellis</a>
             <a href="/NPC/ignus.html" class="postava">Ignus</a>
