@@ -16,6 +16,17 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+document.addEventListener("keydown", logKey);
+
+function logKey(e) {
+  if (e.code === "ArrowLeft") {
+    plusSlides(-1)
+  }
+  else if (e.code === "ArrowRight") {
+    plusSlides(1)
+  }
+}
+
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -34,7 +45,12 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
+  console.log(slides[slideIndex-1].style.display);
   slides[slideIndex-1].style.display = "block";
+  console.log(slides[slideIndex-1].style.display);
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
+  
 }
+
+
