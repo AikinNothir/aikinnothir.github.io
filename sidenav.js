@@ -133,13 +133,3 @@ function napisSidebar() {
             `;
   console.log(document.getElementById(SIDE));
 }
-
-let MortName = document.getElementById("mort")
-
-MortName.addEventListener("mouseover", () => {
-  MortName.textContent = "Chloe"
-})
-
-MortName.addEventListener("mouseover", () => {
-  MortName.textContent = "Mort"
-})
