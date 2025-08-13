@@ -132,11 +132,7 @@ function napisSidebar() {
             <br>
             `;
   console.log(document.getElementById("SIDE"));
-}
-
-console.log("před DOM")
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("ready")
+  
   let MortName = document.getElementById("mort");
     console.log(MortName) 
 
@@ -147,4 +143,6 @@ MortName.addEventListener("mouseover", () => {
 MortName.addEventListener("mouseout", () => {
   MortName.textContent = "Mort";
 })
-});
+}
+
+  
