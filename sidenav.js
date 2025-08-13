@@ -91,6 +91,7 @@ function napisSidebar() {
                 <a target="_self" alt="bratrstvo lovu" title="Bratrstvo lovu" class="misto" href="/frakce/lov.html">Bratrstvo lovu</a>
                 <a target="_self" alt="stráž garagoru" title="Garagorská stráž" class="misto" href="/frakce/straz.html">Gargorská stráž</a>
                 <a target="_self" alt="GGG" title="Garagorský gang gaunerů" class="misto" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
+                <a target="_self" alt="Kult očistného plamene" title="Kult očistného plamene" class="misto" href="/frakce/kultop.html">Kult Očistného Plamene</a>
                 <a target="_self" alt="Stříbro" title="Stříbrné lemování" class="misto" href="/frakce/stribro.html">Stříbrné lemování</a>
                 <a target="_self" alt="Stráž Al-katu" title="Stráž Al-Katu" class="misto" href="/frakce/straze_al-katu.html">Stráž Al-Katu</a>
             </div>
