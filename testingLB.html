@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testování lightboxu</title>
+</head>
+    <body>
+        <div id="gallery">
+            <img src="/Postavy/Obrázky/bestie.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall()">
+        </div>
+        <button onclick="deleteElement()">MAGICK BAKK</button>
+        <div id="div1">The text above has been <p id="magikk">ojojo</p>created dynamically.</div>
+        <div id="div2">Galerie div</div>
+        <script>
+                function initiateGall() {
+                    // create a new div element
+                    const newDiv = document.createElement("div");
+                    newDiv.setAttribute("id", "modalLightbox");
+
+                    // and give it some content
+                    const newContent = document.createTextNode("Hi there and greetings!");
+
+                    // add the text node to the newly created div
+                    newDiv.appendChild(newContent);
+
+                    // add the newly created element and its content into the DOM
+                    const currentDiv = document.getElementById("gallery");
+                    document.body.insertAfter(newDiv, currentDiv);
+                    
+                    const lightBoxDiv = document.createElement("div");
+                    lightBoxDiv.setAttribute("id", "divLightBoxu")
+
+                     const exitSpan = document.createElement("span");
+                    exitSpan.setAttribute("id", "exitSpan");
+                    exitSpan.setAttribute("onclick", "deleteElement()");
+                    exitSpan.innerHTML = ("&#10006;");
+
+                    const obrazek = document.createTextNode("img");
+
+                    lightBoxDiv.appendChild(obrazek);
+
+                    const currentDiv2 = document.getElementById("div2");
+                    document.body.insertBefore(lightBoxDiv, currentDiv2);
+                    document.body.insertBefore(exitSpan, lightBoxDiv);
+                }
+
+                function deleteElement() {
+                    document.getElementById("vyDiv1").remove();
+                    document.getElementById("divLightBoxu").remove()
+                     document.getElementById("exitSpan").remove()
+                    
+                }
+        </script>
+    </body>
+</html>
