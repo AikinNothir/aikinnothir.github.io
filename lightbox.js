@@ -55,6 +55,9 @@ function logKey(e) {
     }
     else if (e.code === "ArrowRight") {
       plusSlides(1)
+    } 
+    else if (e.code === "Escape") {
+      closeModal()
     }
   }
 }
