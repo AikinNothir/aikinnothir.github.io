@@ -16,21 +16,6 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-window.addEventListener("keydown", logKey);
-
-function logKey(e) {
-  console.log("detekuji");
-  console.log(e.code);  
-  if (document.getElementById("myModal").style.display === "block") {
-      if (e.code === "ArrowLeft") {
-      plusSlides(-1)
-    }
-    else if (e.code === "ArrowRight") {
-      plusSlides(1)
-    }
-  }
-}
-
 
 // Thumbnail image controls
 function currentSlide(n) {
@@ -59,3 +44,17 @@ function showSlides(n) {
 }
 
 
+window.addEventListener("keydown", logKey);
+
+function logKey(e) {
+  console.log("detekuji");
+  console.log(e.code);  
+  if (document.getElementById("myModal").style.display === "block") {
+      if (e.code === "ArrowLeft") {
+      plusSlides(-1)
+    }
+    else if (e.code === "ArrowRight") {
+      plusSlides(1)
+    }
+  }
+}
