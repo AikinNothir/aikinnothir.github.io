@@ -329,9 +329,8 @@ div.postrani_obr {
     align-items: center;
     background-color: #070707;
     z-index: 0;
-    padding-top: 20px;
+    padding: 20px 0;
     overflow-y: auto;
-    padding-bottom: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
