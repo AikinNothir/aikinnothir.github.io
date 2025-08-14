@@ -101,6 +101,11 @@ div.podlogo {
     color: #c3e2b7;
 }
 
+.player {
+    width: 100%;
+    text-align: left;
+}
+
 .flex {
     display: flex;
 }
@@ -314,10 +319,6 @@ img.postrani_obr:hover {
 }
 
 div.postrani_obr {
-    position: relative;
-    right: 0;
-    top: -140px;
-    bottom: 0px;
     width: 20%;
     max-width: 20%;
     min-height: 100svh;

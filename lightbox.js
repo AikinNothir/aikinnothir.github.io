@@ -16,7 +16,7 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-vindow.addEventListener("keydown", logKey);
+window.addEventListener("keydown", logKey);
 
 function logKey(e) {
   console.log("detekuji");
