@@ -268,6 +268,11 @@ hr.solid {
     border: #000000 1px solid;
 }
 
+.introMainPage {
+    padding:40px 80px 10px;
+}
+
+
 .new-map img:hover{
     cursor:pointer;
     box-shadow: #d7c90c70 1px 1px, #c5b5b570 -1px -1px, #bfba7b70 -1px 1px, #bfba7b70 1px -1px;
