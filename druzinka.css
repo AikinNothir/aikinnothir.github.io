@@ -103,7 +103,7 @@ div.podlogo {
 
 .player {
     width: 100%;
-    text-align: left;
+    text-align: right;
 }
 
 .flex {
@@ -464,7 +464,7 @@ a.odkaz_subpage:visited {
 .podlogoFirstDiv {
     text-align:left;
     margin-left:12px;
-    width:18%;
+    width:33%;
     align-content: center;
     justify-content: center;
 }
