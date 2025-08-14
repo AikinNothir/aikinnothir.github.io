@@ -95,14 +95,45 @@
                 <br>
             </div>
             <div class="postrani_obr">
-                <img src="/Postavy/Obrázky/ilmater-14.jpg" class="postrani_obr">
-                <p class="popis_postrani">Ilmater</p><br>
-                <img src="/Postavy/Obrázky/Ilmater_symbol.webp" class="postrani_obr">
-                <p class="popis_postrani">Symbol Ilmatera</p><br>
+                <p class="popis_postrani">Ilmater - Trpící</p><br>
+                <img src="/bohove/ilmater-14.jpg" onclick="openModal();currentSlide(1)" class="postrani_obr" alt="Ilmater">
+                <img src="/bohove/Ilmater_symbol.webp" onclick="openModal();currentSlide(2)" class="postrani_obr" alt="Ilmaterův symbol">
+                <script src="/lightbox.js"></script>
             </div>
         </div>
     </div>
-    
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="/bohove/ilmater-14.jpg" class="modalObr">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="/bohove/Ilmater_symbol.webp" class="modalObr">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column2">
+                <img class="demo" src="/bohove/ilmater-14.jpg" onclick="currentSlide(1)" alt="Ilmater">
+            </div>
+            <div class="column2">
+                <img class="demo" src="/bohove/Ilmater_symbol.webp" onclick="currentSlide(2)" alt="Ilmaterův symbol">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
