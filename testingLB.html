@@ -8,10 +8,10 @@
 </head>
     <body>
         <div id="gallery">
-            <img src="/Postavy/Obrázky/bestie.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(), change(getElementById('Ini'))">
-            <img src="/Postavy/Obrázky/brom.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(), change(getElementById('Ini'))">
+            <img src="/Postavy/Obrázky/bestie.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(),change(getElementById('Ini'))">
+            <img src="/Postavy/Obrázky/brom.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(),change(getElementById('Ini'))">
         </div>
-        <div id="div1">The text above has been <p id="magikk">ojojo</p>created dynamically.</div>
+        <div id="div1">The text above has been created dynamically.</div>
         <div id="div2">Galerie div</div>
         <div class="container" id="Ini" onclick="initiateGall(),change(this)">
             <div class="bar1"></div>
@@ -41,10 +41,10 @@
                         const currentDiv = document.getElementById("gallery");
                         document.body.insertBefore(newDiv, currentDiv);
 
-                        const mainImg = document.createElement("img")
-                        mainImg.setAttribute("src", "/Postavy/Obrázky/bestie.jpg")
-                        mainImg.setAttribute("class", "mainImgClass")
-                        newDiv.appendChild(mainImg)
+                        const mainImg = document.createElement("img");
+                        mainImg.setAttribute("src", "/Postavy/Obrázky/bestie.jpg");
+                        mainImg.setAttribute("class", "mainImgClass");
+                        newDiv.appendChild(mainImg);
                     }
                 }
                 
