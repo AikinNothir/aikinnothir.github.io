@@ -19,44 +19,32 @@
             <div class="bar3"></div>
         </div>
         <script>
+            
+                const images = document.querySelectorAll("#gallery img")
+                images.forEach((img, i) => {
+                    img.dataset.index = i + 1; //číslování od 1
+                })
+
                 function change(item) {
                     item.classList.toggle("change");
                 }
+
                 function initiateGall() {
                     if (document.getElementById("Ini").classList.contains("change"))
                     {
                         document.getElementById("modalLightbox").remove();
-                        document.getElementById("divLightBoxu").remove()
-                        document.getElementById("exitSpan").remove()
-                        
                     }
                     else {
                         const newDiv = document.createElement("div");
                         newDiv.setAttribute("id", "modalLightbox");
-                        newDiv.setAttribute("class", "red");
-                        
-                        const newContent = document.createTextNode("Hi there and greetings!");
-
-                        newDiv.appendChild(newContent);
-
+                       
                         const currentDiv = document.getElementById("gallery");
                         document.body.insertBefore(newDiv, currentDiv);
-                        
-                        const lightBoxDiv = document.createElement("div");
-                        lightBoxDiv.setAttribute("id", "divLightBoxu")
 
-                        const exitSpan = document.createElement("span");
-                        exitSpan.setAttribute("id", "exitSpan");
-                        exitSpan.setAttribute("onclick", "deleteElement()");
-                        exitSpan.innerHTML = ("&#10006;");
-
-                        const obrazek = document.createTextNode("img");
-
-                        lightBoxDiv.appendChild(obrazek);
-
-                        const currentDiv2 = document.getElementById("div2");
-                        document.body.insertBefore(lightBoxDiv, currentDiv2);
-                        document.body.insertBefore(exitSpan, lightBoxDiv);
+                        const mainImg = document.createElement("img")
+                        mainImg.setAttribute("src", "/Postavy/Obrázky/bestie.jpg")
+                        mainImg.setAttribute("class", "mainImgClass")
+                        newDiv.appendChild(mainImg)
                     }
                 }
                 
