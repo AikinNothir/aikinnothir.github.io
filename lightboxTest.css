@@ -5,6 +5,10 @@ body {
     margin: 0px;
 }
 
+.img:hover {
+    cursor: pointer;
+}
+
 .red {
     height: fit-content;
     width: fit-content;
