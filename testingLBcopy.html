@@ -20,16 +20,8 @@
         <div id="div1">The text above has been created dynamically.</div>
         <div id="div2">Galerie div</div>
         <img src="" alt="" id="zob" class="hid">
-        <div class="container" id="Ini" onclick="initiateGall(),change(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
+        
         <script>
-                function change(item) {
-                    item.classList.toggle("change");
-                }
-
                 function initiateGall(clickedImg) {
                     if (document.getElementById("Ini").classList.contains("change"))
                     {
@@ -51,7 +43,22 @@
                         }
                        
                         newDiv.appendChild(mainImg);
+                        
+                        const exit = document.createElement("div");
+                        exit.setAttribute("class", "container change");
+                        exit.setAttribute("id", "Ini");
+                        exit.setAttribute("onclick", "initiateGall(),change(this)");
+                        const bar1 = document.createElement("div");
+                        bar1.setAttribute("class", "bar1");
+                        const bar2 = document.createElement("div");
+                        bar1.setAttribute("class", "bar2");
+                        const bar3 = document.createElement("div");
+                        bar1.setAttribute("class", "bar3");
                     }
+                }
+
+                function change(item) {
+                    item.classList.toggle("change");
                 }
 
                  document.querySelectorAll('#gallery img').forEach(img => {

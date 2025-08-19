@@ -20,9 +20,7 @@
         <div id="div1">The text above has been created dynamically.</div>
         <div id="div2">Galerie div</div>
         <div class="container" id="Ini">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+            
         </div>
         <script>
                 function change(item) {
@@ -33,6 +31,8 @@
                     if (document.getElementById("Ini").classList.contains("change"))
                     {
                         document.getElementById("modalLightbox").remove();
+                        document.getElementById("Ini").innerHTML = "";
+                        
                     }
                     else {
                         const newDiv = document.createElement("div");
@@ -50,6 +50,15 @@
                         }
                        
                         newDiv.appendChild(mainImg);
+                        const bar1 = document.createElement("div");
+                        bar1.setAttribute("class", "bar1");
+                        const bar2 = document.createElement("div");
+                        bar2.setAttribute("class", "bar2");
+                        const bar3 = document.createElement("div");
+                        bar3.setAttribute("class", "bar3");
+                        document.getElementById("Ini").appendChild(bar1);
+                        document.getElementById("Ini").appendChild(bar2);
+                        document.getElementById("Ini").appendChild(bar3);
                     }
                 }
 
