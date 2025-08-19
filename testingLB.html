@@ -8,28 +8,28 @@
 </head>
     <body>
         <div id="gallery">
-            <img src="/Postavy/Obrázky/bestie.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(),change(getElementById('Ini'))">
-            <img src="/Postavy/Obrázky/brom.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(),change(getElementById('Ini'))">
+            <noscript>
+                <a href="/Postavy/Obrázky/bestie.jpg">Bestie</a>
+                <a href="/Postavy/Obrázky/brom.jpg">Brom</a>
+            </noscript>
+            <img src="/Postavy/Obrázky/bestie.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(this),change(getElementById('Ini'))">
+            <img src="/Postavy/Obrázky/brom.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(this),change(getElementById('Ini'))">
+            <img src="/Postavy/Obrázky/zuana.jpg" style="max-width: 120px; max-height: 120px;" onclick="initiateGall(this),change(getElementById('Ini'))">
         </div>
         <div id="div1">The text above has been created dynamically.</div>
         <div id="div2">Galerie div</div>
+        <img src="" alt="" id="zob" class="hid">
         <div class="container" id="Ini" onclick="initiateGall(),change(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
         <script>
-            
-                const images = document.querySelectorAll("#gallery img")
-                images.forEach((img, i) => {
-                    img.dataset.index = i + 1; //číslování od 1
-                })
-
                 function change(item) {
                     item.classList.toggle("change");
                 }
 
-                function initiateGall() {
+                function initiateGall(clickedImg) {
                     if (document.getElementById("Ini").classList.contains("change"))
                     {
                         document.getElementById("modalLightbox").remove();
@@ -42,12 +42,16 @@
                         document.body.insertBefore(newDiv, currentDiv);
 
                         const mainImg = document.createElement("img");
-                        mainImg.setAttribute("src", "/Postavy/Obrázky/bestie.jpg");
                         mainImg.setAttribute("class", "mainImgClass");
+                        mainImg.setAttribute('id', 'imgModalu');
+
+                        if (clickedImg) {
+                            mainImg.setAttribute('src', clickedImg.src)
+                        }
+                       
                         newDiv.appendChild(mainImg);
                     }
                 }
-                
         </script>
     </body>
 </html>
