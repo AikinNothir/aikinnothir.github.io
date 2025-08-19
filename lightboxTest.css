@@ -67,3 +67,7 @@ body {
     max-width: 100vw;
     max-height: 70%;
 }
+
+.gallery img:hover {
+  cursor: pointer;
+}
