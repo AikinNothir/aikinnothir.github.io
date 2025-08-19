@@ -68,6 +68,6 @@ body {
     max-height: 70%;
 }
 
-.gallery img:hover {
+#gallery img:hover {
   cursor: pointer;
 }
