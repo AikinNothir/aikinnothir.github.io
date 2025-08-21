@@ -22,7 +22,7 @@ function initiateGall(clickedImg) {
             mainImg.setAttribute('id', 'imgModalu');
 
             if (clickedImg) {
-                mainImg.setAttribute('src', clickedImg.src)
+                mainImg.setAttribute('src', clickedImg.href)
             }
 
             newDiv.appendChild(mainImg);
@@ -67,7 +67,7 @@ window.addEventListener("keydown", logKey);
 function logKey(e) { 
   if (document.getElementById("Ini").classList.contains("change")) {
       if (e.code === "ArrowLeft") {
-      changeImg(-1)
+        changeImg(-1)
     }
     else if (e.code === "ArrowRight") {
       changeImg(1)
@@ -79,14 +79,15 @@ function logKey(e) {
   }
 }
 
-    document.querySelectorAll('#gallery img').forEach(img => {
-    img.addEventListener('click', () => {
-    initiateGall(img);
-    change(document.getElementById('Ini'));
-    });
+    document.querySelectorAll('#gallery a').forEach(a => {
+        a.addEventListener('click', f => {
+            f.preventDefault();
+            initiateGall(a);
+            change(document.getElementById('Ini'));
+        });
     });
 
     document.getElementById('Ini').addEventListener('click', () => {
-    initiateGall();
-    change(document.getElementById('Ini'));
+        initiateGall();
+        change(document.getElementById('Ini'));
     });
