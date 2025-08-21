@@ -22,57 +22,6 @@
         <div class="container" id="Ini">
             
         </div>
-        <script>
-                function change(item) {
-                    item.classList.toggle("change");
-                }
-
-                function initiateGall(clickedImg) {
-                    if (document.getElementById("Ini").classList.contains("change"))
-                    {
-                        document.getElementById("modalLightbox").remove();
-                        document.getElementById("Ini").innerHTML = "";
-                        
-                    }
-                    else {
-                        const newDiv = document.createElement("div");
-                        newDiv.setAttribute("id", "modalLightbox");
-                       
-                        const currentDiv = document.getElementById("gallery");
-                        document.body.insertBefore(newDiv, currentDiv);
-
-                        const mainImg = document.createElement("img");
-                        mainImg.setAttribute("class", "mainImgClass");
-                        mainImg.setAttribute('id', 'imgModalu');
-
-                        if (clickedImg) {
-                            mainImg.setAttribute('src', clickedImg.src)
-                        }
-                       
-                        newDiv.appendChild(mainImg);
-                        const bar1 = document.createElement("div");
-                        bar1.setAttribute("class", "bar1");
-                        const bar2 = document.createElement("div");
-                        bar2.setAttribute("class", "bar2");
-                        const bar3 = document.createElement("div");
-                        bar3.setAttribute("class", "bar3");
-                        document.getElementById("Ini").appendChild(bar1);
-                        document.getElementById("Ini").appendChild(bar2);
-                        document.getElementById("Ini").appendChild(bar3);
-                    }
-                }
-
-                 document.querySelectorAll('#gallery img').forEach(img => {
-                    img.addEventListener('click', () => {
-                        initiateGall(img);
-                        change(document.getElementById('Ini'));
-                    });
-                });
-
-                document.getElementById('Ini').addEventListener('click', () => {
-                        initiateGall();
-                        change(document.getElementById('Ini'));
-                    });
-        </script>
+        <script src="/lightboxNew.js"></script>
     </body>
 </html>

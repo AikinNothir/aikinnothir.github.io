@@ -19,54 +19,6 @@
         </div>
         <div id="div1">The text above has been created dynamically.</div>
         <div id="div2">Galerie div</div>
-        <img src="" alt="" id="zob" class="hid">
-        
-        <script>
-                function initiateGall(clickedImg) {
-                    if (document.getElementById("Ini").classList.contains("change"))
-                    {
-                        document.getElementById("modalLightbox").remove();
-                    }
-                    else {
-                        const newDiv = document.createElement("div");
-                        newDiv.setAttribute("id", "modalLightbox");
-                       
-                        const currentDiv = document.getElementById("gallery");
-                        document.body.insertBefore(newDiv, currentDiv);
-
-                        const mainImg = document.createElement("img");
-                        mainImg.setAttribute("class", "mainImgClass");
-                        mainImg.setAttribute('id', 'imgModalu');
-
-                        if (clickedImg) {
-                            mainImg.setAttribute('src', clickedImg.src)
-                        }
-                       
-                        newDiv.appendChild(mainImg);
-                        
-                        const exit = document.createElement("div");
-                        exit.setAttribute("class", "container change");
-                        exit.setAttribute("id", "Ini");
-                        exit.setAttribute("onclick", "initiateGall(),change(this)");
-                        const bar1 = document.createElement("div");
-                        bar1.setAttribute("class", "bar1");
-                        const bar2 = document.createElement("div");
-                        bar1.setAttribute("class", "bar2");
-                        const bar3 = document.createElement("div");
-                        bar1.setAttribute("class", "bar3");
-                    }
-                }
-
-                function change(item) {
-                    item.classList.toggle("change");
-                }
-
-                 document.querySelectorAll('#gallery img').forEach(img => {
-                    img.addEventListener('click', () => {
-                        initiateGall(img);
-                        change(document.getElementById('Ini'));
-                    });
-                });
-        </script>
+        <script src="/lightboxNew.js"></script>
     </body>
 </html>
