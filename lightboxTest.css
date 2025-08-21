@@ -30,13 +30,13 @@
 }
 
 #Ini {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 5px;
 }
 
 #modalLightbox {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     top: 0;
     left: 0;
