@@ -5,8 +5,19 @@ function change(item) {
     item.classList.toggle("change");
 }
 
+function changeImg(direction) {
+    currentIndex += direction;
+    if (currentIndex < 0) {
+        currentIndex = galleryImgs.length - 1; // loop zpět na poslední
+    } else if (currentIndex >= galleryImgs.length) {
+        currentIndex = 0; // loop zpět na první
+    }
+    document.getElementById("imgModalu").src = galleryImgs[currentIndex].href;
+    console.log(currentIndex)
+}  
+
 function initiateGall(clickedImg) {
-    galleryImgs = Array.from(document.querySelectorAll('#gallery img'));
+    galleryImgs = Array.from(document.querySelectorAll('.gallery a'));
 
     if (document.getElementById("Ini").classList.contains("change")) {
         document.getElementById("modalLightbox").remove();
@@ -49,18 +60,12 @@ function initiateGall(clickedImg) {
             // kliknutí na šipky
             prevBtn.addEventListener("click", () => changeImg(-1));
             nextBtn.addEventListener("click", () => changeImg(1));
+
+            const popisObal = document.createElement("div")
     }
 }
 
-function changeImg(direction) {
-    currentIndex += direction;
-    if (currentIndex < 0) {
-        currentIndex = galleryImgs.length - 1; // loop zpět na poslední
-    } else if (currentIndex >= galleryImgs.length) {
-        currentIndex = 0; // loop zpět na první
-    }
-    document.getElementById("imgModalu").src = galleryImgs[currentIndex].src;
-}   
+ 
 
 window.addEventListener("keydown", logKey);
 
@@ -72,6 +77,9 @@ function logKey(e) {
     else if (e.code === "ArrowRight") {
       changeImg(1)
     } 
+    else if (e.code === "Space") {
+      changeImg(1)
+    } 
     else if (e.code === "Escape") {
         initiateGall(); 
         change(document.getElementById('Ini'));
@@ -79,11 +87,13 @@ function logKey(e) {
   }
 }
 
-    document.querySelectorAll('#gallery a').forEach(a => {
+    document.querySelectorAll('.gallery a').forEach((a, cisloPoradi) => {
         a.addEventListener('click', f => {
             f.preventDefault();
+            currentIndex = cisloPoradi;  
             initiateGall(a);
             change(document.getElementById('Ini'));
+            console.log(currentIndex)
         });
     });
 
