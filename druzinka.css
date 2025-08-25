@@ -301,7 +301,6 @@ img.postrani_obr {
     max-width: 90%;
     max-height: 500px;
     border-radius: 4px;
-    float: right;
     object-fit: cover;
     margin: 0 0 12px;
     cursor: pointer;
