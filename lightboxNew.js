@@ -1,5 +1,6 @@
 let currentIndex = 0; 
 let galleryImgs = [];
+const currentLink = galleryImgs[currentIndex];
 
 function change(item) {
     item.classList.toggle("change");
@@ -13,8 +14,14 @@ function changeImg(direction) {
         currentIndex = 0; // loop zpět na první
     }
     document.getElementById("imgModalu").src = galleryImgs[currentIndex].href;
+    const popisObal = document.querySelector("#modalLightbox .popisek");
+    if (popisObal) {
+        popisObal.innerText = currentLink.getAttribute("alt");
+    }
     console.log(currentIndex)
 }  
+
+
 
 function initiateGall(clickedImg) {
     galleryImgs = Array.from(document.querySelectorAll('.gallery a'));
@@ -35,12 +42,10 @@ function initiateGall(clickedImg) {
             const popisObal = document.createElement("p");
             popisObal.setAttribute("class", "popisek");
             newDiv.appendChild(popisObal);
-            
-
 
             if (clickedImg) {
                 mainImg.setAttribute('src', clickedImg.href);
-                popisObal.innerText = clickedImg.alt;
+                popisObal.innerText = clickedImg.getAttribute("alt");
             }
 
             newDiv.appendChild(mainImg);
