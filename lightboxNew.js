@@ -32,8 +32,15 @@ function initiateGall(clickedImg) {
             mainImg.setAttribute("class", "mainImgClass");
             mainImg.setAttribute('id', 'imgModalu');
 
+            const popisObal = document.createElement("p");
+            popisObal.setAttribute("class", "popisek");
+            newDiv.appendChild(popisObal);
+            
+
+
             if (clickedImg) {
-                mainImg.setAttribute('src', clickedImg.href)
+                mainImg.setAttribute('src', clickedImg.href);
+                popisObal.innerText = clickedImg.alt;
             }
 
             newDiv.appendChild(mainImg);
@@ -56,6 +63,7 @@ function initiateGall(clickedImg) {
             nextBtn.classList.add("next");
             nextBtn.innerHTML = "&#10095;"; // pravá šipka
             newDiv.appendChild(nextBtn);
+             
 
             // kliknutí na šipky
             prevBtn.addEventListener("click", () => changeImg(-1));
@@ -66,13 +74,10 @@ function initiateGall(clickedImg) {
                 change(document.getElementById('Ini'));
                 }
             });
-            
-            const popisObal = document.createElement("div");
+           
 
     }
 }
-
- 
 
 window.addEventListener("keydown", logKey);
 
