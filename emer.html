@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/895f694e1f.js" crossorigin="anonymous"></script>
     <title>Emer z Dorinu</title>
     <link rel="stylesheet" href="/druzinka.css">
-    <link rel="stylesheet" href="/lightbox.css">
+    <link rel="stylesheet" href="/lightboxTest.css">
 </head>
 
 <body>
@@ -193,59 +193,16 @@
                     </dd>
                 </dl>
             </div>
-            <div class="postrani_obr">
+            <div class="postrani_obr gallery">
                 <p class="popis_postrani">Wildhunt Ranger</p><br>
-                <img src="/obrazky/emerAi.png" onclick="openModal();currentSlide(1)" class="postrani_obr"
-                    alt="brom">
-                <img src="/obrazky/emer.png" onclick="openModal();currentSlide(2)" class="postrani_obr">
-                <img src="/obrazky/emer.jpg" onclick="openModal();currentSlide(3)" class="postrani_obr">
-                
+                <a href="/obrazky/emerAi.png"><img src="/obrazky/emerAi.png" class="postrani_obr"></a>
+                <a href="/obrazky/emer.png"><img src="/obrazky/emer.png" class="postrani_obr"></a>
+                <a href="/obrazky/emer.jpg"><img src="/obrazky/emer.jpg" class="postrani_obr"></a>                
             </div>
         </div>
     </div>
-    <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
-
-            <div class="mySlides">
-                <div class="numbertext">1 / 3</div>
-                <img src="/obrazky/emerAi.png" class="modalObr">
-            </div>
-
-            <div class="mySlides">
-                <div class="numbertext">2 / 3</div>
-                <img src="/obrazky/emer.png" class="modalObr">
-            </div>
-            <div class="mySlides">
-                <div class="numbertext">3 / 3</div>
-                <img src="/obrazky/emer.jpg" class="modalObr">
-            </div>
-
-            <!-- Next/previous controls -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-            <!-- Caption text -->
-            <div class="caption-container">
-                <p id="caption"></p>
-            </div>
-
-            <!-- Thumbnail image controls -->
-            <div class="column3">
-                <img class="demo" src="/obrazky/emerAi.png" onclick="currentSlide(1)" alt="Emer pojídající nakládaného úhoře">
-            </div>
-
-            <div class="column3">
-                <img class="demo" src="/obrazky/emer.png" onclick="currentSlide(2)" alt="Emer">
-            </div>
-
-            <div class="column3">
-                <img class="demo" src="/obrazky/emer.jpg" onclick="currentSlide(3)" alt="Emer">
-            </div>
-        </div>
-    </div>
-
- <script src="/lightbox.js"></script>
+    <div class="container" id="Ini"></div>
+    <script src="/lightboxNew.js"></script>
 </body>
 
 </html>
