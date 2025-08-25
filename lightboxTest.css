@@ -1,3 +1,12 @@
+.lightboxXD {
+  background: #4d4aec;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(202, 241, 110);
+}
+
 .img:hover {
     cursor: pointer;
 }
@@ -47,11 +56,16 @@
     background-color: rgba(0, 0, 0, .85);
     justify-content: center;
     align-items: center;
+    animation-name: fadein;
+    animation-duration: 0.4s;
+}
+
+.fadeout {
+  animation-name: fadeout;
+  animation-duration: 0.3s;
 }
 
 .mainImgClass {
-    position: absolute;
-    top: 60px;
     max-width: 100vw;
     max-height: 70%;
 }
@@ -72,3 +86,13 @@
 
 .prev { left: 20px; }
 .next { right: 20px; }
+
+@keyframes fadein {
+  0%   {background-color: rgba(0, 0, 0, 0);}
+  100% {background-color: rgba(0, 0, 0, 0.85);}
+}
+
+@keyframes fadeout {
+  0%   {opacity: 1;}
+  100% {opacity: 0;}
+}

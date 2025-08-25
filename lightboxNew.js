@@ -59,9 +59,16 @@ function initiateGall(clickedImg) {
 
             // kliknutí na šipky
             prevBtn.addEventListener("click", () => changeImg(-1));
-            nextBtn.addEventListener("click", () => changeImg(1));
+            nextBtn.addEventListener("click", () => changeImg(1));             
+            document.getElementById('modalLightbox').addEventListener('click', (c) => {
+                if (c.target.id === 'modalLightbox') {
+                initiateGall();
+                change(document.getElementById('Ini'));
+                }
+            });
+            
+            const popisObal = document.createElement("div");
 
-            const popisObal = document.createElement("div")
     }
 }
 
