@@ -1,6 +1,7 @@
 let currentIndex = 0; 
 let galleryImgs = [];
-const currentLink = galleryImgs[currentIndex];
+galleryImgs = Array.from(document.querySelectorAll('.gallery a'));
+
 
 function change(item) {
     item.classList.toggle("change");
@@ -16,16 +17,13 @@ function changeImg(direction) {
     document.getElementById("imgModalu").src = galleryImgs[currentIndex].href;
     const popisObal = document.querySelector("#modalLightbox .popisek");
     if (popisObal) {
-        popisObal.innerText = currentLink.getAttribute("alt");
+        popisObal.innerText = galleryImgs[currentIndex].getAttribute("data-text");
     }
+    
     console.log(currentIndex)
 }  
 
-
-
 function initiateGall(clickedImg) {
-    galleryImgs = Array.from(document.querySelectorAll('.gallery a'));
-
     if (document.getElementById("Ini").classList.contains("change")) {
         document.getElementById("modalLightbox").remove();
         document.getElementById("Ini").innerHTML = "";
@@ -45,7 +43,7 @@ function initiateGall(clickedImg) {
 
             if (clickedImg) {
                 mainImg.setAttribute('src', clickedImg.href);
-                popisObal.innerText = clickedImg.getAttribute("alt");
+                popisObal.innerText = clickedImg.getAttribute("data-text");
             }
 
             newDiv.appendChild(mainImg);
@@ -85,7 +83,6 @@ function initiateGall(clickedImg) {
 }
 
 window.addEventListener("keydown", logKey);
-
 function logKey(e) { 
   if (document.getElementById("Ini").classList.contains("change")) {
       if (e.code === "ArrowLeft") {
@@ -104,17 +101,17 @@ function logKey(e) {
   }
 }
 
-    document.querySelectorAll('.gallery a').forEach((a, cisloPoradi) => {
-        a.addEventListener('click', f => {
-            f.preventDefault();
-            currentIndex = cisloPoradi;  
-            initiateGall(a);
-            change(document.getElementById('Ini'));
-            console.log(currentIndex)
-        });
-    });
-
-    document.getElementById('Ini').addEventListener('click', () => {
-        initiateGall();
+document.querySelectorAll('.gallery a').forEach((a, cisloPoradi) => {
+    a.addEventListener('click', f => {
+        f.preventDefault();
+        currentIndex = cisloPoradi;  
+        initiateGall(a);
         change(document.getElementById('Ini'));
+        console.log(currentIndex)
     });
+});
+
+document.getElementById('Ini').addEventListener('click', () => {
+    initiateGall();
+    change(document.getElementById('Ini'));
+});

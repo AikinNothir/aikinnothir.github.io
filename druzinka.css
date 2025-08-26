@@ -361,6 +361,7 @@ div.popis_subpage {
     padding: 0 2rem;
     text-align: left;
     background: linear-gradient(to right, transparent 0%, rgb(191, 179, 173, 0.5)2%, rgb(191, 179, 173, 0.5)98%, transparent);
+    z-index: -1;
 }
 
 a.odkaz_subpage {
