@@ -9,4 +9,6 @@ function rozbal(idDivu) {
     tenDiv.style.visibility = "hidden";
     tenDiv.style.maxHeight = "0px";
   }
+
+  
 }

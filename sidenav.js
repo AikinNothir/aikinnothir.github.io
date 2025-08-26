@@ -1,7 +1,7 @@
 function napisSidebar() {
   document.getElementById(
     "SIDE"
-  ).innerHTML = `<a href="/index.html" class="postava" style="color: azure;"><h2>DRUŽINA</h2></a> 
+  ).innerHTML = `<a href="/index.html" class="postava azure"><h2>DRUŽINA</h2></a> 
             <h2> Postavy </h2>
             <hr class="solid">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -21,7 +21,7 @@ function napisSidebar() {
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
-              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+              <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
@@ -44,7 +44,7 @@ function napisSidebar() {
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div2')">Místa
-                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+                <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
@@ -83,7 +83,7 @@ function napisSidebar() {
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div3')">Frakce
-                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+                <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
@@ -98,7 +98,7 @@ function napisSidebar() {
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div4')">Bohové 
-              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+              <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div4" style="visibility:hidden;max-height:0px">
@@ -118,7 +118,7 @@ function napisSidebar() {
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
-                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+                <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">

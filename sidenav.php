@@ -19,7 +19,7 @@
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
-              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+              <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
@@ -42,7 +42,7 @@
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div2')">Místa
-                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+                <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
@@ -81,7 +81,7 @@
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div3')">Frakce
-                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+                <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
@@ -96,7 +96,7 @@
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('div4')">Bohové 
-              <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+              <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div4" style="visibility:hidden;max-height:0px">
@@ -116,7 +116,7 @@
             <br>
 
             <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
-                <span style="color:white"><i class="fa-solid fa-caret-down"></i></span>
+                <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
