@@ -143,6 +143,14 @@ MortName.addEventListener("mouseover", () => {
 MortName.addEventListener("mouseout", () => {
   MortName.textContent = "Mort";
 })
-}
 
-  
+document.querySelectorAll('.dropdown-btn').forEach((d) => {
+    d.addEventListener('click', () => {
+      const icon = d.querySelector('i.arrow'); // najde <i> uvnitř toho konkrétního buttonu
+      if (icon) {
+        icon.classList.toggle('down');
+        icon.classList.toggle('up');
+      };
+    });
+  });
+}
