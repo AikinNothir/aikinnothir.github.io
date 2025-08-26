@@ -146,7 +146,7 @@ MortName.addEventListener("mouseout", () => {
 
 document.querySelectorAll('.dropdown-btn').forEach((d) => {
     d.addEventListener('click', () => {
-      const icon = d.querySelector('i.arrow'); // najde <i> uvnitř toho konkrétního buttonu
+      const icon = d.querySelector('i.arrow');
       if (icon) {
         icon.classList.toggle('down');
         icon.classList.toggle('up');
