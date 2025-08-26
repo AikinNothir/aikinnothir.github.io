@@ -17,7 +17,7 @@ function changeImg(direction) {
     document.getElementById("imgModalu").src = galleryImgs[currentIndex].href;
     const popisObal = document.querySelector("#modalLightbox .popisek");
     if (popisObal) {
-        popisObal.innerText = galleryImgs[currentIndex].getAttribute("data-text ");
+        popisObal.innerText = galleryImgs[currentIndex].getAttribute("data-text");
     }
     
     console.log(currentIndex)
@@ -77,8 +77,6 @@ function initiateGall(clickedImg) {
                 change(document.getElementById('Ini'));
                 }
             });
-           
-
     }
 }
 
