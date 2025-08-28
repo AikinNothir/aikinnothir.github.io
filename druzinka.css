@@ -479,6 +479,10 @@ a.odkaz_subpage:visited {
     justify-content: center;
 }
 
+.br12 {
+    border-radius:12px
+}
+
 .azure {
     color: azure;
 }
