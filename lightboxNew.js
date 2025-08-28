@@ -2,6 +2,12 @@ let currentIndex = 0;
 let galleryImgs = [];
 galleryImgs = Array.from(document.querySelectorAll('.gallery a'));
 
+document.querySelectorAll("a[data-text]").forEach(link => {
+  const img = link.querySelector("img");
+  if (img) {
+    img.setAttribute("alt", link.getAttribute("data-text"));
+  }
+});
 
 function change(item) {
     item.classList.toggle("change");
@@ -15,6 +21,7 @@ function changeImg(direction) {
         currentIndex = 0; // loop zpět na první
     }
     document.getElementById("imgModalu").src = galleryImgs[currentIndex].href;
+    document.getElementById("imgModalu").alt = galleryImgs[currentIndex].href;
     const popisObal = document.querySelector("#modalLightbox .popisek");
     if (popisObal) {
         popisObal.innerText = galleryImgs[currentIndex].getAttribute("data-text");
@@ -43,6 +50,7 @@ function initiateGall(clickedImg) {
 
             if (clickedImg) {
                 mainImg.setAttribute('src', clickedImg.href);
+                mainImg.setAttribute('alt', clickedImg.href);
                 popisObal.innerText = clickedImg.getAttribute("data-text");
             }
 
