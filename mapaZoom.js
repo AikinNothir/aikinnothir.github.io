@@ -1,3 +1,10 @@
+document.querySelectorAll("a.img-magnifier-container").forEach(acko => {
+    acko.addEventListener("click", function(prA) {
+        prA.preventDefault();
+        console.log("Klikl jsi na mapu! Nech toho!")
+    });
+});
+
 function magnify(imgID, zoom) {
   var img, glass, w, h, bw;
   img = document.getElementById(imgID);
