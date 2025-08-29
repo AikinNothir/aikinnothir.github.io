@@ -287,15 +287,6 @@ hr.solid {
     flex: 1
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 18px;
-    }
-}
 
 img.postrani_obr {
     max-width: 90%;
@@ -485,4 +476,22 @@ a.odkaz_subpage:visited {
 
 .azure {
     color: azure;
+}
+
+/*RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD*/
+
+@media screen and (max-width:600px) {
+    .sidenav {
+        padding-top: 15px;
+    };
+
+    .sidenav a {
+        font-size: 18px;
+    };
+
+    .logo {
+        border:0px;
+        border-radius: 24px;
+        padding: 16px;
+    }
 }
