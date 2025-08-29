@@ -480,18 +480,29 @@ a.odkaz_subpage:visited {
 
 /*RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD*/
 
-@media screen and (max-width:600px) {
+@media only screen and (max-width:600px) {
+    .main-body-class,
+    .main-body-cave,
+    .main-body-cave2,
+    .main-body-desert,
+    .main-body-forest,
+    .main-body-forest2,
+    .main-body-sea2 {
+        background-position-y: 0px;
+    }
+
     .sidenav {
         padding-top: 15px;
-    };
+    }
 
     .sidenav a {
         font-size: 18px;
-    };
+    }
 
-    .logo {
+    a.logo {
         border:0px;
         border-radius: 24px;
         padding: 16px;
+        font-size: 180%;
     }
 }
