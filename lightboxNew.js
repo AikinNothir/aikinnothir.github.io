@@ -134,8 +134,7 @@ function getWidth() {
 }
 
 function spotSpot () {
-    if getWidth >= 1200;
-    document.getElementsByClassName("player").innerHTML=<iframe data-testid="embed-iframe" class="br12" src="https://open.spotify.com/embed/playlist/3XQugI7y1syceNQmEtfUyh?utm_source=generator" width="80%" height="80px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-                    </iframe>
-
+    if (getWidth() >= 1200) {
+        document.getElementsByClassName("player")[0].innerHTML = '<iframe data-testid="embed-iframe" class="br12" src="https://open.spotify.com/embed/playlist/3XQugI7y1syceNQmEtfUyh?utm_source=generator" width="80%" height="80px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+    }    
 }
