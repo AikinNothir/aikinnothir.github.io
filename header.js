@@ -10,7 +10,7 @@ function napisHeader() {
                     </a>
                 </div>
                 <div class="w33">
-                <div class="player">
+                <div id="player">
                 </div>
             </div>`;
 }
