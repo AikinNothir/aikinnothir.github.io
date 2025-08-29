@@ -261,12 +261,11 @@ hr.solid {
 
 .new-map {
     max-width: 100%;
-    max-height: 60%;
+    max-height: 80%;
     padding: 12px 10%;
 }
 
 .new-map img{
-    max-width: 50vh;
     border-radius: 12px;
     cursor: pointer;
     border: #000000 1px solid;
@@ -505,4 +504,21 @@ a.odkaz_subpage:visited {
         padding: 16px;
         font-size: 180%;
     }
+}
+
+
+/*TEST MAPY ZOOM*/
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 250px;
+  height: 250px;
 }

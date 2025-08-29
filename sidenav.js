@@ -16,6 +16,7 @@ function napisSidebar() {
             <a href="/zuana.html" class="postava">Zuana</a>  
             <br>
             <a href="/mapa.html" class="mapa">Mapa </a>
+            <a href="/mapabig.html" class="mapa">VELKÁ MAPA! </a>
             <a href="/roll.html" class="mapa">Kostky!</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
             <br>
