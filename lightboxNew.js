@@ -122,7 +122,6 @@ document.getElementById('Ini').addEventListener('click', () => {
     change(document.getElementById('Ini'));
 });
 
-
 function getWidth() {
   return Math.max(
     document.body.scrollWidth,
@@ -131,7 +130,6 @@ function getWidth() {
     document.documentElement.offsetWidth,
     document.documentElement.clientWidth
   );
-  
 }
 
 console.log(getWidth())
