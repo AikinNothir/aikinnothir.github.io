@@ -488,6 +488,33 @@ a.odkaz_subpage:visited {
 
 /*RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD*/
 
+@media (max-width:1000px) {
+    #player {
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    .obsah_subpage {
+        flex-direction: column;
+    }
+    div.popis_subpage {
+        width: calc(100% - 30px);
+    }
+    div.postrani_obr {
+        width: 100%;
+        flex-direction: row;
+        min-height: auto;
+        max-width: 100%;
+    }
+    .popis_postrani {
+        display:none
+    }
+    .postrani_obr.gallery a:nth-of-type(n+5) {
+        display: none;
+  }
+}
+
 @media only screen and (max-width:600px) {
     .main-body-class,
     .main-body-cave,
@@ -513,11 +540,14 @@ a.odkaz_subpage:visited {
         padding: 16px;
         font-size: 180%;
     }
+
+    
 }
 
 
 /*TEST MAPY ZOOM*/
-* {box-sizing: border-box;}
+
+*{box-sizing: border-box;}
 
 .img-magnifier-container {
   position: relative;
