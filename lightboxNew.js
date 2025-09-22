@@ -145,11 +145,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const clone = firstImg.cloneNode(true);   // zkopíruje <img>
     clone.classList.add("headline-img");      // dá mu speciální třídu
     h1.appendChild(clone);                    // vloží ho dovnitř <h1>
-  }
-  clone.addEventListener("click", f => {
+    clone.addEventListener("click", f => {
       f.preventDefault();
       currentIndex = 0;              // vždy první obrázek
       initiateGall(firstImg);          // pošleme původní <a>, ne klon
       change(document.getElementById('Ini'));
     });
+  }
 });
