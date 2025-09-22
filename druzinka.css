@@ -497,17 +497,21 @@ a.odkaz_subpage:visited {
 /* Výchozí stav – obrázek skrytý */
 .headline-img {
   display: none;
-  width: 40px;   /* můžeš si přizpůsobit */
   height: auto;
   margin-left: .5rem;
   vertical-align: middle;
 }
 
 @media (max-width:800px) {
+    h1 {
+        font-size: 5em;
+        flex-direction: column;
+    }
     .nadpis {
         display: flex;
         align-items: center;
-        gap: 0.5rem;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .postrani_obr.gallery a:first-of-type {
@@ -539,10 +543,14 @@ a.odkaz_subpage:visited {
     }
     .headline-img {
     display: inline-block;
+    width: 120px;
+    } 
+    .headline-img img{
+    box-shadow: #d7c90c70 3px 3px, #c5b5b570 -3px -3px, #bfba7b70 -3px 3px, #bfba7b70 3px -3px;
     } 
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:610px) {
     .main-body-class,
     .main-body-cave,
     .main-body-cave2,
