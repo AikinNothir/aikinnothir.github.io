@@ -68,16 +68,8 @@ body {
 }
 
 a.logo {
-    color: black;
-    background-color: rgb(171, 229, 132);
-    text-decoration: none;
-    text-shadow: 2px 2px 2px #4e0a01;
-    font-size: 400%;
-    font-weight: 500;
-    padding: 12px 18px 18px 18px;
-    border: 6px, rgb(82, 1, 1) solid;
-    border-radius: 0px 0px 36px 36px;
-    transition: 0.2s;
+    color: #f9f291;
+    font-size: 200%;
 }
 
 div.logo {
@@ -89,6 +81,7 @@ div.logo {
 
 div.podlogo {
     position: static;
+    align-items: center;
     right: 0;
     left: 0;
     top: 0;
@@ -110,9 +103,10 @@ div.podlogo {
 }
 
 h1 {
-    font-size: 500%;
+    font-size: 8vh;
     font-weight: 700;
     text-shadow: 2px 2px 2px rgb(61, 1, 1);
+    margin-bottom: 0px;
 }
 
 h1:hover {
@@ -203,7 +197,6 @@ hr.solid {
 }
 
 .nadpis {
-    text-decoration: underline 5px;
     text-align: center;
 }
 
@@ -542,11 +535,13 @@ a.odkaz_subpage:visited {
         display: none;
     }
     .headline-img {
-    display: inline-block;
-    width: 120px;
+        display: inline-block;
+        width: 120px;
     } 
     .headline-img img{
-    box-shadow: #d7c90c70 3px 3px, #c5b5b570 -3px -3px, #bfba7b70 -3px 3px, #bfba7b70 3px -3px;
+        box-shadow: #d7c90c70 3px 3px, #c5b5b570 -3px -3px, #bfba7b70 -3px 3px, #bfba7b70 3px -3px;
+        max-width: 100%;
+        max-height: 100%;
     } 
 }
 
