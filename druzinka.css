@@ -494,7 +494,31 @@ a.odkaz_subpage:visited {
     }
 }
 
+/* Výchozí stav – obrázek skrytý */
+.headline-img {
+  display: none;
+  width: 40px;   /* můžeš si přizpůsobit */
+  height: auto;
+  margin-left: .5rem;
+  vertical-align: middle;
+}
+
 @media (max-width:800px) {
+    .nadpis {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .postrani_obr.gallery a:first-of-type {
+        display: inline-block;
+        order: 2; /* zůstane v DOM, ale ukáže se tady */
+    }
+
+    /* schovej první obrázek z původní galerie, aby nebyl zdvojený */
+    .postrani_obr.gallery a:first-of-type img {
+        display: none;
+    }
     .obsah_subpage {
         flex-direction: column;
     }
@@ -510,9 +534,12 @@ a.odkaz_subpage:visited {
     .popis_postrani {
         display:none
     }
-    .postrani_obr.gallery a:nth-of-type(n+5) {
+    .postrani_obr.gallery a:nth-of-type(n+6) {
         display: none;
-  }
+    }
+    .headline-img {
+    display: inline-block;
+    } 
 }
 
 @media only screen and (max-width:600px) {
