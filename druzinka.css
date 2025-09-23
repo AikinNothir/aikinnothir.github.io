@@ -102,6 +102,10 @@ div.podlogo {
     display: flex;
 }
 
+.row {
+    flex-direction: row;
+}
+
 h1 {
     font-size: 8vh;
     font-weight: 700;
@@ -166,6 +170,12 @@ dt {
     max-width: 100%;
     text-align: left;
 }
+
+.w50 {
+    width: 50%;
+}
+
+
 .cheatsheet p {
     margin: 8px 24px 12px;
     text-align: left;
