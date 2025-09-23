@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, width=device-width, user-scalable=yes">
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <title> Družina </title>
+        <link rel="stylesheet" href="/druzinka.css">
+        <link rel="stylesheet" href="/lightboxTest.css">
+    </head>
+    <body class="main-body-class">
+        <div id="main">
+            <div class="podlogo flex" id="header">
+                <div class="podlogoFirstDiv">
+                    <span class="spanNahore" onclick="openNav();napisSidebar()">&#9776; </span>
+                </div>
+                <div class="w33">
+                    <a href="/index.html" class="logo">
+                        DRUŽINA
+                    </a>
+                </div>
+                <div class="w33">
+                    <div id="player">
+                    </div>
+                </div>
+            </div>
+            <script>
+                function openNav() {
+                    document.getElementById("mysidenav").style.width = "290px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mysidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft = "0";
+                }
+            </script>
+            <div id="mysidenav" class="sidenav">
+                <div id="SIDE"></div>
+                
+            </div>
+            <h1 class="introMainPage">
+                    Jak probíhá souboj?
+                </h1>
+            <div class="cheatsheet">
+                
+                <p>
+                    Souboj se skládá z jednotlivých časových úseků, kterým říkáme kola. V každém kole hraje postava jednou (tzv. ve svém kole), podle předem daného pořadí - iniciativy. 
+                    Na iniciativu házíme dvacetistěnnou kostkou (dále jen d20) a přičítáme bonus k iniciativě (Initiative bonus).
+                </p>
+                <p>
+                    Kolo nemá přesně danou délku a kola jednotlivých postav/NPC se můžou v řádu sekund lišit. Každá postava má ve svém kole k dispozici:</p>
+                    <ul>
+                        <li><strong>jednu akci</strong></li>
+                        <li><strong>jednu bonusovou akci</strong></li>
+                        <li><strong>pohyb</strong></li>
+                        <li><em>Toto můžou ovlivnit některá kouzla a vlastnosti.</em></li>
+                    </ul>
+                <p><strong>Akce</strong><br>
+                    &nbsp;&nbsp; je hlavní činnost kola, kterou člověk dělá. Může jí být:
+                    <ul>
+                        <li><strong>Útok</strong></li>
+                        <li><strong>Kouzlo</strong></li>
+                        <li><strong>Specifické manévry/pohyby</strong></li>
+                        <li><strong>Interakce s prostředím (rozhoduje DM)</strong></li>
+                    </ul>
+                </p>
+                <p><strong>Bonusová Akce</strong><br>
+                    &nbsp;&nbsp; je vedlejší činnost kola, kterou člověk může použít, pokud mu to nějaká dovednost povoluje. <br>
+                    &nbsp;&nbsp; Může použít jen jednu za kolo, pokud není uvedeno jinak a může jí být:
+                    <ul>
+                        <li><strong>Útok druhou zbraní</strong></li>
+                        <li><strong>Kouzlo, které stojí jen bonusovou akci </strong></li>
+                        <li><strong>Specifické manévry/pohyby dané featy a situací</strong></li>
+                        <li><strong>Interakce s prostředím (rozhoduje DM)</strong></li>
+                    </ul>
+                </p>
+            </div>
+            <p>Klikni na akci a dozvíš se popis!</p>
+            <iframe src="https://crobi.github.io/dnd5e-quickref/preview/quickref.html" frameborder="1" width="100%" height="800px"></iframe>
+        </div>
+        
+        </script>
+        <noscript>
+            <nav>
+                <iframe src="nav.html" frameborder="0"></iframe>
+            </nav>
+        </noscript>
+        
+        </div>
+        <div class="container" id="Ini"></div>
+        <script src="/lightboxNew.js"></script>
+        <script src="/sidenav.js"></script>
+    </body>
+</html>
