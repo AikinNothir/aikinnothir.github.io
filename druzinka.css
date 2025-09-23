@@ -175,9 +175,16 @@ dt {
     width: 50%;
 }
 
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
 
 .cheatsheet p {
-    margin: 8px 24px 12px;
+    margin: 8px 32px 12px;
     text-align: left;
     font-variant: normal;
 }
@@ -189,6 +196,7 @@ dt {
 
 .cheatsheet em {
     font-size: 16px;
+    color: #3f3f3f;
 }
 
 .cheatsheet li {
