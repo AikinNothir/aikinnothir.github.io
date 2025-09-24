@@ -21,41 +21,35 @@ body {
 .main-body-class {
     background-position-y: 70px;
 }
-
 /*Backgrounds avif a jpg*/
 .main-body-cave {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/cave.avif) type("image/avif"), url(/backgrounds/cave.jpg) type("image/jpeg")
     );
 }
-
 .main-body-cave2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave2.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/cave2.avif) type("image/avif"), url(/backgrounds/cave2.jpg) type("image/jpeg")
     )
     ;
 }
-
 .main-body-sea2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/more.jpeg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/more.avif) type("image/avif"), url(/backgrounds/more.jpeg) type("image/jpeg")
     );
     ;
 }
-
 .main-body-forest {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest-sirael.jpeg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/forest-sirael.avif) type("image/avif"), url(/backgrounds/forest-sirael.jpeg) type("image/jpeg")
     )
     ;
 }
-
 .main-body-forest2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/forest.avif) type("image/avif"), url(/backgrounds/forest.jpg) type("image/jpeg")
     );
 }
-
 .main-body-desert {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/desert.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/desert.avif) type("image/avif"), url(/backgrounds/desert.jpg) type("image/jpeg")
@@ -97,7 +91,7 @@ div.podlogo {
     width: 100%;
     text-align: right;
 }
-
+/* ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ */
 .flex {
     display: flex;
 }
@@ -105,6 +99,24 @@ div.podlogo {
 .row {
     flex-direction: row;
 }
+
+.w50 {
+    width: 50%;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.underline_text {
+    text-decoration: underline;
+}
+
+/* ZKRÁCENÉ ZÁPISY OBECNÉ____________________END______________________END_____________________________________________________________ZKRÁCENÉ ZÁPISY OBECNÉ */
 
 h1 {
     font-size: 8vh;
@@ -155,10 +167,6 @@ dt {
     font-variant: small-caps;
 }
 
-.underline_text {
-    text-decoration: underline;
-}
-
 .popis_postrani {
     color: #fff348
 }
@@ -169,18 +177,6 @@ dt {
     background-color: rgba(248, 185, 108, 0.8);
     max-width: 100%;
     text-align: left;
-}
-
-.w50 {
-    width: 50%;
-}
-
-.mt20 {
-    margin-top: 20px;
-}
-
-.mt40 {
-    margin-top: 40px;
 }
 
 .cheatsheet p {
