@@ -56,6 +56,7 @@ function napisSidebar() {
                 <a target="_self" alt="Durnhelm" class="misto" href="/mista/durnhelm/durnhelm.html">Durnhelm</a>
                 <a target="_self" alt="Garagor" class="misto" href="/mista/garagor/garagor.html">Garagor</a> 
                 <a target="_self" alt="Ghetto" class="misto" href="/mista/ghetto/ghetto.html">Ghetto</a>
+                <a target="_self" alt="Les Gost" class="misto" href="/mista/gost/gost.html">Gost</a> 
                 <a target="_self" alt="Grabštejn" class="misto" href="/mista/grabstejn/grabstejn.html">Grabštejn</a>
                 <a target="_self" alt="Hayax" class="misto" href="/mista/hayax/hayax.html">Hayax</a>
                 <a target="_self" alt="Hornická Oblast" class="misto" href="/mista/doly/doly.html">Hornická oblast</a>
