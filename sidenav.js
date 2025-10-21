@@ -6,8 +6,7 @@ function napisSidebar() {
             <hr class="solid">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="/brom.html" class="postava">Brom</a> 
-            <a href="/emer.html" class="postava">Emer z Dorinu</a> 
-            <a href="/folgrim.html" class="postava">Folgrim</a> 
+            <a href="/emer.html" class="postava">Emer z Dorinu</a>
             <a href="/joe.html" class="postava">Joe</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
             <a href="/mort.html" class="postava" id="mort">Mort</a> 
@@ -17,7 +16,6 @@ function napisSidebar() {
             <br>
             <a href="/mapa.html" class="mapa">Mapa</a>
             <a href="/mapabig.html" class="mapa">VELKÁ MAPA!</a>
-            <a href="/roll.html" class="mapa">Kostky!</a>
             <a href="/cheatsheet.html" class="mapa">Cheatsheet</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
             <br>
@@ -30,7 +28,8 @@ function napisSidebar() {
             <a href="/NPC/bestie.html" class="postava">Bestie</a>
             <a href="/NPC/dan.html" class="postava">Dan</a>
             <a href="/NPC/dernhelm.html" class="postava">Dernhelm</a> 
-            <a href="/NPC/enea.html" class="postava">Enea Mara</a> 
+            <a href="/NPC/enea.html" class="postava">Enea Mara</a>
+            <a href="/folgrim.html" class="postava">Folgrim</a>  
             <a href="/NPC/hugo.html" class="postava">Hugo</a>
             <a href="/NPC/gellis.html" class="postava">Gellis</a>
             <a href="/NPC/ignus.html" class="postava">Ignus</a>
