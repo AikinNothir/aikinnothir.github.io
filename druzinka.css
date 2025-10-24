@@ -21,41 +21,35 @@ body {
 .main-body-class {
     background-position-y: 70px;
 }
-
 /*Backgrounds avif a jpg*/
 .main-body-cave {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/cave.avif) type("image/avif"), url(/backgrounds/cave.jpg) type("image/jpeg")
     );
 }
-
 .main-body-cave2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave2.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/cave2.avif) type("image/avif"), url(/backgrounds/cave2.jpg) type("image/jpeg")
     )
     ;
 }
-
 .main-body-sea2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/more.jpeg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/more.avif) type("image/avif"), url(/backgrounds/more.jpeg) type("image/jpeg")
     );
     ;
 }
-
 .main-body-forest {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest-sirael.jpeg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/forest-sirael.avif) type("image/avif"), url(/backgrounds/forest-sirael.jpeg) type("image/jpeg")
     )
     ;
 }
-
 .main-body-forest2 {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/forest.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/forest.avif) type("image/avif"), url(/backgrounds/forest.jpg) type("image/jpeg")
     );
 }
-
 .main-body-desert {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/desert.jpg);
     background-image:  linear-gradient(rgb(192, 179, 173), transparent), image-set(url(/backgrounds/desert.avif) type("image/avif"), url(/backgrounds/desert.jpg) type("image/jpeg")
@@ -68,16 +62,8 @@ body {
 }
 
 a.logo {
-    color: black;
-    background-color: rgb(171, 229, 132);
-    text-decoration: none;
-    text-shadow: 2px 2px 2px #4e0a01;
-    font-size: 400%;
-    font-weight: 500;
-    padding: 12px 18px 18px 18px;
-    border: 6px, rgb(82, 1, 1) solid;
-    border-radius: 0px 0px 36px 36px;
-    transition: 0.2s;
+    color: #f9f291;
+    font-size: 250%;
 }
 
 div.logo {
@@ -89,6 +75,7 @@ div.logo {
 
 div.podlogo {
     position: static;
+    align-items: center;
     right: 0;
     left: 0;
     top: 0;
@@ -104,15 +91,38 @@ div.podlogo {
     width: 100%;
     text-align: right;
 }
-
+/* ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ */
 .flex {
     display: flex;
 }
 
+.row {
+    flex-direction: row;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.underline_text {
+    text-decoration: underline;
+}
+
+/* ZKRÁCENÉ ZÁPISY OBECNÉ____________________END______________________END_____________________________________________________________ZKRÁCENÉ ZÁPISY OBECNÉ */
+
 h1 {
-    font-size: 500%;
+    font-size: 8vh;
     font-weight: 700;
     text-shadow: 2px 2px 2px rgb(61, 1, 1);
+    margin-bottom: 0px;
 }
 
 h1:hover {
@@ -157,35 +167,37 @@ dt {
     font-variant: small-caps;
 }
 
-.underline_text {
-    text-decoration: underline;
-}
-
 .popis_postrani {
     color: #fff348
 }
 
-footer {
+.cheatsheet {
+    border: #131010 solid 3px;
+    border-radius: 16px;
+    background-color: rgba(248, 185, 108, 0.8);
     max-width: 100%;
-    position: relative;
+    text-align: left;
 }
 
-.footer {
-    max-width: 100%;
-    width: 100%;
+.cheatsheet p {
+    margin: 8px 32px 12px;
+    text-align: left;
+    font-variant: normal;
 }
 
-.footer-overlay {
-    position: absolute;
-    bottom: 0;
-    /* Výška přechodu */
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* Velikost přechodu */
-    background: linear-gradient(rgb(192, 179, 173), transparent);
-    /* Změň barvu podle pozadí stránky */
-    ;
+.cheatsheet strong {
+    text-align: left;
+    font-variant: small-caps;
+}
+
+.cheatsheet em {
+    font-size: 16px;
+    color: #3f3f3f;
+}
+
+.cheatsheet li {
+    font-size: 24px;
+    margin-left: 24px;
 }
 
 /* FANCY DIVIDER BASICALLY */
@@ -203,7 +215,6 @@ hr.solid {
 }
 
 .nadpis {
-    text-decoration: underline 5px;
     text-align: center;
 }
 
@@ -477,8 +488,10 @@ a.odkaz_subpage:visited {
 }
 
 .br12 {
-    border-radius:12px
+    border-radius:12px;
 }
+
+
 
 .azure {
     color: azure;
@@ -486,7 +499,71 @@ a.odkaz_subpage:visited {
 
 /*RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD RWD*/
 
-@media only screen and (max-width:600px) {
+@media (max-width:1000px) {
+    #player {
+        display: none;
+    }
+}
+
+/* Výchozí stav – obrázek skrytý */
+.headline-img {
+  display: none;
+  height: auto;
+  margin-left: .5rem;
+  vertical-align: middle;
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size: 5em;
+        flex-direction: column;
+    }
+    .nadpis {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .postrani_obr.gallery a:first-of-type {
+        display: inline-block;
+        order: 2; /* zůstane v DOM, ale ukáže se tady */
+    }
+
+    /* schovej první obrázek z původní galerie, aby nebyl zdvojený */
+    .postrani_obr.gallery a:first-of-type img {
+        display: none;
+    }
+    .obsah_subpage {
+        flex-direction: column;
+    }
+    div.popis_subpage {
+        width: calc(100% - 30px);
+    }
+    div.postrani_obr {
+        width: 100%;
+        flex-direction: row;
+        min-height: auto;
+        max-width: 100%;
+    }
+    .popis_postrani {
+        display:none
+    }
+    .postrani_obr.gallery a:nth-of-type(n+6) {
+        display: none;
+    }
+    .headline-img {
+        display: inline-block;
+        width: 120px;
+    } 
+    .headline-img img{
+        box-shadow: #d7c90c70 3px 3px, #c5b5b570 -3px -3px, #bfba7b70 -3px 3px, #bfba7b70 3px -3px;
+        max-width: 100%;
+        max-height: 100%;
+    } 
+}
+
+@media only screen and (max-width:610px) {
     .main-body-class,
     .main-body-cave,
     .main-body-cave2,
@@ -511,11 +588,14 @@ a.odkaz_subpage:visited {
         padding: 16px;
         font-size: 180%;
     }
+
+    
 }
 
 
 /*TEST MAPY ZOOM*/
-* {box-sizing: border-box;}
+
+*{box-sizing: border-box;}
 
 .img-magnifier-container {
   position: relative;

@@ -136,3 +136,20 @@ console.log(getWidth())
 if (getWidth() >= 1200) {
     document.getElementById("player").innerHTML = '<iframe data-testid="embed-iframe" class="br12" src="https://open.spotify.com/embed/playlist/3XQugI7y1syceNQmEtfUyh?utm_source=generator" width="80%" height="80px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const h1 = document.querySelector("h1.nadpis");
+  const firstImg = document.querySelector(".gallery a:first-of-type");
+
+  if (h1 && firstImg) {
+    const clone = firstImg.cloneNode(true);   // zkopíruje <img>
+    clone.classList.add("headline-img");      // dá mu speciální třídu
+    h1.appendChild(clone);                    // vloží ho dovnitř <h1>
+    clone.addEventListener("click", f => {
+      f.preventDefault();
+      currentIndex = 0;              // vždy první obrázek
+      initiateGall(firstImg);          // pošleme původní <a>, ne klon
+      change(document.getElementById('Ini'));
+    });
+  }
+});
