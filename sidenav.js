@@ -111,6 +111,7 @@ function napisSidebar() {
             <a href="/bohove/ilmater.html" class="postava">Ilmater</a>
             <a href="/bohove/innos.html" class="postava">Innos</a>
             <a href="/bohove/magran.html" class="postava">Magran</a>
+            <a href="/bohove/myrkul.html" class="postava">Myrkul</a>
             <a href="/bohove/slepa.html" class="postava">Slepá</a>
             <a href="/bohove/posledni.html" class="postava">Ten Poslední</a>
             <a href="/bohove/woedika.html" class="postava">Woedika</a>
