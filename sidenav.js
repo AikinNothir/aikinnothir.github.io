@@ -9,6 +9,7 @@ function napisSidebar() {
             <a href="/emer.html" class="postava">Emer z Dorinu</a>
             <a href="/garth.html" class="postava">Garth McLaughlin</a>
             <a href="/joe.html" class="postava">Joe</a>
+            <a href="/joli.html" class="postava">Joli</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
             <a href="/mort.html" class="postava" id="mort">Mort</a> 
             <a href="/pertan.html" class="postava">Pertan Perlík</a> 
@@ -136,25 +137,25 @@ function napisSidebar() {
             <br>
             `;
   console.log(document.getElementById("SIDE"));
-  
+
   let MortName = document.getElementById("mort");
-    console.log(MortName) 
+  console.log(MortName);
 
-MortName.addEventListener("mouseover", () => {
-  MortName.textContent = "Chloe";
-})
+  MortName.addEventListener("mouseover", () => {
+    MortName.textContent = "Chloe";
+  });
 
-MortName.addEventListener("mouseout", () => {
-  MortName.textContent = "Mort";
-})
+  MortName.addEventListener("mouseout", () => {
+    MortName.textContent = "Mort";
+  });
 
-document.querySelectorAll('.dropdown-btn').forEach((d) => {
-    d.addEventListener('click', () => {
-      const icon = d.querySelector('i.arrow');
+  document.querySelectorAll(".dropdown-btn").forEach((d) => {
+    d.addEventListener("click", () => {
+      const icon = d.querySelector("i.arrow");
       if (icon) {
-        icon.classList.toggle('down');
-        icon.classList.toggle('up');
-      };
+        icon.classList.toggle("down");
+        icon.classList.toggle("up");
+      }
     });
   });
 }
@@ -169,5 +170,5 @@ function rozbal(idDivu) {
   } else {
     tenDiv.style.visibility = "hidden";
     tenDiv.style.maxHeight = "0px";
-  };
+  }
 }
