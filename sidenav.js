@@ -135,6 +135,7 @@ function napisSidebar() {
               <a href="/Spellbook/fighterSb.html" class="postava">Válečník</a> 
             </div>
             <br>
+            <a href="/info.html" class="postava">O stránce</a> 
             `;
   console.log(document.getElementById("SIDE"));
 
