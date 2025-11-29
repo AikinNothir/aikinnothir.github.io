@@ -292,6 +292,16 @@ hr.solid {
     box-shadow: #d7c90c70 1px 1px, #c5b5b570 -1px -1px, #bfba7b70 -1px 1px, #bfba7b70 1px -1px;
 }
 
+.druzina {
+    max-width: 100%;
+    max-height: 80%;
+    padding: 12px 10%;
+}
+
+.druzina img {
+    max-width: 100%;
+}
+
 #main {
     transition: .5s;
     flex: 1
