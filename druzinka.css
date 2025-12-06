@@ -18,9 +18,6 @@ body {
     min-height: 100vh;
 }
 
-.main-body-class {
-    background-position-y: 70px;
-}
 /*Backgrounds avif a jpg*/
 .main-body-cave {
     background-image: linear-gradient(rgb(192, 179, 173), transparent), url(/backgrounds/cave.jpg);
