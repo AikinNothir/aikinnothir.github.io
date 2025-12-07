@@ -1,0 +1,48 @@
+:root {
+    /* Backgrounds */
+    --bg: rgb(192, 179, 173);
+    --bg-alt-faded: rgba(191, 179, 173, 0.5);
+
+    /* Accents / brand */
+    --logo: #f9f291;
+    --maroon: rgb(75, 8, 8);
+    --light-green: #c3e2b7;
+    --heading-shadow: rgb(61, 1, 1);
+    --heading-hover: #810909;
+
+    /* Text & links */
+    --para-first: #410202;
+    --popis-first: #ca5252;
+    --popis-postrani: #fff348;
+    --link: #410202;
+    --link-hover: #9c2121;
+    --link-visited: #ca5252;
+    --sidenav-link-hover: var(--heading-hover);
+
+    /* Cheatsheet */
+    --cheatsheet-border: #131010;
+    --cheatsheet-bg: rgba(248, 185, 108, 0.8);
+    --cheatsheet-em: #3f3f3f;
+
+    /* Misc */
+    --postava-color: rgb(218, 202, 58);
+    --black: #000000;
+    --border-dark: #070707;
+    --map-border-bottom: #810909;
+    --gray-818: #818181;
+    --azure: azure;
+    --chartreuse: chartreuse;
+
+    /* Scrollbar & shadows (original used 8-digit hex with alpha) */
+    --shadow-1: #d7c90c70;
+    --shadow-2: #c5b5b570;
+    --shadow-3: #bfba7b70;
+    --scrollbar-track-shadow: #810909;
+    --scrollbar-thumb: #810909;
+    --scrollbar-thumb-hover: #410202;
+
+    /* White and glass */
+    --white: rgb(255, 255, 255);
+    --glass-border: rgba(0,0,0,0.4);
+    --glass-border-light: rgba(255,255,255,0.4);
+}
