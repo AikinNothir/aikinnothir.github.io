@@ -8,23 +8,12 @@
     <link rel="stylesheet" href="/lightboxTest.css">
 </head>
 <body class="main-body-cave">
+    <header class="podlogo flex" id="header">
+            <div><span class="spanNahore" onclick="openNav();napisSidebar()">&#9776;</span></div>
+            <div class="logo"><a href="/index.html" class="logo">DRUŽINA</a></div>
+            <div id="player"></div>
+    </header>
     <div id="main">
-        <div class="podlogo flex" id="header">
-            <div class="podlogoFirstDiv">
-                <span class="spanNahore" onclick="openNav();napisSidebar()">☰ </span>
-            </div>
-            <div class="logo w33">
-            <a href="/index.html" class="logo">
-                DRUŽINA
-            </a>
-            </div>
-            <div class="w33">
-            <div id="player">
-                <iframe data-testid="embed-iframe" class="br12" src="https://open.spotify.com/embed/playlist/3XQugI7y1syceNQmEtfUyh?utm_source=generator" width="80%" height="80px" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-                </iframe>
-            </div>
-        </div>
-        </div>
         <script>
         function openNav() {
             document.getElementById("mysidenav").style.width = "290px";

@@ -56,13 +56,14 @@ a.logo {
 }
 
 div.logo {
+    width: fit-content;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    margin-left: 0px;
 }
 
-div.podlogo {
+header.podlogo {
+    display:flex;
+    justify-content: space-between;
     position: static;
     align-items: center;
     right: 0;
@@ -75,10 +76,14 @@ div.podlogo {
     color: var(--light-green);
 }
 
-.player {
-    padding: 3px 0 0;
-    width: 100%;
-    text-align: right;
+#player {
+    padding: 3px;
+    width: fit-content;
+}
+
+#player iframe {
+    height: 80px;
+    width: 350px;
 }
 /* ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ */
 .flex {
