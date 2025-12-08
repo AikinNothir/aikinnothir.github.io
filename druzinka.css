@@ -80,7 +80,7 @@ div.podlogo {
     width: 100%;
     text-align: right;
 }
-/* ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ */
+/* ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ ZKRÁCENÉ ZÁPISY OBECNÉ */
 .flex {
     display: flex;
 }
@@ -585,6 +585,80 @@ a.odkaz_subpage:visited {
     
 }
 
+@media (max-width: 980px) {
+    /* Umístit boční galerii pod hlavní obsah */
+    .obsah_subpage {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    /* textová část nahoře */
+    .popis_subpage {
+        order: 1;
+        width: 100%;
+        margin: 0 0 1rem 0;
+        padding: 0 1rem;
+    }
+
+    /* galerie dole, plná šířka */
+    .postrani_obr.gallery,
+    div.postrani_obr {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        flex-direction: row;
+        padding: 12px 8px;
+    }
+
+    /* upravit vzhled vnořených obrázků pro šířku telefonu/tabletu */
+    .postrani_obr.gallery a,
+    .postrani_obr.gallery img,
+    img.postrani_obr {
+        display: inline-block;
+        max-width: 30%;
+        margin: .25rem;
+        vertical-align: top;
+    }
+
+    /* Centrovat texty v sidebaru (mysidenav / .sidenav) na menších zařízeních */
+    #mysidenav,
+    .sidenav {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .sidenav a {
+        padding: 12px 16px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .sidenav h2,
+    .dropdown-btn,
+    .dropdown-div {
+        text-align: center;
+    }
+}
+
+#header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spanNahore {
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+#player {
+    flex-shrink: 0;
+}
 
 /*TEST MAPY ZOOM*/
 
