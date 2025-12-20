@@ -1,0 +1,277 @@
+/* Header / logo layout */
+a.logo {
+    color: var(--logo);
+    font-size: 2.5vh;
+}
+
+div.logo {
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+}
+
+header.podlogo {
+    display:flex;
+    justify-content: space-between;
+    position: static;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: var(--maroon);
+    padding: var(--space-3) 0;
+}
+
+.podlogo span {
+    color: var(--light-green);
+}
+
+#header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#player {
+    padding: 0.1875rem; /* 3px */
+    width: fit-content;
+}
+
+#player iframe {
+    height: 5rem;
+    width: 21.875rem;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+/* Sidenav layout */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--black);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3.75rem; /* 60px */
+    text-align: left;
+}
+
+.sidenav h2 {
+    color: var(--logo);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.5625rem; /* 25px */
+    font-size: 3.6vh;
+    margin-left: 3.125rem; /* 50px */
+}
+
+.misto {
+    text-align: left;
+}
+
+/* Page structure */
+.new-map,
+.druzina {
+    max-width: 100%;
+    max-height: 80%;
+    padding: var(--space-3) 10%;
+}
+
+.introMainPage {
+    padding: var(--space-10) var(--space-12) 0.625rem; /* 10px */
+}
+
+.obsah_subpage {
+    display: flex;
+}
+
+div.popis_subpage {
+    width: 80%;
+    margin: 0 1.875rem; /* 30px */
+    padding: 0 2rem;
+    text-align: left;
+    background: linear-gradient(to right, transparent 0%, var(--bg-alt-faded) 2%, var(--bg-alt-faded) 98%, transparent);
+    z-index: -1;
+}
+
+/* Sidebar / gallery column */
+div.postrani_obr {
+    width: 20%;
+    max-width: 20%;
+    min-height: 100svh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: var(--border-dark);
+    z-index: 0;
+    padding: var(--space-5) 0;
+    overflow-y: auto;
+    border-bottom-left-radius: 1.25rem; /* 20px */
+    border-bottom-right-radius: 1.25rem; /* 20px */
+    margin: 0 0 var(--space-8) 0; /* 32px */
+}
+
+/* RWD breakpoints */
+@media (max-width:1000px) {
+    #player {
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size: 5em;
+        flex-direction: column;
+    }
+    .nadpis {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.obsah_subpage {
+        flex-direction: column;
+    }
+    div.popis_subpage {
+        width: calc(100% - 1.875rem);
+    }
+    div.postrani_obr {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: row;
+        min-height: auto;
+    }
+    .popis_postrani {
+        display:none
+    }
+
+    .popis_postrani.gallery {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .postrani_obr.gallery a:nth-of-type(n+6) {
+        display: none;
+    }
+
+    .dropdown-btn {
+        text-align: center;
+        padding-left: 2.625rem; /* 42px */
+    }
+}
+
+@media only screen and (max-width:610px) {
+    .main-body-class,
+    .main-body-cave,
+    .main-body-cave2,
+    .main-body-desert,
+    .main-body-forest,
+    .main-body-forest2,
+    .main-body-sea2 {
+        background-position-y: 0;
+        
+    }
+
+    .sidenav {
+        padding-top: 0.9375rem; /* 15px */
+    }
+
+    .sidenav a {
+        font-size: 1.8vh;
+    }
+
+    a.logo {
+        padding: var(--space-4);
+        font-size: 3vh;
+    }
+}
+
+@media (max-width: 980px) {
+    /* Umístit boční galerii pod hlavní obsah */
+    .obsah_subpage {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    /* textová část nahoře */
+    .popis_subpage {
+        order: 1;
+        width: 100%;
+        margin: 0 0 1rem 0;
+        padding: 0 1rem;
+    }
+
+    /* Zvětšit fonty v textu */
+    .popis_subpage p {
+        font-size: 2vh;
+    }
+
+    .popis_subpage h1 {
+        font-size: 6vh;
+    }
+
+    .popis_subpage h2 {
+        font-size: 2.2vh;
+        padding: var(--space-2) var(--space-4) 0 var(--space-4);
+    }
+
+    /* galerie dole, plná šířka */
+    .postrani_obr.gallery,
+    div.postrani_obr {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        flex-direction: row;
+        padding: var(--space-3) var(--space-2);
+    }
+
+    /* upravit vzhled vnořených obrázků pro šířku telefonu/tabletu */
+    .postrani_obr.gallery a,
+    .postrani_obr.gallery img,
+    img.postrani_obr {
+        display: inline-block;
+        max-width: 30%;
+        margin: .25rem;
+        vertical-align: top;
+    }
+
+    /* Centrovat texty v sidebaru (mysidenav / .sidenav) na menších zařízeních */
+    #mysidenav,
+    .sidenav {
+        text-align: center;
+        padding-top: var(--space-5);
+    }
+
+    .sidenav a {
+        padding: var(--space-3) var(--space-4);
+        padding-left: 0;
+        text-align: center;
+        font-size: 2.2vh;
+    }
+
+    .sidenav h2 {
+        font-size: 2.4vh;
+        padding: var(--space-3) var(--space-2);
+    }
+
+    .dropdown-btn {
+        font-size: 2.2vh;
+        padding: var(--space-3) var(--space-4);
+    }
+
+    .dropdown-div {
+        text-align: center;
+    }
+}

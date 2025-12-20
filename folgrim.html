@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="/favicon.png">
     <title>Folgrim</title>
-    <link rel="stylesheet" href="/druzinka.css">
+    <link rel="stylesheet" href="/css/druzinka2.css">
     <link rel="stylesheet" href="/lightboxTest.css">
 </head>
 
@@ -17,25 +17,10 @@
             <div class="logo"><a href="/index.html" class="logo">DRUŽINA</a></div>
             <div id="player"></div>
     </header>
-    <div id="main">    
-    </div>
-    <script>
-        function openNav() {
-            document.getElementById("mysidenav").style.width = "290px";
-            document.getElementById("main").style.marginLeft = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mysidenav").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-        }
-    </script>
-    <div id="mysidenav" class="sidenav">
+    <nav id="mysidenav" class="sidenav">
         <div id="SIDE"></div>
-
-    </div>
-
-    </script>
+    </nav>
+    <main>
     <div class="obsah_subpage">
         <div class="popis_subpage">
             <div class="tAlignC">
@@ -197,8 +182,10 @@
             <p class="popis_postrani">Dwarf</p><br>
         </div>
     </div>
-    </div>
+    </main>
+    <noscript><nav><iframe src="nav.html"></iframe></nav></noscript>
     <div class="container" id="Ini"></div>
+    <footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka (toto je pouze demonstrativní část pro školní projekt)©<script>var year = new Date();document.write(year.getFullYear());</script></footer>
     <script src="/nav.js"></script>
     <script src="/lightboxNew.js"></script>
     <script src="/sidenav.js"></script>

@@ -1,0 +1,267 @@
+/* Buttons and interactive elements */
+.intro_button {
+    color: var(--logo);
+    background: linear-gradient(135deg, var(--maroon) 40%, #8f3535 50%, var(--maroon) 60%);
+    font-size: 2vh;
+    padding: var(--space-3) var(--space-6);
+    border: solid var(--black) var(--border-1);
+    border-radius: var(--radius-3);
+    cursor: pointer;
+    margin-top: var(--space-5);
+
+    background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+/* Logos & headings inside header */
+.podlogo span {
+    color: var(--light-green);
+}
+
+.spanNahore {
+    font-size: 3vh;
+    cursor: pointer;
+    padding-left: var(--space-5);
+    flex-shrink: 0;
+}
+
+.podlogoFirstDiv {
+    text-align:left;
+    margin-left: var(--space-3);
+    width:33%;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Players & map previews */
+.new-map img {
+    width: 100%;
+    border-radius: var(--radius-4);
+    cursor: pointer;
+    border: var(--black) var(--border-1) solid;
+}
+
+/* Cheetsheet block */
+.cheatsheet {
+    border: var(--cheatsheet-border) solid var(--border-2);
+    border-radius: var(--radius-5);
+    background-color: var(--cheatsheet-bg);
+    max-width: 100%;
+    text-align: left;
+}
+
+.cheatsheet p {
+    margin: var(--space-2) var(--space-8) var(--space-3);
+    text-align: left;
+    font-variant: normal;
+}
+
+.cheatsheet strong {
+    text-align: left;
+    font-variant: small-caps;
+}
+
+.cheatsheet em {
+    font-size: 1.6vh;
+    color: var(--cheatsheet-em);
+}
+
+.cheatsheet li {
+    font-size: 2.4vh;
+    margin-left: var(--space-6);
+}
+
+.postava {
+    color: var(--postava-color);
+    background-color: var(--black);
+}
+
+/* Sidenav links */
+.sidenav a {
+    padding: var(--space-2) var(--space-2) var(--space-2) var(--space-8);
+    text-decoration: none;
+    font-size: 2.5vh;
+    color: var(--gray-818);
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.sidenav a:hover {
+    color: var(--sidenav-link-hover);
+    transform: translateX(0.9375rem);
+}
+
+.sidenav h2 {
+    padding: var(--space-3) var(--space-6);
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+.misto {
+    text-align: left;
+}
+
+/* Gallery / lightbox */
+.new-map img:hover,
+img.postrani_obr:hover {
+    cursor: pointer;
+    box-shadow: var(--shadow-1) 0.0625rem 0.0625rem,
+                var(--shadow-2) -0.0625rem -0.0625rem,
+                var(--shadow-3) -0.0625rem 0.0625rem,
+                var(--shadow-3) 0.0625rem -0.0625rem;
+}
+
+div.postrani_obr {
+    background-color: var(--border-dark);
+}
+
+.druzina img {
+    max-width: 100%;
+}
+
+img.postrani_obr {
+    max-width: 90%;
+    max-height: 31.25rem;
+    border-radius: var(--radius-2);
+    object-fit: cover;
+    margin: 0 0 var(--space-3);
+    cursor: pointer;
+}
+
+.obr_main {
+    max-width: 100%;
+    border: var(--border-dark) solid var(--border-2);
+    border-radius: 1.75rem; /* 28px */
+}
+
+div.obrazek-a-border {
+    position: relative;
+    width: 31.25rem;
+    height: 31.25rem;
+    z-index: 9;
+}
+
+div.obrazek-a-border::after {
+    content: "";
+    position: absolute;
+    background-image: url(border.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+/* Dropdown */
+.dropdown-btn {
+    padding: var(--space-3) var(--space-6);
+    font-size: 2.5vh;
+    color: var(--logo);
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dropdown-btn:hover {
+    color: var(--sidenav-link-hover);
+}
+
+.dropdown-div {
+    background-color: var(--black);
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+.arrow {
+    border: solid var(--white);
+    border-width: 0 var(--border-2) var(--border-2) 0;
+    display: inline-block;
+    padding: 0.1875rem; /* 3px */
+    transition: 0.3s;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 0.5625rem; /* 9px */
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0.3125rem var(--scrollbar-track-shadow);
+    border-radius: 0.625rem; /* 10px */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 0.625rem; /* 10px */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
+/* Map frame */
+.mapa_img {
+    border-top: var(--border-dark) var(--border-3) solid;
+    border-right: var(--border-dark) var(--border-3) solid;
+    border-left: var(--border-dark) var(--border-3) solid;
+    border-bottom: var(--map-border-bottom) var(--border-4) solid;
+    border-radius: var(--radius-4) var(--radius-4) var(--radius-5) var(--radius-5);
+    max-width: 98%;
+}
+
+/* Magnifier */
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: var(--border-2) solid var(--glass-border);
+    border-left-color: var(--glass-border-light);
+    border-top-color: var(--glass-border-light);
+    border-radius: var(--radius-4);
+    cursor: none;
+    width: 18.75rem;
+    height: 15.625rem;
+}
+
+footer {
+    background-color: var(--maroon);
+    color: var(--logo);
+}

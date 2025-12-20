@@ -1,0 +1,108 @@
+/* Base document styles */
+body,
+.main-body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
+    min-height: 100vh;
+}
+
+body {
+    background-color: var(--bg);
+    text-align: center;
+    position: relative;
+    margin: 0;
+    background-image: linear-gradient(var(--bg), transparent), url(/bottom.jpg);
+    background-image: linear-gradient(var(--bg), transparent), image-set(
+         url(/bottom.avif) type("image/avif"), url(/bottom.jpg) type("image/jpeg")
+    );
+}
+
+main {
+    margin: 0 var(--space-4) 0 var(--space-6);
+}
+
+h1 {
+    font-size: 8vh;
+    font-weight: 700;
+    text-shadow: 0.125rem 0.125rem 0.125rem var(--heading-shadow);
+    margin-bottom: 0;
+}
+
+h1:hover {
+    color: var(--heading-hover)
+}
+
+h2 {
+    padding: var(--space-2) var(--space-2) 0 var(--space-8);
+    font-size: 5vh;
+    font-weight: 300;
+    color: var(--black);
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+h2::first-letter {
+    color: var(--maroon);
+}
+
+p {
+    font-size: 1.5vh;
+    font-variant: small-caps;
+}
+
+p:first-child {
+    font-size: 4vh !important; 
+    font-variant: small-caps;
+} 
+
+p::first-letter {
+    font-size: 1.7vh;
+    color: var(--para-first);
+}
+
+p.popis_postrani::first-letter {
+    color: var(--popis-first);
+}
+
+i {
+    text-align: center;
+}
+
+dd,
+dt {
+    font-variant: small-caps;
+}
+
+dt {
+    font-variant: small-caps;
+}
+
+.popis_postrani {
+    color: var(--popis-postrani)
+}
+
+hr.solid {
+    color: var(--popis-postrani);
+    border-top: var(--border-1) solid var(--popis-postrani);
+    width: 90%;
+}
+
+.nadpis {
+    text-align: center;
+}
+
+a.odkaz_subpage {
+    color: var(--link);
+}
+
+a.odkaz_subpage:hover {
+    color: var(--link-hover);
+}
+
+a.odkaz_subpage:visited {
+    color: var(--link-visited);
+}

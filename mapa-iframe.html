@@ -3,12 +3,11 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="/favicon.png">
     <title>Mapa Varky a okolí</title>
-    <link rel="stylesheet" href="/druzinka.css">
+    <link rel="stylesheet" href="/css/druzinka2.css">
     <link rel="stylesheet" href="/lightboxTest.css">
 </head>
-<body>
-    <div id="main">
-        <img class="mapa_img" src="varka.jpg" usemap="#image-map" style="margin-top: 36px;" alt="varka.jpg">
+<body class="main-body">
+    <img class="mapa_img" src="varka.jpg" usemap="#image-map" style="margin-top: 36px;" alt="varka.jpg">
         <map name="image-map">
             <area target="_self" alt="Varka" title="Varka" href="mista/varka/varka.html" coords="1468,1494,1191,1379" shape="rect">
             <area target="_self" alt="Všehostrom" title="Všehostrom" href="mista/vsehostrom/vsehostrom.html" coords="1562,0,1780,101" shape="rect">
@@ -40,8 +39,14 @@
             <area target="_self" alt="Liedemar" title="Liedemar" href="mista/liedemar/liedemar.html" coords="1672,777,2046,1448" shape="rect">
             <area target="_self" alt="Horská pevnost" title="Horská pevnost" href="mista/horska_pevnost/horska_pevnost.html" coords="1663,169,1809,285" shape="rect">
         </map>
-    </div>
+        </main>
+    <noscript>
+        <nav>
+            <iframe src="nav.html"></iframe>
+        </nav>
+    </noscript>
     <div class="container" id="Ini"></div>
+    <footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka (toto je pouze demonstrativní část pro školní projekt)©<script>var year = new Date();document.write(year.getFullYear());</script></footer>
     <script src="/nav.js"></script>
     <script src="/lightboxNew.js"></script>
     <script src="/sidenav.js"></script>
