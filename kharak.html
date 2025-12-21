@@ -1,227 +1,309 @@
-<!DOCTYPE html><html lang="cs"><head>
-    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, width=device-width, user-scalable=yes">
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="/favicon.png">
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta
+      name="viewport"
+      content="initial-scale=1, minimum-scale=1, maximum-scale=5, width=device-width, user-scalable=yes"
+    />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <title>Kharak Narantl</title>
-    <link rel="stylesheet" href="/css/druzinka2.css">
-    <link rel="stylesheet" href="/lightboxTest.css">
-</head>
-<body class="main-body">
+    <link rel="stylesheet" href="/css/druzinka2.css" />
+    <link rel="stylesheet" href="/lightboxTest.css" />
+  </head>
+  <body class="main-body">
     <header class="podlogo flex" id="header">
-        <div><span class="spanNahore" onclick="openNav();napisSidebar()">◆▷▶</span></div>
-        <div class="logo"><a href="/index.html" class="logo">DRUŽINA</a></div>
-        <div id="player"></div>
+      <div>
+        <span class="spanNahore" onclick="openNav();napisSidebar()">☰</span>
+      </div>
+      <div class="logo"><a href="/index.html" class="logo">DRUŽINA</a></div>
+      <div id="player"></div>
     </header>
     <nav id="mysidenav" class="sidenav">
-        <div id="SIDE"></div>
+      <div id="SIDE"></div>
     </nav>
     <main>
-        <div class="obsah_subpage">
-            <div class="popis_subpage">
-                <div class="tAlignC">
-                    <h1 class="nadpis">
-                        Kharak Narantl
-                    </h1>
-                </div>
-                <p>
-                    Kharak putuje krajemi od města k městu a obdivuje místní kulturu a zároveň lid, který zde žije.</p>
-                <p>
-                    Kharaka nepřehlédnete. V davu ve Varce rozhodně vyčnívá, protože Drakorozené ve Varce neviděli už
-                    spoustu let a to z pochopitelných důvodů. <br>
-                    Tolik let, že zapomněli, co to vůbec drakorozený je. V současné době drakorození žijí jen na jihu,
-                    na velkých pláních, odkud Kharak po strastiplné minulosti přišel.
-                </p>
-                <p>
-
-                </p>
-                <p class="underline_text">
-                    Dobrodružství, která prožil:<br>
-                </p>
-                <dl>
-                    <dt class="underline_text">1. Hledání ztraceného syna</dt>
-                    <dd>- Franci Jeszetovi se ztratil syn, boj s vlky</dd>
-                    <dt class="underline_text">2. Doprovod karavany</dt>
-                    <dd>- doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
-                    <dt class="underline_text">4. Hledání Neery pt.1</dt>
-                    <dd>- Neeru někdo unesl, vyšetřování kdo jí unesl, Perlíkův moment boje, setkání s GGG a Alocou</dd>
-                    <dt class="underline_text">5. Hledání Neery pt.2</dt>
-                    <dd>- Neera se konečně dostala do Věže, kde družinu přivítal Raistlin a slíbil, že Neera se bude
-                        učit a bude mít ve Věži útočiště</dd>
-                    <dt class="underline_text">7. První práce pro Narmera</dt>
-                    <dd>- Narmer družině řekl, že potřebuje aby pro něj sehnali magický předmět, který měl kdysi Ferfi
-                        Devon,
-                        boj s pavouky, boj s nemrtvými (ghúlové a hobbit-sized skeleton) a fextem.</dd>
-                    <dt class="underline_text">8. Tribunál Velkého Čaroděje pt.I</dt>
-                    <dd>
-                        Do Pełzacze přijela Garagorská stráž se zatykačem na Huga. Družina s Dernhelmem to
-                        vyřešila/pozdržela a vydala se do Garagoru zjistit, co se děje.
-                        Našli sérii dalších falešných zatykačů a zjistili, že je vydává V.Č., našli obviněného Toníka,
-                        který jim řekl o Tribunálu Velkého Čaroděje.
-                    </dd>
-                    <dt class="underline_text">9. Tribunál Velkého Čaroděje pt.II</dt>
-                    <dd>
-                        Družina hledá tři Soudce. Pomocí stop vypátrali soudkyni Justii Kroell, tu byli nuceni zabít.
-                        Poté našli Voletha Dranna, toho vyslechli a nechali ho jít, protože zjistili, že je jen
-                        tragickým nečinným přihlížejícím. Ten je ještě varoval před posledním soudcem Borwaldem Gellem.
-                        Zuana byla zatknuta a odvedena.
-                    </dd>
-                    <dt class="underline_text">10. Tribunál Velkého Čaroděje pt.III</dt>
-                    <dd>
-                        Družina dostihla soudce Borwalda Gella a zabila jej. Strhli jeho svatyni pro Bhaala a vyzvedli
-                        odměnu.
-                        Odpočívali a přemýšleli co s Velkým Čarodějem. Následně byli svědkem upálení Zuany a velkého
-                        projevu Dana,
-                        nového kapitána Garagorské stráže.
-                    </dd>
-                    <dt class="underline_text">11. Něco tu smrdí</dt>
-                    <dd>
-                        Během upálení Zuany se davem mihne osob podivného vzezření - drakorozený a ještě k tomu modrý.
-                        Kharak a družina vyšetřují.
-                        Kharak následně napaden drakorozeným Preidem Aotherem a postřelen záhadnou zbraní.
-                    </dd>
-                    <dt class="underline_text">13. Adanosův chrám</dt>
-                    <dd>
-                        Družina se setkává v plné síle v chrámu, potkává zde i Narmera, který chce získat knihu z
-                        archivů, kterou mu kněží ale nechtějí vydat. Poprosí družinu.
-                        Poprvé se objevuje Mort. Družina si knihu o Starých bozích zatím nechává pro sebe.
-                    </dd>
-                    <dt class="underline_text">15. Denthir</dt>
-                    <dd>
-                        Družina vyráží z Adanosova chrámu do Denthiru, kam zamířila zásilka. Emer je už tu - konkrétně v
-                        hospodě u smrduté velryby, kde se seznamuje s trpasličím
-                        kapitánem lodi Bestií a pátrá po informacích o Neeře. Joe se setkává s rodinou, která má
-                        problémy s nedostatkem zakázek
-                        a zbytek družiny pátrá po tom, kam se zásilka poděla. Zjišťují že je ve skladech Valtrenů, kam
-                        se snaží infiltrovat. Jsou následně sledováni a napadeni
-                        dvojicí Motieur a Tibalt, což přežijí a skoro i zvítězí, dokud nedorazí stráže. Následně jsou po
-                        krátkém vyjednávání zajati jednotkou Valtrenské stráže,
-                        která má zbraně, které očividně byly dodány z Tarkiru (ve skladu objevili také obří kolo).
-                        Družina kromě Joea a Morta s Bromem, kteří jsou pryč, je uvězněna.
-                    </dd>
-                    <dt class="underline_text">16. Útěk</dt>
-                    <dd>
-                        Uvěznění členové družiny jsou podrobeni výslechu. Joe, Mort, Brom a Bestie plánují útěk svých
-                        spoludružiníků. Během bálu v sídle Valtrenů vniknou do vězení a
-                        osvobodí je. Emer stráví noc s Gellis, služkou, která jim občas pomáhala ve vězení Valtrenů.
-                        Kharak je středem pozornosti a je dokonce odveden Tibaltem do separátní místnosti pro "přátelský dialog".
-                    </dd>
-                    <dt class="underline_text">17. Akademie Denthiru</dt>
-                    <dd>
-                        Družina chce pryč z Denthiru ale po zprávách, které Bestie předal Emerovi Emer trvá na tom, aby
-                        ještě chvíli zůstali. Jsou sice hledaní, ale jen Valtreny, ne celým Denthirem.
-                        Družina se snaží dostat do Univerzity, ale zjišťuje, že se blíží hájící období a nikdo na ně
-                        nemá úplně čas. V Mrtvé Rybě, studentské hospodě se ptají co s tím a
-                        uspořádají kvíz, na který se dostaví i rektor univerzity Roh a jeho kolega Špulák. Ti jim pak
-                        umožní vstup do knihovny. V knihovně pak nalézají mnoho záznamů.
-                        Některé o Neeře, některé o Narmerovi a další o misi Denthirské jednotky pyromancerů pod kódovým
-                        označením Deforestace. Dužina odpolouvá z Denthiru na lodi Emola
-                        kapitána Bestie.
-                    </dd>
-                    <dt class="underline_text">19. Intermezzo</dt>
-                    <dd>
-                        Družina se vydává ven z lesa, kde zanechávají Emera. Vydají se do Trombu, kde kupují věci od
-                        Rouryho, trpasličího "maxionáře" s látkami.
-                        Vydávají se zkontrolovat Neeru a říct jí o uplynulých událostech. Následně Sirael slyší stromy
-                        skrze které k ní promlouvá Toník a volá o pomoc - Polná je v plamenech.
-                    </dd>
-                    <dt class="underline_text">20. Polná v plamenech</dt>
-                    <dd>
-                        Sirael, Joe a Kharak se vydávají z Pełzacze do Polné, kde zachrání Adama, mladého chlapce a dál Polnou prozkoumávají
-                         - Sirael nachází minu.
-                        Dále postupují do Trombu aby jej bránili před kultem Očistného Plamene, který vede Otec Rellieh,
-                        dojde k bitvě, družina je schopna zachránit některé dobrodruhy včetně Dürüma, mimojiné díky 
-                        pomoci Adanose, ke kterému se Pertan pomodlil. Kharak se pokoušel během bitvy ovládnout 
-                        plameny otce Rellieha načež se mu cosi vysmálo a "popálilo" ho zevnitř.
-                    </dd>
-                    <dt class="underline_text">21. Příliš mnoho teleportů</dt>
-                    <dd>
-                        Celá naše družina se setkává v Trombu, kam se každý dostal po osobních dobrodružstvích. 
-                        Brom se vrací z plavby s Bestií, Emer se vrací po zkoušce očí a Chloe se vrací z evakuace civilistů. 
-                        Mezitím Kharak, Pertan, Sirael a Joe ubránili Trombus a tyto zážitky si všichni předávají. Brom ukazuje svůj nový úlovek a Emer nevypadá moc dobře.
-                        Družina se chce co nejrychleji dostat do Denthiru a tak požádá Neeru aby je přenesla. Neera připravuje teleport a teleportuje všech sedm lidí.
-                        Jenže se něco pokazí.  V portálu je víc lidí než by mělo. Konrétně duší. Družina hledá ztracené duše, které byly vyraženy z Chloe.
-                        Všechny najdou aa jsou přeneseni do Denthiru, jen Chloe se vydá do Adanosova chrámu.
-                    </dd>
-                    <dt class="underline_text">22. Popelavé šmouhy</dt>
-                    <dd>
-                       Družina pátrá po Ignusovi a vyšetřuje, co se stalo na magické univerzitě. Zjišťují, že výbuch nebyl magický a pravděpodobně jej způsobil někdo jiný než Ignus - pravděpodobně někteří členi kultu Očistného Plamene, kteří šli a jali se osvobodit svého mesiáše.
-                        Družina se setkala s Elisou, která jim řekla spoustu informací, ale na spoustu informací se jich i ptala.
-                    </dd>
-                    <dt class="underline_text">24. Hoří!</dt>
-                    <dd>
-                       Emer, Kharak a Pertan si v klidu obědvají a klábosí, když je přeruší obrovský výbuch v jihozápadním denthiru doprovázený velkým dýmem.
-                        "Trefili druhou věž! Opakuje se to co se stalo na univerzitě!", je slyšet všude okolo, během toho, co příčetnější lidé, mezi kterými je Brom, běží hasit.
-                        Běží pomoct lidem a všem v okolí a po nějaké době vidí, že mezi zúčastněnými jsou i Sirael a Chloe. Sirael jímá hrůza...
-
-                        Po pomoci nejhůře zasaženým občanům se pouštějí do boje s kultisty a chtějí zastavit Ignuse, ke kterému se skrze velký žár nedostanou.
-                        Ignus uniká z Denthiru. 
-                    </dd> 
-                    <dt class="underline_text">26. Oheň a voda</dt>
-                    <dd>
-                      Družina dorazila v plném počtu do chrámu, kde začli zjišťovat informace o Ignusovi, ohnivé sféře a starých bozích. Kharak a Chloe chtějí využít Studnu Znalostí, artefakt v Adanosově chrámu.
-                      Obejdou zastupujícího kněze Marase a Kharak připraví rituál, kdy vloží plamen do studny a z té se začne valit pára/mlha. A ta prostoupí celým klášterním komplexem, pohlcujíce celou družinu. Každý z nich čelí svým vzpomínkám.
-                    </dd> 
-                    <dt class="underline_text">28. Mlhy přítomnosti (Pt.II)</dt>
-                    <dd>
-                        Družina prochází snovým světem v mlze. Kharak se vrací z mlhy a připojuje se k družině. A
-                        vydávají se do Tarkiru.
-                        V Tarkiru je Kharak nucen bránit svoji vesnici/klanové místo před armádou Ledrose a bojovat se
-                        svým synem, z něhož je udělána živoucí zbraň.
-                        Následně se družina přesouvá do lesa Gost, kde Sirael vede družinu do Srdce Gostu, části
-                        nepřístupné normálním lidem.
-                        Podivná kniha je Srdcem Gostu roztrhána a absorbována. Lesu se prodlouží stíny a Pyromanská
-                        jednotka je lesem rozcupována a povražděna, včetně Ignuse, který je roztrhán na kusy.
-                        Jenže les potemní a zvířata a život v něm jsou navždy změněny.
-                    </dd>
-                    <dt class="underline_text">30. Příliv budoucnosti</dt>
-                    <dd>
-                        Joe dokončí svůj sen, ve kterém Carmen koketuje s Rickem Valtrenem, což přeruší Chloe tím, že
-                        Ricka kopne do koulí.
-                        Po mlhavých snech se celý Adanosův chrám sejde v hospodě a zapíjí sny/myšlenky/vzpomínky, které
-                        si všichni museli znova prožít.
-                        Joe se rozloučí se s družinou a odejde zpět do Denthiru.
-                    </dd>
-                    <dt class="underline_text">31. Moment nádechu - Den Mrtvých</dt>
-                    <dd>
-                        V Morgstadtu se slaví ukončení Velké Války a Den Mrtvých - den, kdy městy prochází pochod duchů. 
-                        Do města se sjedou potulní umělci, a stánkaři. Ve městě je možnost účastnit se mnoha aktivit.
-                        Emer absolvuje duel se Zátoičim, válečníkem z jihovýchodní země za Tarkirem. Poté se s Chloe účastní 
-                        kostýmové soutěže, kterou vyhrají. Na konec dne se koná ohňostroj, po kterém jdou všichni spát a poté, co město utichne... 
-                        Skrz město projde konvoj duchů. Zemřelých duší, které procházejí Morgstadtem.
-                    </dd>
-                    <dt class="underline_text">32. Bestiální Balík pt.I</dt>
-                    <dd>
-                        Družina chtěla vyrazit do Garagoru ale těsně před bránou je zastavil Fin'fl'drhgrech - bílý drakorozený,
-                         který se plavil s Bromem, během jeho pobytu na Emole, lodi Bestie. Po krátkém vyjasnění nedorozumnění jim
-                         řekl, že v Emole proběhla loupež během pochodu duchů a ztratilo se pět beden. Družina sleduje stopy, Sirael pach ve vlčí formě zblázněného zloděje,
-                          který je v blázinci poté, co se ho dotkl duch během Dne Mrtvých. <br>
-                          Družina se poprvé setkává s Garthem, kterému zprvu nevěří. 
-                    </dd>
-                    <dt class="underline_text">34. Bezbožné město pt.I</dt>
-                    <dd>
-                        Družina vyráží do Garagoru. Cestou narazí na tábor uprchlíků, kteří oslavují shledání s jejich blízkými - utečenci z Garagoru. Družina zjišťuje,
-                        jak to v Garagoru aktuálně funguje. <br>
-                        Po hezkém večeru pokračují v cestě a po pár dnech se dostávají ke Garagoru, kde na cestě k němu vidí ukřižované a pověšené lidi i nelidi. 
-                        V dálce se tyčí hradba, za kterou se nalézají jim dávno známé čtvrti a na kopci Chrámové čtvrti hořící katedrála. <br>
-                        Po infiltraci do města se setkají s Korilem, hospodským Opilého Medvěda, který je ubytuje. V hospodě proběhne setkání domobrany a Třetího - zástupce stráže.
-                    </dd>
-                </dl>
-            </div>
-            <div class="postrani_obr gallery">
-                <p class="popis_postrani">Drakorozený Sorcerer</p><br>
-                <a href="/Postavy/Obrázky/KarAi.avif" data-text="Kharak"><img src="/Postavy/Obrázky/KarAi.avif" class="postrani_obr" alt="KarAi.avif"></a>
-                <a href="/Postavy/Obrázky/khar_gar.avif" data-text="Kharak"><img src="/Postavy/Obrázky/khar_gar.avif" class="postrani_obr" alt="khar_gar.avif"></a>
-                <a href="/Postavy/Obrázky/kharak.avif" data-text="Kharak"><img src="/Postavy/Obrázky/kharak.avif" class="postrani_obr" alt="kharak.avif"></a>
-                <a href="/Postavy/Obrázky/kharakuvsyn.avif" data-text="Ignis z mlhy"><img src="/Postavy/Obrázky/kharakuvsyn.avif" class="postrani_obr" alt="kharakuvsyn.avif"></a>
-            </div>
+      <div class="obsah_subpage">
+        <div class="popis_subpage">
+          <div class="tAlignC">
+            <h1 class="nadpis">Kharak Narantl</h1>
+          </div>
+          <p>
+            Kharak putuje krajemi od města k městu a obdivuje místní kulturu a
+            zároveň lid, který zde žije.
+          </p>
+          <p>
+            Kharaka nepřehlédnete. V davu ve Varce rozhodně vyčnívá, protože
+            Drakorozené ve Varce neviděli už spoustu let a to z pochopitelných
+            důvodů. <br />
+            Tolik let, že zapomněli, co to vůbec drakorozený je. V současné době
+            drakorození žijí jen na jihu, na velkých pláních, odkud Kharak po
+            strastiplné minulosti přišel.
+          </p>
+          <p></p>
+          <p class="underline_text">Dobrodružství, která prožil:<br /></p>
+          <dl>
+            <dt class="underline_text">1. Hledání ztraceného syna</dt>
+            <dd>- Franci Jeszetovi se ztratil syn, boj s vlky</dd>
+            <dt class="underline_text">2. Doprovod karavany</dt>
+            <dd>- doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
+            <dt class="underline_text">4. Hledání Neery pt.1</dt>
+            <dd>
+              - Neeru někdo unesl, vyšetřování kdo jí unesl, Perlíkův moment
+              boje, setkání s GGG a Alocou
+            </dd>
+            <dt class="underline_text">5. Hledání Neery pt.2</dt>
+            <dd>
+              - Neera se konečně dostala do Věže, kde družinu přivítal Raistlin
+              a slíbil, že Neera se bude učit a bude mít ve Věži útočiště
+            </dd>
+            <dt class="underline_text">7. První práce pro Narmera</dt>
+            <dd>
+              - Narmer družině řekl, že potřebuje aby pro něj sehnali magický
+              předmět, který měl kdysi Ferfi Devon, boj s pavouky, boj s
+              nemrtvými (ghúlové a hobbit-sized skeleton) a fextem.
+            </dd>
+            <dt class="underline_text">8. Tribunál Velkého Čaroděje pt.I</dt>
+            <dd>
+              Do Pełzacze přijela Garagorská stráž se zatykačem na Huga. Družina
+              s Dernhelmem to vyřešila/pozdržela a vydala se do Garagoru
+              zjistit, co se děje. Našli sérii dalších falešných zatykačů a
+              zjistili, že je vydává V.Č., našli obviněného Toníka, který jim
+              řekl o Tribunálu Velkého Čaroděje.
+            </dd>
+            <dt class="underline_text">9. Tribunál Velkého Čaroděje pt.II</dt>
+            <dd>
+              Družina hledá tři Soudce. Pomocí stop vypátrali soudkyni Justii
+              Kroell, tu byli nuceni zabít. Poté našli Voletha Dranna, toho
+              vyslechli a nechali ho jít, protože zjistili, že je jen tragickým
+              nečinným přihlížejícím. Ten je ještě varoval před posledním
+              soudcem Borwaldem Gellem. Zuana byla zatknuta a odvedena.
+            </dd>
+            <dt class="underline_text">10. Tribunál Velkého Čaroděje pt.III</dt>
+            <dd>
+              Družina dostihla soudce Borwalda Gella a zabila jej. Strhli jeho
+              svatyni pro Bhaala a vyzvedli odměnu. Odpočívali a přemýšleli co s
+              Velkým Čarodějem. Následně byli svědkem upálení Zuany a velkého
+              projevu Dana, nového kapitána Garagorské stráže.
+            </dd>
+            <dt class="underline_text">11. Něco tu smrdí</dt>
+            <dd>
+              Během upálení Zuany se davem mihne osob podivného vzezření -
+              drakorozený a ještě k tomu modrý. Kharak a družina vyšetřují.
+              Kharak následně napaden drakorozeným Preidem Aotherem a postřelen
+              záhadnou zbraní.
+            </dd>
+            <dt class="underline_text">13. Adanosův chrám</dt>
+            <dd>
+              Družina se setkává v plné síle v chrámu, potkává zde i Narmera,
+              který chce získat knihu z archivů, kterou mu kněží ale nechtějí
+              vydat. Poprosí družinu. Poprvé se objevuje Mort. Družina si knihu
+              o Starých bozích zatím nechává pro sebe.
+            </dd>
+            <dt class="underline_text">15. Denthir</dt>
+            <dd>
+              Družina vyráží z Adanosova chrámu do Denthiru, kam zamířila
+              zásilka. Emer je už tu - konkrétně v hospodě u smrduté velryby,
+              kde se seznamuje s trpasličím kapitánem lodi Bestií a pátrá po
+              informacích o Neeře. Joe se setkává s rodinou, která má problémy s
+              nedostatkem zakázek a zbytek družiny pátrá po tom, kam se zásilka
+              poděla. Zjišťují že je ve skladech Valtrenů, kam se snaží
+              infiltrovat. Jsou následně sledováni a napadeni dvojicí Motieur a
+              Tibalt, což přežijí a skoro i zvítězí, dokud nedorazí stráže.
+              Následně jsou po krátkém vyjednávání zajati jednotkou Valtrenské
+              stráže, která má zbraně, které očividně byly dodány z Tarkiru (ve
+              skladu objevili také obří kolo). Družina kromě Joea a Morta s
+              Bromem, kteří jsou pryč, je uvězněna.
+            </dd>
+            <dt class="underline_text">16. Útěk</dt>
+            <dd>
+              Uvěznění členové družiny jsou podrobeni výslechu. Joe, Mort, Brom
+              a Bestie plánují útěk svých spoludružiníků. Během bálu v sídle
+              Valtrenů vniknou do vězení a osvobodí je. Emer stráví noc s
+              Gellis, služkou, která jim občas pomáhala ve vězení Valtrenů.
+              Kharak je středem pozornosti a je dokonce odveden Tibaltem do
+              separátní místnosti pro "přátelský dialog".
+            </dd>
+            <dt class="underline_text">17. Akademie Denthiru</dt>
+            <dd>
+              Družina chce pryč z Denthiru ale po zprávách, které Bestie předal
+              Emerovi Emer trvá na tom, aby ještě chvíli zůstali. Jsou sice
+              hledaní, ale jen Valtreny, ne celým Denthirem. Družina se snaží
+              dostat do Univerzity, ale zjišťuje, že se blíží hájící období a
+              nikdo na ně nemá úplně čas. V Mrtvé Rybě, studentské hospodě se
+              ptají co s tím a uspořádají kvíz, na který se dostaví i rektor
+              univerzity Roh a jeho kolega Špulák. Ti jim pak umožní vstup do
+              knihovny. V knihovně pak nalézají mnoho záznamů. Některé o Neeře,
+              některé o Narmerovi a další o misi Denthirské jednotky pyromancerů
+              pod kódovým označením Deforestace. Dužina odpolouvá z Denthiru na
+              lodi Emola kapitána Bestie.
+            </dd>
+            <dt class="underline_text">19. Intermezzo</dt>
+            <dd>
+              Družina se vydává ven z lesa, kde zanechávají Emera. Vydají se do
+              Trombu, kde kupují věci od Rouryho, trpasličího "maxionáře" s
+              látkami. Vydávají se zkontrolovat Neeru a říct jí o uplynulých
+              událostech. Následně Sirael slyší stromy skrze které k ní
+              promlouvá Toník a volá o pomoc - Polná je v plamenech.
+            </dd>
+            <dt class="underline_text">20. Polná v plamenech</dt>
+            <dd>
+              Sirael, Joe a Kharak se vydávají z Pełzacze do Polné, kde zachrání
+              Adama, mladého chlapce a dál Polnou prozkoumávají - Sirael nachází
+              minu. Dále postupují do Trombu aby jej bránili před kultem
+              Očistného Plamene, který vede Otec Rellieh, dojde k bitvě, družina
+              je schopna zachránit některé dobrodruhy včetně Dürüma, mimojiné
+              díky pomoci Adanose, ke kterému se Pertan pomodlil. Kharak se
+              pokoušel během bitvy ovládnout plameny otce Rellieha načež se mu
+              cosi vysmálo a "popálilo" ho zevnitř.
+            </dd>
+            <dt class="underline_text">21. Příliš mnoho teleportů</dt>
+            <dd>
+              Celá naše družina se setkává v Trombu, kam se každý dostal po
+              osobních dobrodružstvích. Brom se vrací z plavby s Bestií, Emer se
+              vrací po zkoušce očí a Chloe se vrací z evakuace civilistů.
+              Mezitím Kharak, Pertan, Sirael a Joe ubránili Trombus a tyto
+              zážitky si všichni předávají. Brom ukazuje svůj nový úlovek a Emer
+              nevypadá moc dobře. Družina se chce co nejrychleji dostat do
+              Denthiru a tak požádá Neeru aby je přenesla. Neera připravuje
+              teleport a teleportuje všech sedm lidí. Jenže se něco pokazí. V
+              portálu je víc lidí než by mělo. Konrétně duší. Družina hledá
+              ztracené duše, které byly vyraženy z Chloe. Všechny najdou aa jsou
+              přeneseni do Denthiru, jen Chloe se vydá do Adanosova chrámu.
+            </dd>
+            <dt class="underline_text">22. Popelavé šmouhy</dt>
+            <dd>
+              Družina pátrá po Ignusovi a vyšetřuje, co se stalo na magické
+              univerzitě. Zjišťují, že výbuch nebyl magický a pravděpodobně jej
+              způsobil někdo jiný než Ignus - pravděpodobně někteří členi kultu
+              Očistného Plamene, kteří šli a jali se osvobodit svého mesiáše.
+              Družina se setkala s Elisou, která jim řekla spoustu informací,
+              ale na spoustu informací se jich i ptala.
+            </dd>
+            <dt class="underline_text">24. Hoří!</dt>
+            <dd>
+              Emer, Kharak a Pertan si v klidu obědvají a klábosí, když je
+              přeruší obrovský výbuch v jihozápadním denthiru doprovázený velkým
+              dýmem. "Trefili druhou věž! Opakuje se to co se stalo na
+              univerzitě!", je slyšet všude okolo, během toho, co příčetnější
+              lidé, mezi kterými je Brom, běží hasit. Běží pomoct lidem a všem v
+              okolí a po nějaké době vidí, že mezi zúčastněnými jsou i Sirael a
+              Chloe. Sirael jímá hrůza... Po pomoci nejhůře zasaženým občanům se
+              pouštějí do boje s kultisty a chtějí zastavit Ignuse, ke kterému
+              se skrze velký žár nedostanou. Ignus uniká z Denthiru.
+            </dd>
+            <dt class="underline_text">26. Oheň a voda</dt>
+            <dd>
+              Družina dorazila v plném počtu do chrámu, kde začli zjišťovat
+              informace o Ignusovi, ohnivé sféře a starých bozích. Kharak a
+              Chloe chtějí využít Studnu Znalostí, artefakt v Adanosově chrámu.
+              Obejdou zastupujícího kněze Marase a Kharak připraví rituál, kdy
+              vloží plamen do studny a z té se začne valit pára/mlha. A ta
+              prostoupí celým klášterním komplexem, pohlcujíce celou družinu.
+              Každý z nich čelí svým vzpomínkám.
+            </dd>
+            <dt class="underline_text">28. Mlhy přítomnosti (Pt.II)</dt>
+            <dd>
+              Družina prochází snovým světem v mlze. Kharak se vrací z mlhy a
+              připojuje se k družině. A vydávají se do Tarkiru. V Tarkiru je
+              Kharak nucen bránit svoji vesnici/klanové místo před armádou
+              Ledrose a bojovat se svým synem, z něhož je udělána živoucí zbraň.
+              Následně se družina přesouvá do lesa Gost, kde Sirael vede družinu
+              do Srdce Gostu, části nepřístupné normálním lidem. Podivná kniha
+              je Srdcem Gostu roztrhána a absorbována. Lesu se prodlouží stíny a
+              Pyromanská jednotka je lesem rozcupována a povražděna, včetně
+              Ignuse, který je roztrhán na kusy. Jenže les potemní a zvířata a
+              život v něm jsou navždy změněny.
+            </dd>
+            <dt class="underline_text">30. Příliv budoucnosti</dt>
+            <dd>
+              Joe dokončí svůj sen, ve kterém Carmen koketuje s Rickem
+              Valtrenem, což přeruší Chloe tím, že Ricka kopne do koulí. Po
+              mlhavých snech se celý Adanosův chrám sejde v hospodě a zapíjí
+              sny/myšlenky/vzpomínky, které si všichni museli znova prožít. Joe
+              se rozloučí se s družinou a odejde zpět do Denthiru.
+            </dd>
+            <dt class="underline_text">31. Moment nádechu - Den Mrtvých</dt>
+            <dd>
+              V Morgstadtu se slaví ukončení Velké Války a Den Mrtvých - den,
+              kdy městy prochází pochod duchů. Do města se sjedou potulní
+              umělci, a stánkaři. Ve městě je možnost účastnit se mnoha aktivit.
+              Emer absolvuje duel se Zátoičim, válečníkem z jihovýchodní země za
+              Tarkirem. Poté se s Chloe účastní kostýmové soutěže, kterou
+              vyhrají. Na konec dne se koná ohňostroj, po kterém jdou všichni
+              spát a poté, co město utichne... Skrz město projde konvoj duchů.
+              Zemřelých duší, které procházejí Morgstadtem.
+            </dd>
+            <dt class="underline_text">32. Bestiální Balík pt.I</dt>
+            <dd>
+              Družina chtěla vyrazit do Garagoru ale těsně před bránou je
+              zastavil Fin'fl'drhgrech - bílý drakorozený, který se plavil s
+              Bromem, během jeho pobytu na Emole, lodi Bestie. Po krátkém
+              vyjasnění nedorozumnění jim řekl, že v Emole proběhla loupež během
+              pochodu duchů a ztratilo se pět beden. Družina sleduje stopy,
+              Sirael pach ve vlčí formě zblázněného zloděje, který je v blázinci
+              poté, co se ho dotkl duch během Dne Mrtvých. <br />
+              Družina se poprvé setkává s Garthem, kterému zprvu nevěří.
+            </dd>
+            <dt class="underline_text">34. Bezbožné město pt.I</dt>
+            <dd>
+              Družina vyráží do Garagoru. Cestou narazí na tábor uprchlíků,
+              kteří oslavují shledání s jejich blízkými - utečenci z Garagoru.
+              Družina zjišťuje, jak to v Garagoru aktuálně funguje. <br />
+              Po hezkém večeru pokračují v cestě a po pár dnech se dostávají ke
+              Garagoru, kde na cestě k němu vidí ukřižované a pověšené lidi i
+              nelidi. V dálce se tyčí hradba, za kterou se nalézají jim dávno
+              známé čtvrti a na kopci Chrámové čtvrti hořící katedrála. <br />
+              Po infiltraci do města se setkají s Korilem, hospodským Opilého
+              Medvěda, který je ubytuje. V hospodě proběhne setkání domobrany a
+              Třetího - zástupce stráže.
+            </dd>
+          </dl>
         </div>
+        <div class="postrani_obr gallery">
+          <p class="popis_postrani">Drakorozený Sorcerer</p>
+          <br />
+          <a href="/Postavy/Obrázky/KarAi.avif" data-text="Kharak"
+            ><img
+              src="/Postavy/Obrázky/KarAi.avif"
+              class="postrani_obr"
+              alt="KarAi.avif"
+          /></a>
+          <a href="/Postavy/Obrázky/khar_gar.avif" data-text="Kharak"
+            ><img
+              src="/Postavy/Obrázky/khar_gar.avif"
+              class="postrani_obr"
+              alt="khar_gar.avif"
+          /></a>
+          <a href="/Postavy/Obrázky/kharak.avif" data-text="Kharak"
+            ><img
+              src="/Postavy/Obrázky/kharak.avif"
+              class="postrani_obr"
+              alt="kharak.avif"
+          /></a>
+          <a href="/Postavy/Obrázky/kharakuvsyn.avif" data-text="Ignis z mlhy"
+            ><img
+              src="/Postavy/Obrázky/kharakuvsyn.avif"
+              class="postrani_obr"
+              alt="kharakuvsyn.avif"
+          /></a>
+        </div>
+      </div>
     </main>
-    <noscript><nav><iframe src="nav.html"></iframe></nav></noscript>
+    <noscript
+      ><nav><iframe src="nav.html"></iframe></nav
+    ></noscript>
     <div class="container" id="Ini"></div>
-    <footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka (toto je pouze demonstrativní část pro školní projekt)©<script>var year = new Date();document.write(year.getFullYear());</script></footer>
+    <footer>
+      <a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka (toto je pouze
+      demonstrativní část pro školní projekt)©
+      <script>
+        var year = new Date();
+        document.write(year.getFullYear());
+      </script>
+    </footer>
     <script src="/nav.js"></script>
     <script src="/lightboxNew.js"></script>
     <script src="/sidenav.js"></script>
-
-
-</body></html>
+  </body>
+</html>

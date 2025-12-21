@@ -1,93 +1,136 @@
-<!DOCTYPE html><html lang="cs"><head>
-    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, width=device-width, user-scalable=yes">
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="/favicon.png">
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta
+      name="viewport"
+      content="initial-scale=1, minimum-scale=1, maximum-scale=5, width=device-width, user-scalable=yes"
+    />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <title>Zuana</title>
-    <link rel="stylesheet" href="/css/druzinka2.css">
-    <link rel="stylesheet" href="/lightboxTest.css">
-</head>
-<body class="main-body-cave2">
+    <link rel="stylesheet" href="/css/druzinka2.css" />
+    <link rel="stylesheet" href="/lightboxTest.css" />
+  </head>
+  <body class="main-body-cave2">
     <header class="podlogo flex" id="header">
-        <div><span class="spanNahore" onclick="openNav();napisSidebar()">◆▷▶</span></div>
-        <div class="logo"><a href="/index.html" class="logo">DRUŽINA</a></div>
-        <div id="player"></div>
+      <div>
+        <span class="spanNahore" onclick="openNav();napisSidebar()">☰</span>
+      </div>
+      <div class="logo"><a href="/index.html" class="logo">DRUŽINA</a></div>
+      <div id="player"></div>
     </header>
     <nav id="mysidenav" class="sidenav">
-        <div id="SIDE"></div>
+      <div id="SIDE"></div>
     </nav>
     <main>
-        <div class="obsah_subpage">
-            <div class="popis_subpage">
-                <div class="tAlignC">
-                    <h1 class="nadpis">Zuana</h1>
-                </div>
-                <p>
-                    Zuana. Co vlastně chce? První setkání družiny se Zuana bylo přinejmenším komplikované. Vyhrožování
-                    hostinskému, zraňování spolubojovníků, jejich následná stabilizace.
-                    Zuana má světlé chvilky. Občas. A potom má temné chvilky a těch je podstatně víc...
-                </p>
-                <br>
-                <p class="underline_text">
-                    Dobrodružství, která se zde odehrála:<br>
-                </p>
-                <dl>
-                    <dt class="underline_text">1. Hledání ztraceného syna</dt>
-                    <dd>Franci Jeszetovi se ztratil syn, boj s vlky</dd>
-                    <dt class="underline_text">2. Doprovod karavany</dt>
-                    <dd>Doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
-                    <dt class="underline_text">3. Průzkum rozbitých chodeb podzemí</dt>
-                    <dd>Průzkum podzemních komplexů, na který dostal Emer zakázku,
-                        Pertan zde velmi tápal ve tmě, Sirael byla nepěkně překvapena,
-                        když zjistila, že v temmých chodbách se to nemusí hemžit jen krysami</dd>
-                    <dt class="underline_text">4. Hledání Neery pt.1</dt>
-                    <dd>Neeru někdo unesl, vyšetřování kdo jí unesl, Perlíkův moment boje, setkání s GGG a Alocou</dd>
-                    <dt class="underline_text">5. Hledání Neery pt.2</dt>
-                    <dd>Družina na popud Alocy ukradla z Doemenelské banky tajné spisy naznačující tajné
-                        dodávky různého zboží do Denthiru. Následně získala i kombinaci k trezoru/vaultu a 
-                        za což dostali Neeru na svobodu. 
-                    </dd>
-                    <dt class="underline_text">6. Znovusetkání s Neerou</dt>
-                    <dd>Neera se konečně dostala do Věže, kde družinu přivítal Raistlin a slíbil, že Neera se bude
-                        učit a bude mít ve Věži útočiště</dd>
-                    <dt class="underline_text">9. Tribunál Velkého Čaroděje pt.II</dt>
-                    <dd>
-                        Družina hledá tři Soudce. Pomocí stop vypátrali soudkyni Justii Kroell, tu byli nuceni zabít.
-                        Poté našli Voletha Dranna, toho vyslechli a nechali ho jít, protože zjistili, že je jen
-                        tragickým nečinným přihlížejícím. Ten je ještě varoval před posledním soudcem Borwaldem Gellem.
-                        Zuana byla zatknuta a odvedena.
-                    </dd>
-                    <dd>
-                        <a href="/Postavy/Zatykač na Zuanu.pdf" class="mapa" download="">Zatykač na Zuanu</a>
-                    </dd>
-                    <dt class="underline_text">10. Tribunál Velkého Čaroděje pt.III</dt>
-                    <dd>
-                        Zuana upálena Danem.
-                    </dd>
-                    <dt class="underline_text">Tribunál Velkého Čaroděje pt.III</dt>
-                    <dd>
-                        Družina dostihla soudce Borwalda Gella a zabila jej. Strhli jeho svatyni pro Bhaala a vyzvedli
-                        odměnu.
-                        Odpočívali a přemýšleli co s Velkým Čarodějem. Následně byli svědkem upálení Zuany a velkého
-                        projevu Dana,
-                        nového kapitána Garagorské stráže.
-                    </dd>
-                </dl>
-            </div>
-            <div class="postrani_obr gallery">
-                <p class="popis_postrani">Drow Kněžka Lloth</p><br>
-                <a href="/Postavy/Obrázky/Zuana.png" data-text="Zuana"><img src="/Postavy/Obrázky/Zuana.avif" class="postrani_obr" alt="Zuana.avif"></a>
-                <a href="/Postavy/Obrázky/zuana.jpg" data-text="Zuana"><img src="/Postavy/Obrázky/zuana.jpg" class="postrani_obr" alt="zuana.jpg"></a>
-                <a href="/Postavy/Obrázky/ZuanaBurn.png" data-text="Zuana (upálení)"><img src="/Postavy/Obrázky/ZuanaBurn.avif" class="postrani_obr" alt="ZuanaBurn.avif"></a>
-                <a href="/NPC/obr/zuana.png" data-text="Zuana z mlhy"><img src="/NPC/obr/zuana.png" class="postrani_obr" alt="zuana.png"></a>
-            </div>
+      <div class="obsah_subpage">
+        <div class="popis_subpage">
+          <div class="tAlignC">
+            <h1 class="nadpis">Zuana</h1>
+          </div>
+          <p>
+            Zuana. Co vlastně chce? První setkání družiny se Zuana bylo
+            přinejmenším komplikované. Vyhrožování hostinskému, zraňování
+            spolubojovníků, jejich následná stabilizace. Zuana má světlé
+            chvilky. Občas. A potom má temné chvilky a těch je podstatně víc...
+          </p>
+          <br />
+          <p class="underline_text">
+            Dobrodružství, která se zde odehrála:<br />
+          </p>
+          <dl>
+            <dt class="underline_text">1. Hledání ztraceného syna</dt>
+            <dd>Franci Jeszetovi se ztratil syn, boj s vlky</dd>
+            <dt class="underline_text">2. Doprovod karavany</dt>
+            <dd>Doprovod zboží do Garagoru, potkání Narmera a Neery</dd>
+            <dt class="underline_text">3. Průzkum rozbitých chodeb podzemí</dt>
+            <dd>
+              Průzkum podzemních komplexů, na který dostal Emer zakázku, Pertan
+              zde velmi tápal ve tmě, Sirael byla nepěkně překvapena, když
+              zjistila, že v temmých chodbách se to nemusí hemžit jen krysami
+            </dd>
+            <dt class="underline_text">4. Hledání Neery pt.1</dt>
+            <dd>
+              Neeru někdo unesl, vyšetřování kdo jí unesl, Perlíkův moment boje,
+              setkání s GGG a Alocou
+            </dd>
+            <dt class="underline_text">5. Hledání Neery pt.2</dt>
+            <dd>
+              Družina na popud Alocy ukradla z Doemenelské banky tajné spisy
+              naznačující tajné dodávky různého zboží do Denthiru. Následně
+              získala i kombinaci k trezoru/vaultu a za což dostali Neeru na
+              svobodu.
+            </dd>
+            <dt class="underline_text">6. Znovusetkání s Neerou</dt>
+            <dd>
+              Neera se konečně dostala do Věže, kde družinu přivítal Raistlin a
+              slíbil, že Neera se bude učit a bude mít ve Věži útočiště
+            </dd>
+            <dt class="underline_text">9. Tribunál Velkého Čaroděje pt.II</dt>
+            <dd>
+              Družina hledá tři Soudce. Pomocí stop vypátrali soudkyni Justii
+              Kroell, tu byli nuceni zabít. Poté našli Voletha Dranna, toho
+              vyslechli a nechali ho jít, protože zjistili, že je jen tragickým
+              nečinným přihlížejícím. Ten je ještě varoval před posledním
+              soudcem Borwaldem Gellem. Zuana byla zatknuta a odvedena.
+            </dd>
+            <dd>
+              <a href="/Postavy/Zatykač na Zuanu.pdf" class="mapa" download=""
+                >Zatykač na Zuanu</a
+              >
+            </dd>
+            <dt class="underline_text">10. Tribunál Velkého Čaroděje pt.III</dt>
+            <dd>Zuana upálena Danem.</dd>
+            <dt class="underline_text">Tribunál Velkého Čaroděje pt.III</dt>
+            <dd>
+              Družina dostihla soudce Borwalda Gella a zabila jej. Strhli jeho
+              svatyni pro Bhaala a vyzvedli odměnu. Odpočívali a přemýšleli co s
+              Velkým Čarodějem. Následně byli svědkem upálení Zuany a velkého
+              projevu Dana, nového kapitána Garagorské stráže.
+            </dd>
+          </dl>
         </div>
+        <div class="postrani_obr gallery">
+          <p class="popis_postrani">Drow Kněžka Lloth</p>
+          <br />
+          <a href="/Postavy/Obrázky/Zuana.png" data-text="Zuana"
+            ><img
+              src="/Postavy/Obrázky/Zuana.avif"
+              class="postrani_obr"
+              alt="Zuana.avif"
+          /></a>
+          <a href="/Postavy/Obrázky/zuana.jpg" data-text="Zuana"
+            ><img
+              src="/Postavy/Obrázky/zuana.jpg"
+              class="postrani_obr"
+              alt="zuana.jpg"
+          /></a>
+          <a href="/Postavy/Obrázky/ZuanaBurn.png" data-text="Zuana (upálení)"
+            ><img
+              src="/Postavy/Obrázky/ZuanaBurn.avif"
+              class="postrani_obr"
+              alt="ZuanaBurn.avif"
+          /></a>
+          <a href="/NPC/obr/zuana.png" data-text="Zuana z mlhy"
+            ><img src="/NPC/obr/zuana.png" class="postrani_obr" alt="zuana.png"
+          /></a>
+        </div>
+      </div>
     </main>
-    <noscript><nav><iframe src="nav.html"></iframe></nav></noscript>
+    <noscript
+      ><nav><iframe src="nav.html"></iframe></nav
+    ></noscript>
     <div class="container" id="Ini"></div>
-    <footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka (toto je pouze demonstrativní část pro školní projekt)©<script>var year = new Date();document.write(year.getFullYear());</script></footer>
+    <footer>
+      <a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka (toto je pouze
+      demonstrativní část pro školní projekt)©
+      <script>
+        var year = new Date();
+        document.write(year.getFullYear());
+      </script>
+    </footer>
     <script src="/nav.js"></script>
     <script src="/lightboxNew.js"></script>
     <script src="/sidenav.js"></script>
-
-
-</body></html>
+  </body>
+</html>
