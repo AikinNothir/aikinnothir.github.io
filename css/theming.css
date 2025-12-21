@@ -39,11 +39,6 @@
 
 /* Background helpers and per-page themes */
 /* gradient then image fallback / avif-set */
-.main-body {
-    --bg-gradient: linear-gradient(var(--bg), transparent);
-    background-image: var(--bg-gradient), var(--bg-image-fallback);
-    background-image: var(--bg-gradient), var(--bg-image-set);
-}
 
 /* pozadí s image-set a fall-backy pro starší prohlížeče */
 .main-body-cave { --bg-image-fallback: url(/backgrounds/cave.jpg); --bg-image-set: image-set(url(/backgrounds/cave.avif) type("image/avif"), url(/backgrounds/cave.jpg) type("image/jpeg")); }
