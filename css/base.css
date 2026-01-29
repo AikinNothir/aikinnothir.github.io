@@ -55,12 +55,12 @@ p {
 }
 
 p:first-child {
-    font-size: 4vh !important; 
+    font-size: 2vh !important; 
     font-variant: small-caps;
 } 
 
 p::first-letter {
-    font-size: 1.7vh;
+    font-size: 3vh;
     color: var(--para-first);
 }
 
