@@ -8,10 +8,10 @@ function napisSidebar() {
             <a href="/brom.html" class="postava">Brom</a> 
             <a href="/emer.html" class="postava">Emer z Dorinu</a>
             <a href="/garth.html" class="postava">Garth McLaughlin</a>
+            <a href="/chloe.html" class="postava" id="mort">Chloe</a> 
             <a href="/joe.html" class="postava">Joe</a>
             <a href="/joli.html" class="postava">Joli</a>
             <a href="/kharak.html" class="postava">Kharak Narantl</a> 
-            <a href="/mort.html" class="postava" id="mort">Mort</a> 
             <a href="/pertan.html" class="postava">Pertan Perlík</a> 
             <a href="/sirael.html" class="postava">Sirael Cockven</a>
             <a href="/zuana.html" class="postava">Zuana</a>  
@@ -143,11 +143,11 @@ function napisSidebar() {
   console.log(MortName);
 
   MortName.addEventListener("mouseover", () => {
-    MortName.textContent = "Chloe";
+    MortName.textContent = "Mort";
   });
 
   MortName.addEventListener("mouseout", () => {
-    MortName.textContent = "Mort";
+    MortName.textContent = "Chloe";
   });
 
   document.querySelectorAll(".dropdown-btn").forEach((d) => {

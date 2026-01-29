@@ -110,6 +110,10 @@
     transform: translateX(0.9375rem);
 }
 
+.sidenav a.mapa {
+    color: var(--chartreuse);
+}
+
 .sidenav h2 {
     padding: var(--space-3) var(--space-6);
     margin: 0;
