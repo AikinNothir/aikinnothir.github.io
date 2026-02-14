@@ -26,25 +26,25 @@ function napisSidebar() {
             </button>
             <hr class="solid">
             <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
-            <a href="/NPC/bestie.html" class="postava">Bestie</a>
-            <a href="/NPC/dan.html" class="postava">Dan</a>
-            <a href="/NPC/darub.html" class="postava">Darub</a>
-            <a href="/NPC/dernhelm.html" class="postava">Dernhelm</a> 
-            <a href="/NPC/elisa.html" class="postava">Elisa</a>
-            <a href="/NPC/enea.html" class="postava">Enea Mara</a>
+            <a href="/npc/bestie.html" class="postava">Bestie</a>
+            <a href="/npc/dan.html" class="postava">Dan</a>
+            <a href="/npc/darub.html" class="postava">Darub</a>
+            <a href="/npc/dernhelm.html" class="postava">Dernhelm</a> 
+            <a href="/npc/elisa.html" class="postava">Elisa</a>
+            <a href="/npc/enea.html" class="postava">Enea Mara</a>
             <a href="/postavy/folgrim.html" class="postava">Folgrim</a>  
-            <a href="/NPC/hugo.html" class="postava">Hugo</a>
-            <a href="/NPC/gellis.html" class="postava">Gellis</a>
-            <a href="/NPC/ignus.html" class="postava">Ignus</a>
-            <a href="/NPC/merion.html" class="postava">Merion</a>
-            <a href="/NPC/motieur.html" class="postava">Motieur</a>  
-            <a href="/NPC/narmer.html" class="postava">Narmer</a>
-            <a href="/NPC/neera.html" class="postava">Neera</a>
-            <a href="/NPC/sgreti.html" class="postava">Sgréti</a>
-            <a href="/NPC/tibalt.html" class="postava">Tibalt</a>  
-            <a href="/NPC/tonik.html" class="postava">Toník</a> 
-            <a href="/NPC/treti.html" class="postava">Třetí</a>  
-            <a href="/NPC/zrzek.html" class="postava">Zrzek</a>  
+            <a href="/npc/hugo.html" class="postava">Hugo</a>
+            <a href="/npc/gellis.html" class="postava">Gellis</a>
+            <a href="/npc/ignus.html" class="postava">Ignus</a>
+            <a href="/npc/merion.html" class="postava">Merion</a>
+            <a href="/npc/motieur.html" class="postava">Motieur</a>  
+            <a href="/npc/narmer.html" class="postava">Narmer</a>
+            <a href="/npc/neera.html" class="postava">Neera</a>
+            <a href="/npc/sgreti.html" class="postava">Sgréti</a>
+            <a href="/npc/tibalt.html" class="postava">Tibalt</a>  
+            <a href="/npc/tonik.html" class="postava">Toník</a> 
+            <a href="/npc/treti.html" class="postava">Třetí</a>  
+            <a href="/npc/zrzek.html" class="postava">Zrzek</a>  
             </div>
             <br>
 

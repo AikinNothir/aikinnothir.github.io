@@ -45,7 +45,7 @@ Nahrazeny `div` obalové prvky za sémantické tagy:
 
 **Podsložky:**
 
-- `/NPC/` - všechny NPC profily (bestie.html, dan.html, hugo.html, atd.)
+- `/npc/` - všechny NPC profily (bestie.html, dan.html, hugo.html, atd.)
 - `/bohove/` - všechny stránky bohů (adanos.html, innos.html, atd.)
 - `/frakce/` - všechny stránky frakcí (ggg.html, straz.html, atd.)
 - `/mista/` - všechna místa (garagor, denthir, morgstadt, atd.)
