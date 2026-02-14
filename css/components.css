@@ -268,4 +268,40 @@ div.obrazek-a-border::after {
 footer {
     background-color: var(--maroon);
     color: var(--logo);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.intro_button {
+    color: var(--logo);
+    background: linear-gradient(135deg, var(--maroon) 40%, #8f3535 50%, var(--maroon) 60%);
+    font-size: 2vh;
+    padding: var(--space-3) var(--space-6);
+    border: solid var(--black) var(--border-1);
+    border-radius: var(--radius-3);
+    cursor: pointer;
+    margin-top: var(--space-5);
+
+    background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
