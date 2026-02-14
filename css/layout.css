@@ -121,6 +121,14 @@ div.postrani_obr {
     margin: 0 0 var(--space-8) 0; /* 32px */
 }
 
+div.statblock {
+    font-size: 1.5vh;
+    font-variant: small-caps;
+    padding: var(--space-2);
+    border-radius: 12px;
+    background-color: antiquewhite;
+}
+
 /* RWD breakpoints */
 @media (max-width:1000px) {
     #player {
