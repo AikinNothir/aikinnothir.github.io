@@ -1,7 +1,6 @@
 function napisSidebar() {
-  document.getElementById(
-    "SIDE"
-  ).innerHTML = `<a href="/index.html" class="postava azure"><h2>DRUŽINA</h2></a> 
+  document.getElementById("SIDE").innerHTML =
+    `<a href="/index.html" class="postava azure"><h2>DRUŽINA</h2></a> 
             <h2> Postavy </h2>
             <hr class="solid">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -29,7 +28,9 @@ function napisSidebar() {
             <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
             <a href="/NPC/bestie.html" class="postava">Bestie</a>
             <a href="/NPC/dan.html" class="postava">Dan</a>
+            <a href="/NPC/darub.html" class="postava">Darub</a>
             <a href="/NPC/dernhelm.html" class="postava">Dernhelm</a> 
+            <a href="/NPC/elisa.html" class="postava">Elisa</a>
             <a href="/NPC/enea.html" class="postava">Enea Mara</a>
             <a href="/folgrim.html" class="postava">Folgrim</a>  
             <a href="/NPC/hugo.html" class="postava">Hugo</a>
@@ -39,6 +40,7 @@ function napisSidebar() {
             <a href="/NPC/motieur.html" class="postava">Motieur</a>  
             <a href="/NPC/narmer.html" class="postava">Narmer</a>
             <a href="/NPC/neera.html" class="postava">Neera</a>
+            <a href="/NPC/sgreti.html" class="postava">Sgréti</a>
             <a href="/NPC/tibalt.html" class="postava">Tibalt</a>  
             <a href="/NPC/tonik.html" class="postava">Toník</a> 
             <a href="/NPC/treti.html" class="postava">Třetí</a>  
@@ -92,6 +94,7 @@ function napisSidebar() {
             <hr class="solid">
             <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
                 <a target="_self" alt="Aloca" class="misto" href="/frakce/aloca.html">Aloca</a>
+                <a target="_self" alt="Alchymistický cech" class="misto" href="/frakce/alchym_cech.html">Alchymistický cech</a>
                 <a target="_self" alt="bratrstvo lovu" class="misto" href="/frakce/lov.html">Bratrstvo lovu</a>
                 <a target="_self" alt="stráž garagoru" class="misto" href="/frakce/straz.html">Gargorská stráž</a>
                 <a target="_self" alt="GGG" class="misto" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
@@ -114,8 +117,9 @@ function napisSidebar() {
             <a href="/bohove/innos.html" class="postava">Innos</a>
             <a href="/bohove/magran.html" class="postava">Magran</a>
             <a href="/bohove/myrkul.html" class="postava">Myrkul</a>
-            <a href="/bohove/slepa.html" class="postava">Slepá</a>
             <a href="/bohove/posledni.html" class="postava">Ten Poslední</a>
+            <a href="/bohove/slepa.html" class="postava">Slepá</a>
+            <a href="/bohove/tlem.html" class="postava">Tlem</a>
             <a href="/bohove/woedika.html" class="postava">Woedika</a>
             <a href="/bohove/zkrouceny.html" class="postava">Zkroucený</a>
             <a href="/bohove/panna.html" class="postava">Žulová Panna</a>   
