@@ -137,6 +137,10 @@ div.statblock {
         margin: 0;
     }
 
+    h1 {
+        padding: 0 var(--space-4);
+    }
+
     .nadpis {
         display: flex;
         align-items: center;
@@ -184,7 +188,6 @@ div.statblock {
     h1 {
         font-size: 8vw;
         flex-direction: column;
-        background-color: gradient(to right, transparent 0%, var(--bg-alt-faded) 2%, var(--bg-alt-faded) 98%, transparent);
     }
 
 
