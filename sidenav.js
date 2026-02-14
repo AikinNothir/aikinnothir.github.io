@@ -4,16 +4,16 @@ function napisSidebar() {
             <h2> Postavy </h2>
             <hr class="solid">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="/brom.html" class="postava">Brom</a> 
-            <a href="/emer.html" class="postava">Emer z Dorinu</a>
-            <a href="/garth.html" class="postava">Garth McLaughlin</a>
-            <a href="/chloe.html" class="postava" id="mort">Chloe</a> 
-            <a href="/joe.html" class="postava">Joe</a>
-            <a href="/joli.html" class="postava">Joli</a>
-            <a href="/kharak.html" class="postava">Kharak Narantl</a> 
-            <a href="/pertan.html" class="postava">Pertan Perlík</a> 
-            <a href="/sirael.html" class="postava">Sirael Cockven</a>
-            <a href="/zuana.html" class="postava">Zuana</a>  
+            <a href="/postavy/brom.html" class="postava">Brom</a> 
+            <a href="/postavy/emer.html" class="postava">Emer z Dorinu</a>
+            <a href="/postavy/garth.html" class="postava">Garth McLaughlin</a>
+            <a href="/postavy/chloe.html" class="postava" id="mort">Chloe</a> 
+            <a href="/postavy/joe.html" class="postava">Joe</a>
+            <a href="/postavy/joli.html" class="postava">Joli</a>
+            <a href="/postavy/kharak.html" class="postava">Kharak Narantl</a> 
+            <a href="/postavy/pertan.html" class="postava">Pertan Perlík</a> 
+            <a href="/postavy/sirael.html" class="postava">Sirael Cockven</a>
+            <a href="/postavy/zuana.html" class="postava">Zuana</a>  
             <br>
             <a href="/mapa.html" class="mapa">Interaktivní Mapa</a>
             <a href="/mapabig.html" class="mapa">VELKÁ MAPA!</a>
@@ -32,7 +32,7 @@ function napisSidebar() {
             <a href="/NPC/dernhelm.html" class="postava">Dernhelm</a> 
             <a href="/NPC/elisa.html" class="postava">Elisa</a>
             <a href="/NPC/enea.html" class="postava">Enea Mara</a>
-            <a href="/folgrim.html" class="postava">Folgrim</a>  
+            <a href="/postavy/folgrim.html" class="postava">Folgrim</a>  
             <a href="/NPC/hugo.html" class="postava">Hugo</a>
             <a href="/NPC/gellis.html" class="postava">Gellis</a>
             <a href="/NPC/ignus.html" class="postava">Ignus</a>
