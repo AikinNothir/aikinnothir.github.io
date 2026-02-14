@@ -150,6 +150,8 @@ div.statblock {
         max-width: 100%;
         flex-direction: row;
         min-height: auto;
+        margin: 0;
+        border-radius: 0;
     }
     .popis_postrani {
         display:none
