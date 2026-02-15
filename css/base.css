@@ -35,9 +35,8 @@ main {
 }
 
 h1 {
-    font-size: 5vw;
     font-weight: 700;
-    text-shadow: 0.125rem 0.125rem 0.125rem var(--heading-shadow);
+    text-shadow: 0.125rem 0.125rem 1.125rem var(--heading-shadow);
     margin-bottom: 0;
 }
 

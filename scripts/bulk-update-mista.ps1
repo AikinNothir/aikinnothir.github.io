@@ -68,7 +68,7 @@ foreach ($file in $allFiles) {
         
         # 7. Přidat footer pokud chybí
         if ($content -notmatch '<footer>') {
-            $content = $content -replace '(<script src="/nav\.js">)', '<footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka ©2025 -<script>var year = new Date();document.write(year.getFullYear());</script></footer>
+            $content = $content -replace '(<script src="/nav\.js">)', '<footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka ©2025 -<script>var year = new Date();document.write(year.getFullYear());</script> | Koukni taky na <a href="https://www.dracakon.cz">www.dracakon.cz</a>!</footer>
     $1'
         }
         

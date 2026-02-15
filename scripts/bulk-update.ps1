@@ -74,7 +74,7 @@ foreach ($relPath in $files) {
         # 6. Přidat footer pokud chybí
         if ($content -notmatch '<footer>') {
             $content = $content -replace '(<div class="container" id="Ini"></div>)', '$1
-    <footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka ©2025 -<script>var year = new Date();document.write(year.getFullYear());</script></footer>'
+    <footer><a href="/info.html">Jindřich "Aikin" Dušek</a> - Varka ©2025 -<script>var year = new Date();document.write(year.getFullYear());</script> | Koukni taky na <a href="https://www.dracakon.cz">www.dracakon.cz</a>!</footer>'
         }
         
         # 7. Upravit body třídu
