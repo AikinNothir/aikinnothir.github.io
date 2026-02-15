@@ -7,7 +7,7 @@
     border: solid var(--black) var(--border-1);
     border-radius: var(--radius-3);
     cursor: pointer;
-    margin-top: var(--space-5);
+    margin-top: var(--space-10);
 
     background-size: 200% 200%;
     -webkit-animation: Animation 5s ease infinite;
