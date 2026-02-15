@@ -35,13 +35,6 @@ body {
     background-image: var(--bg-gradient), var(--bg-image-set);
 }
 
-/* Per-page image variables (fallback + avif image-set). Keeps same fallback behavior but DRY. */
-.main-body-cave { --bg-image-fallback: url(/backgrounds/cave.jpg); --bg-image-set: image-set(url(/backgrounds/cave.avif) type("image/avif"), url(/backgrounds/cave.jpg) type("image/jpeg")); }
-.main-body-cave2 { --bg-image-fallback: url(/backgrounds/cave2.jpg); --bg-image-set: image-set(url(/backgrounds/cave2.avif) type("image/avif"), url(/backgrounds/cave2.jpg) type("image/jpeg")); }
-.main-body-sea2 { --bg-image-fallback: url(/backgrounds/more.jpeg); --bg-image-set: image-set(url(/backgrounds/more.avif) type("image/avif"), url(/backgrounds/more.jpeg) type("image/jpeg")); }
-.main-body-forest { --bg-image-fallback: url(/backgrounds/forest-sirael.jpeg); --bg-image-set: image-set(url(/backgrounds/forest-sirael.avif) type("image/avif"), url(/backgrounds/forest-sirael.jpeg) type("image/jpeg")); }
-.main-body-forest2 { --bg-image-fallback: url(/backgrounds/forest.jpg); --bg-image-set: image-set(url(/backgrounds/forest.avif) type("image/avif"), url(/backgrounds/forest.jpg) type("image/jpeg")); }
-.main-body-desert { --bg-image-fallback: url(/backgrounds/desert.jpg); --bg-image-set: image-set(url(/backgrounds/desert.avif) type("image/avif"), url(/backgrounds/desert.jpg) type("image/jpeg")); }
 
 .new-map img {
     width: 100%;
@@ -688,3 +681,12 @@ a.odkaz_subpage:visited {
     width: 300px;
     height: 250px;
 }
+
+/* Per-page image variables (fallback + avif image-set). Keeps same fallback behavior but DRY. */
+.main-body-cave { --bg-image-fallback: url(/backgrounds/cave.jpg); --bg-image-set: image-set(url(/backgrounds/cave.avif) type("image/avif"), url(/backgrounds/cave.jpg) type("image/jpeg")); }
+.main-body-cave2 { --bg-image-fallback: url(/backgrounds/cave2.jpg); --bg-image-set: image-set(url(/backgrounds/cave2.avif) type("image/avif"), url(/backgrounds/cave2.jpg) type("image/jpeg")); }
+.main-body-sea2 { --bg-image-fallback: url(/backgrounds/more.jpeg); --bg-image-set: image-set(url(/backgrounds/more.avif) type("image/avif"), url(/backgrounds/more.jpeg) type("image/jpeg")); }
+.main-body-forest { --bg-image-fallback: url(/backgrounds/forest-sirael.jpeg); --bg-image-set: image-set(url(/backgrounds/forest-sirael.avif) type("image/avif"), url(/backgrounds/forest-sirael.jpeg) type("image/jpeg")); }
+.main-body-forest2 { --bg-image-fallback: url(/backgrounds/forest.jpg); --bg-image-set: image-set(url(/backgrounds/forest.avif) type("image/avif"), url(/backgrounds/forest.jpg) type("image/jpeg")); }
+.main-body-desert { --bg-image-fallback: url(/backgrounds/desert.jpg); --bg-image-set: image-set(url(/backgrounds/desert.avif) type("image/avif"), url(/backgrounds/desert.jpg) type("image/jpeg")); }
+

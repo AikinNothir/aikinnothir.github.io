@@ -19,6 +19,17 @@ body {
     );
 }
 
+/* Theme-specific backgrounds using CSS variables */
+.main-body-cave,
+.main-body-cave2,
+.main-body-sea2,
+.main-body-forest,
+.main-body-forest2,
+.main-body-desert {
+    background-image: linear-gradient(var(--bg), transparent), var(--bg-image-fallback);
+    background-image: linear-gradient(var(--bg), transparent), var(--bg-image-set);
+}
+
 main {
     margin: 0 var(--space-4) 0 var(--space-6);
 }
