@@ -36,6 +36,7 @@ function napisSidebar() {
             <a href="/npc/hugo.html" class="postava">Hugo</a>
             <a href="/npc/gellis.html" class="postava">Gellis</a>
             <a href="/npc/ignus.html" class="postava">Ignus</a>
+            <a href="/npc/koril.html" class="postava">Koril</a>
             <a href="/npc/merion.html" class="postava">Merion</a>
             <a href="/npc/motieur.html" class="postava">Motieur</a>  
             <a href="/npc/narmer.html" class="postava">Narmer</a>

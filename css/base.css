@@ -35,9 +35,8 @@ main {
 }
 
 h1 {
-    font-weight: 700;
     text-shadow: 0.125rem 0.125rem 1.125rem var(--heading-shadow);
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 h1:hover {
@@ -105,6 +104,10 @@ hr.solid {
     text-align: center;
 }
 
+a {
+    color:rgb(255, 196, 0)
+}
+
 a.odkaz_subpage {
     color: var(--link);
 }
@@ -116,3 +119,4 @@ a.odkaz_subpage:hover {
 a.odkaz_subpage:visited {
     color: var(--link-visited);
 }
+
