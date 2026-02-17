@@ -91,7 +91,6 @@
 
 .postava {
     color: var(--postava-color);
-    background-color: var(--black);
 }
 
 /* Sidenav links */
@@ -191,7 +190,6 @@ div.obrazek-a-border::after {
     outline: none;
     font-family: 'Times New Roman', Times, serif;
     border-bottom: var(--logo) solid var(--border-1);
-    border-width: 90%;
 }
 
 
@@ -209,6 +207,7 @@ div.obrazek-a-border::after {
     cursor: pointer;
     outline: none;
     font-family: 'Times New Roman', Times, serif;
+    border-bottom: var(--logo) solid var(--border-1);
 }
 
 .dropdown-btn:hover {
@@ -219,6 +218,8 @@ div.obrazek-a-border::after {
     background-color: var(--black-ver2);
     overflow: hidden;
     transition: 0.6s;
+    border-top: var(--logo) solid var(--border-1);
+    border-bottom: var(--logo) solid var(--border-1);
 }
 
 .dropdown-div2 {
