@@ -8,7 +8,8 @@
 
 function napisSidebar() {
   document.getElementById("SIDE").innerHTML =
-    `<a href="/index.html" class="postava azure"><h2>DRUŽINA</h2></a> 
+    `<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/index.html" class="postava azure"><h2>DRUŽINA</h2></a> 
             <button class="dropdown-btn" onclick="rozbal('postavy')">
               Postavy
               <span><i class="arrow down"></i></span>
