@@ -27,7 +27,9 @@
     /* Misc */
     --postava-color: rgb(218, 202, 58);
     --black: #000000;
-    --border-dark: #070707;
+    --black-ver2: #111111;
+    --black-ver3: #222222;
+    --border-dark: #272727;
     --map-border-bottom: #810909;
     --gray-818: #818181;
     --azure: azure;
