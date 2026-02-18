@@ -47,4 +47,9 @@
     --white: rgb(255, 255, 255);
     --glass-border: rgba(0,0,0,0.4);
     --glass-border-light: rgba(255,255,255,0.4);
+
+    --sardot: #88c9b2;
+    --varka: #b33a1b;
+    --tarkir: #be8dff;
+    --lareze: #05a500;
 }

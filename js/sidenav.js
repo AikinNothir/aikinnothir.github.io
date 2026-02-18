@@ -60,7 +60,7 @@ function napisSidebar() {
                 <span><i class="arrow down"></i></span>
             </button>
             <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
-              <button class="dropdown-btn2" onclick="rozbal('lokVar')">
+              <button class="dropdown-btn2 varka" onclick="rozbal('lokVar')">
                 Varka
                 <span><i class="arrow down"></i></span>
               </button>
@@ -92,7 +92,7 @@ function napisSidebar() {
                 <a target="_self" alt="Varka" class="misto" href="/mista/varka/varka.html">Varka</a>
                 <a target="_self" alt="Věž" class="misto" href="/mista/vez/vez.html">Věž</a>
               </div>
-              <button class="dropdown-btn2" onclick="rozbal('lokLar')">
+              <button class="dropdown-btn2 lareze" onclick="rozbal('lokLar')">
                 Laréze
                 <span><i class="arrow down"></i></span>
               </button>
@@ -102,7 +102,22 @@ function napisSidebar() {
                 <a target="_self" alt="Mýtinná" class="misto" href="/mista/mytinna/mytinna.html">Mýtinná</a>
                 <a target="_self" alt="Všehostrom" class="misto" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
               </div>
+              <button class="dropdown-btn2 sardot" onclick="rozbal('lokSar')">
+                Sardot
+                <span><i class="arrow down"></i></span>
+              </button>
+              <div class="dropdown-div2" id="lokSar" style="visibility:hidden;max-height:0px">
+              
               <a target="_self" alt="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
+              <a target="_self" alt="Sardot" class="misto" href="/mista/sardot/sardot.html">Sardot</a>
+              </div>
+               <button class="dropdown-btn2 tarkir" onclick="rozbal('lokTar')">
+                Tarkir
+                <span><i class="arrow down"></i></span>
+              </button>
+              <div class="dropdown-div2" id="lokTar" style="visibility:hidden;max-height:0px">
+              <a>Zatim nic :P</a>
+              </div>
               <a target="_self" alt="Liedemar" class="misto" href="/mista/liedemar/liedemar.html">Liedemar</a>
             </div>
             <br>

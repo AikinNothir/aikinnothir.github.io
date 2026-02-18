@@ -435,3 +435,19 @@ footer {
   0%   {opacity: 1;}
   100% {opacity: 0;}
 }
+
+.sardot {
+    color: var(--sardot);
+}
+
+.tarkir {
+    color: var(--tarkir);
+}
+
+.lareze {
+    color: var(--lareze);
+}
+
+.varka {
+    color: var(--varka);
+}
