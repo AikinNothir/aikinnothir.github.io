@@ -220,6 +220,7 @@ div.obrazek-a-border::after {
     transition: max-height 0.6s ease;
     border-top: var(--logo) solid var(--border-1);
     border-bottom: var(--logo) solid var(--border-1);
+    overflow-x: hidden;
 }
 
 /* .dropdown-div a, .dropdown-div2 a {
