@@ -70,11 +70,15 @@ p:first-child {
 
 p::first-letter {
     font-size: 3vh;
-    color: var(--para-first);
+    color: var(--maroon);
 }
 
 p.popis_postrani::first-letter {
     color: var(--popis-first);
+}
+
+.popis_subpage p {
+    padding: 0 0 0 var(--space-4);
 }
 
 i {
@@ -109,7 +113,7 @@ a {
 }
 
 a.odkaz_subpage {
-    color: var(--link);
+    color: var(--maroon);
 }
 
 a.odkaz_subpage:hover {

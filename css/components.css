@@ -134,7 +134,7 @@ img.postrani_obr:hover {
 }
 
 div.postrani_obr {
-    background-color: var(--border-dark);
+    background-color: var(--black);
 }
 
 .druzina img {
@@ -214,20 +214,33 @@ div.obrazek-a-border::after {
     color: var(--sidenav-link-hover);
 }
 
-.dropdown-div {
-    background-color: var(--black-ver2);
-    overflow: hidden;
-    transition: 0.6s;
+.dropdown-div, .dropdown-div2 {
+    overflow: auto;
+    max-height: 0;
+    transition: max-height 0.6s ease;
     border-top: var(--logo) solid var(--border-1);
     border-bottom: var(--logo) solid var(--border-1);
+    overflow-x: hidden;
+}
+
+/* .dropdown-div a, .dropdown-div2 a {
+    display:none;
+}
+
+.dropdown-div.open a, .dropdown-div2.open a {
+    display: block;
+} */
+
+.dropdown-div {
+    background-color: var(--black-ver2);
 }
 
 .dropdown-div2 {
     background-color: var(--black-ver3);
-    overflow: hidden;
-    transition: 0.6s;
-    border-top: var(--logo) solid var(--border-1);
-    border-bottom: var(--logo) solid var(--border-1);
+}
+
+.open {
+    max-height: 500px; /* Adjust as needed */
 }
 
 .arrow {
@@ -250,17 +263,15 @@ div.obrazek-a-border::after {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-    width: 0.5625rem; /* 9px */
+    width: 0.225rem;
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 0.3125rem var(--scrollbar-track-shadow);
-    border-radius: 0.625rem; /* 10px */
+    box-shadow: inset 0 0 0.3125rem;
 }
 
 ::-webkit-scrollbar-thumb {
     background: var(--scrollbar-thumb);
-    border-radius: 0.625rem; /* 10px */
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -436,18 +447,38 @@ footer {
   100% {opacity: 0;}
 }
 
+.lareze {
+    color: var(--lareze);
+    transition: color 0.5s ease;
+}
+
+.lareze:hover {
+    color: var(--lareze-hover);
+}
+
 .sardot {
     color: var(--sardot);
+    transition: color 0.5s ease;
+}
+
+.sardot:hover {
+    color: var(--sardot-hover);
 }
 
 .tarkir {
     color: var(--tarkir);
+    transition: color 0.5s ease;
 }
 
-.lareze {
-    color: var(--lareze);
+.tarkir:hover {
+    color: var(--tarkir-hover);
 }
 
 .varka {
     color: var(--varka);
+    transition: color 0.5s ease;
+}
+
+.varka:hover {
+    color: var(--varka-hover);
 }

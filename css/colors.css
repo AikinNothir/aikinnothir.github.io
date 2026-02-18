@@ -11,10 +11,8 @@
     --heading-hover: #810909;
 
     /* Text & links */
-    --para-first: #410202;
     --popis-first: #ca5252;
     --popis-postrani: #fff348;
-    --link: #410202;
     --link-hover: #9c2121;
     --link-visited: #ca5252;
     --sidenav-link-hover: var(--heading-hover);
@@ -48,8 +46,12 @@
     --glass-border: rgba(0,0,0,0.4);
     --glass-border-light: rgba(255,255,255,0.4);
 
-    --sardot: #88c9b2;
-    --varka: #b33a1b;
-    --tarkir: #be8dff;
+    --sardot: #88a0b2;
+    --sardot-hover: #a1e4cc;
+    --varka: #963118;
+    --varka-hover: #df512e;
+    --tarkir: #5f477e ;
+    --tarkir-hover: #be8dff;
     --lareze: #05a500;
+    --lareze-hover: #43e93e;
 }

@@ -2,7 +2,7 @@
   Varka
   <span><i class="arrow down"></i></span>
 </button>
-<div class="dropdown-div" id="lokVar" style="visibility:hidden;max-height:0px">
+<div class="dropdown-div" id="lokVar" style="max-height:0px">
   
 </div>*/
 
@@ -14,8 +14,7 @@ function napisSidebar() {
               Postavy
               <span><i class="arrow down"></i></span>
             </button>
-            <div class="dropdown-div" id="postavy" style="visibility:hidden;max-height:0px">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="dropdown-div" id="postavy" style="max-height:0px">
               <a href="/postavy/brom.html" class="postava">Brom</a> 
               <a href="/postavy/emer.html" class="postava">Emer z Dorinu</a>
               <a href="/postavy/garth.html" class="postava">Garth McLaughlin</a>
@@ -31,7 +30,7 @@ function napisSidebar() {
             <button class="dropdown-btn" onclick="rozbal('div1')">NPC 
               <span><i class="arrow down"></i></span>
             </button>
-            <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="div1" style="max-height:0px">
               <a href="/npc/bestie.html" class="postava">Bestie</a>
               <a href="/npc/dan.html" class="postava">Dan</a>
               <a href="/npc/darub.html" class="postava">Darub</a>
@@ -59,12 +58,12 @@ function napisSidebar() {
               Místa
                 <span><i class="arrow down"></i></span>
             </button>
-            <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="div2" style="max-height:0px">
               <button class="dropdown-btn2 varka" onclick="rozbal('lokVar')">
                 Varka
                 <span><i class="arrow down"></i></span>
               </button>
-              <div class="dropdown-div2" id="lokVar" style="visibility:hidden;max-height:0px">
+              <div class="dropdown-div2" id="lokVar" style="max-height:0px">
                 <a target="_self" alt="Adanosův chrám" class="misto" href="/mista/adanos/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" class="misto" href="/mista/al_kat/al_kat.html">Al-Kat</a>
                 <a target="_self" alt="Durnhelm" class="misto" href="/mista/durnhelm/durnhelm.html">Durnhelm</a>
@@ -96,7 +95,7 @@ function napisSidebar() {
                 Laréze
                 <span><i class="arrow down"></i></span>
               </button>
-              <div class="dropdown-div2" id="lokLar" style="visibility:hidden;max-height:0px">
+              <div class="dropdown-div2" id="lokLar" style="max-height:0px">
                 <a target="_self" alt="Hayax" class="misto" href="/mista/hayax/hayax.html">Hayax</a>
                 <a target="_self" alt="Laréze" class="misto" href="/mista/lareze/lareze.html">Laréze</a>
                 <a target="_self" alt="Mýtinná" class="misto" href="/mista/mytinna/mytinna.html">Mýtinná</a>
@@ -106,7 +105,7 @@ function napisSidebar() {
                 Sardot
                 <span><i class="arrow down"></i></span>
               </button>
-              <div class="dropdown-div2" id="lokSar" style="visibility:hidden;max-height:0px">
+              <div class="dropdown-div2" id="lokSar" style="max-height:0px">
               
               <a target="_self" alt="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
               <a target="_self" alt="Sardot" class="misto" href="/mista/sardot/sardot.html">Sardot</a>
@@ -115,7 +114,7 @@ function napisSidebar() {
                 Tarkir
                 <span><i class="arrow down"></i></span>
               </button>
-              <div class="dropdown-div2" id="lokTar" style="visibility:hidden;max-height:0px">
+              <div class="dropdown-div2" id="lokTar" style="max-height:0px">
               <a>Zatim nic :P</a>
               </div>
               <a target="_self" alt="Liedemar" class="misto" href="/mista/liedemar/liedemar.html">Liedemar</a>
@@ -125,7 +124,7 @@ function napisSidebar() {
             <button class="dropdown-btn" onclick="rozbal('div3')">Frakce
                 <span><i class="arrow down"></i></span>
             </button>
-            <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
+            <div class="dropdown-div" style="max-height:0px" id="div3">
               <a target="_self" alt="Aloca" class="misto" href="/frakce/aloca.html">Aloca</a>
               <a target="_self" alt="Alchymistický cech" class="misto" href="/frakce/alchym_cech.html">Alchymistický cech</a>
               <a target="_self" alt="bratrstvo lovu" class="misto" href="/frakce/lov.html">Bratrstvo lovu</a>
@@ -140,7 +139,7 @@ function napisSidebar() {
             <button class="dropdown-btn" onclick="rozbal('div4')">Bohové 
               <span><i class="arrow down"></i></span>
             </button>
-            <div class="dropdown-div" id="div4" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="div4" style="max-height:0px">
               <a href="/bohove/aaauph.html" class="postava">Aaauph</a>
               <a href="/bohove/adanos.html" class="postava">Adanos</a>
               <a href="/bohove/bane.html" class="postava">Bane</a>
@@ -162,7 +161,7 @@ function napisSidebar() {
             <button class="dropdown-btn" onclick="rozbal('divSpell')">Spellbook
                 <span><i class="arrow down"></i></span>
             </button>
-            <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="divSpell" style="max-height:0px">
               <a href="https://dnd5e.wikidot.com/spells:druid" class="postava">Druid</a>
               <a href="https://dnd5e.wikidot.com/spells:cleric" class="postava">Klerik</a>  
               <a href="https://dnd5e.wikidot.com/spells:paladin" class="postava">Paladin</a>
@@ -177,8 +176,7 @@ function napisSidebar() {
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
             <br>
             <br>
-            <a href="/info.html" class="postava">O stránce</a> 
-            `;
+            <a href="/info.html" class="postava">O stránce</a> `;
   console.log(document.getElementById("SIDE"));
 
   let MortName = document.getElementById("mort");
@@ -205,13 +203,21 @@ function napisSidebar() {
 
 function rozbal(idDivu) {
   const tenDiv = document.getElementById(idDivu);
-  let aktVisibility = getComputedStyle(tenDiv).visibility;
 
-  if (aktVisibility === "hidden") {
-    tenDiv.style.visibility = "visible";
-    tenDiv.style.maxHeight = "2000px";
+  if (tenDiv.classList.contains("open")) {
+    tenDiv.style.maxHeight = tenDiv.scrollHeight + "px"; 
+    requestAnimationFrame(() => {
+      tenDiv.style.maxHeight = "0px";
+    });
+    tenDiv.classList.remove("open");
   } else {
-    tenDiv.style.visibility = "hidden";
-    tenDiv.style.maxHeight = "0px";
+    tenDiv.style.maxHeight = tenDiv.scrollHeight + "px";
+    tenDiv.classList.add("open");
+
+    tenDiv.addEventListener("transitionend", function handler() {
+      tenDiv.style.maxHeight = "none";
+      tenDiv.removeEventListener("transitionend", handler);
+    });
   }
 }
+
