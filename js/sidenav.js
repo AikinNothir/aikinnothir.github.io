@@ -31,29 +31,39 @@ function napisSidebar() {
               <span><i class="arrow down"></i></span>
             </button>
             <div class="dropdown-div" id="div1" style="max-height:0px">
+              <button class="dropdown-btn2 sardot" onclick="rozbal('npcSar')">
+                Sardot
+                <span><i class="arrow down"></i></span>
+              </button>
+              <div class="dropdown-div2" id="npcSar" style="max-height:0px">
+                <a href="/npc/elisa.html" class="postava">Elisa</a>
+                <a href="/npc/motieur.html" class="postava">Motieur</a>
+                <a href="/npc/tibalt.html" class="postava">Tibalt</a>  
+              </div>
+              <button class="dropdown-btn2 varka" onclick="rozbal('npcVar')">
+                Varka
+                <span><i class="arrow down"></i></span>
+              </button>
+              <div class="dropdown-div2" id="npcVar" style="max-height:0px">
+                <a href="/npc/dan.html" class="postava">Dan</a>
+                <a href="/npc/darub.html" class="postava">Darub</a>
+                <a href="/npc/enea.html" class="postava">Enea Mara</a>
+                <a href="/npc/dernhelm.html" class="postava">Dernhelm</a>
+                <a href="/npc/hugo.html" class="postava">Hugo</a>
+                <a href="/npc/koril.html" class="postava">Koril</a>
+                <a href="/npc/tonik.html" class="postava">Toník</a> 
+                <a href="/npc/treti.html" class="postava">Třetí</a>  
+                <a href="/npc/zrzek.html" class="postava">Zrzek</a>
+              </div>
               <a href="/npc/bestie.html" class="postava">Bestie</a>
-              <a href="/npc/dan.html" class="postava">Dan</a>
-              <a href="/npc/darub.html" class="postava">Darub</a>
-              <a href="/npc/dernhelm.html" class="postava">Dernhelm</a> 
-              <a href="/npc/elisa.html" class="postava">Elisa</a>
-              <a href="/npc/enea.html" class="postava">Enea Mara</a>
-              <a href="/postavy/folgrim.html" class="postava">Folgrim</a>  
-              <a href="/npc/hugo.html" class="postava">Hugo</a>
-              <a href="/npc/gellis.html" class="postava">Gellis</a>
+              <a href="/postavy/folgrim.html" class="postava">Folgrim</a>
               <a href="/npc/ignus.html" class="postava">Ignus</a>
-              <a href="/npc/koril.html" class="postava">Koril</a>
               <a href="/npc/merion.html" class="postava">Merion</a>
-              <a href="/npc/motieur.html" class="postava">Motieur</a>  
               <a href="/npc/narmer.html" class="postava">Narmer</a>
               <a href="/npc/neera.html" class="postava">Neera</a>
               <a href="/npc/sgreti.html" class="postava">Sgréti</a>
-              <a href="/npc/tibalt.html" class="postava">Tibalt</a>  
-              <a href="/npc/tonik.html" class="postava">Toník</a> 
-              <a href="/npc/treti.html" class="postava">Třetí</a>  
-              <a href="/npc/zrzek.html" class="postava">Zrzek</a>  
             </div>
             <br>
-
             <button class="dropdown-btn" onclick="rozbal('div2')">
               Místa
                 <span><i class="arrow down"></i></span>
@@ -205,7 +215,7 @@ function rozbal(idDivu) {
   const tenDiv = document.getElementById(idDivu);
 
   if (tenDiv.classList.contains("open")) {
-    tenDiv.style.maxHeight = tenDiv.scrollHeight + "px"; 
+    tenDiv.style.maxHeight = tenDiv.scrollHeight + "px";
     requestAnimationFrame(() => {
       tenDiv.style.maxHeight = "0px";
     });
@@ -220,4 +230,3 @@ function rozbal(idDivu) {
     });
   }
 }
-
