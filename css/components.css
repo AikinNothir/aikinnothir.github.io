@@ -134,7 +134,7 @@ img.postrani_obr:hover {
 }
 
 div.postrani_obr {
-    background-color: var(--border-dark);
+    background-color: var(--black);
 }
 
 .druzina img {

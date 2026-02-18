@@ -11,10 +11,8 @@
     --heading-hover: #810909;
 
     /* Text & links */
-    --para-first: #410202;
     --popis-first: #ca5252;
     --popis-postrani: #fff348;
-    --link: #410202;
     --link-hover: #9c2121;
     --link-visited: #ca5252;
     --sidenav-link-hover: var(--heading-hover);

@@ -133,7 +133,7 @@ p {
 
 p::first-letter {
     font-size: 1.7vh;
-    color: var(--para-first);
+    color: var(--maroon);
 }
 
 p.popis_postrani::first-letter {
