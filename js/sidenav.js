@@ -51,6 +51,7 @@ function napisSidebar() {
                 <a href="/npc/dernhelm.html" class="postava">Dernhelm</a>
                 <a href="/npc/hugo.html" class="postava">Hugo</a>
                 <a href="/npc/koril.html" class="postava">Koril</a>
+                <a href="/npc/merion.html" class="postava">Merion</a>
                 <a href="/npc/tonik.html" class="postava">Toník</a> 
                 <a href="/npc/treti.html" class="postava">Třetí</a>  
                 <a href="/npc/zrzek.html" class="postava">Zrzek</a>
@@ -58,7 +59,6 @@ function napisSidebar() {
               <a href="/npc/bestie.html" class="postava">Bestie</a>
               <a href="/postavy/folgrim.html" class="postava">Folgrim</a>
               <a href="/npc/ignus.html" class="postava">Ignus</a>
-              <a href="/npc/merion.html" class="postava">Merion</a>
               <a href="/npc/narmer.html" class="postava">Narmer</a>
               <a href="/npc/neera.html" class="postava">Neera</a>
               <a href="/npc/sgreti.html" class="postava">Sgréti</a>
@@ -116,16 +116,19 @@ function napisSidebar() {
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="lokSar" style="max-height:0px">
-              
-              <a target="_self" alt="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
-              <a target="_self" alt="Sardot" class="misto" href="/mista/sardot/sardot.html">Sardot</a>
+                <a target="_self" alt="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
+                <a target="_self" alt="Sardot" class="misto" href="/mista/sardot/sardot.html">Sardot</a>
               </div>
-               <button class="dropdown-btn2 tarkir" onclick="rozbal('lokTar')">
+              <button class="dropdown-btn2 tarkir" onclick="rozbal('lokTar')">
                 Tarkir
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="lokTar" style="max-height:0px">
-              <a>Zatim nic :P</a>
+                <a target="_self" alt="Bílé Údolí" class="misto" href="/mista/bile_udoli/bile_udoli.html">Bílé údolí</a>
+                <a target="_self" alt="Dračí Rohy" class="misto" href="/mista/draci_rohy/draci_rohy.html">Dračí rohy</a>
+                <a target="_self" alt="Dračí Sedlo" class="misto" href="/mista/draci_sedlo/draci_sedlo.html">Dračí sedlo</a>
+                <a target="_self" alt="Dračí Rohy" class="misto" href="/mista/draci_rohy/draci_rohy.html">Dračí rohy</a>
+                
               </div>
               <a target="_self" alt="Liedemar" class="misto" href="/mista/liedemar/liedemar.html">Liedemar</a>
             </div>
