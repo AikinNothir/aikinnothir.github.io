@@ -22,7 +22,7 @@
               <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
-            <div class="dropdown-div" id="div1" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="div1" style="max-height:0px">
             <a href="/npc/Bestie.html" class="postava">Bestie</a>
             <a href="/npc/dan.html" class="postava">Dan</a>
             <a href="/npc/dernhelm.html" class="postava">Dernhelm</a> 
@@ -45,7 +45,7 @@
                 <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
-            <div class="dropdown-div" id="div2" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="div2" style="max-height:0px">
                 <a target="_self" alt="Adanosův chrám" title="Adanosův chrám" class="misto" href="/mista/adanos/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" title="Ruiny Al Katu" class="misto" href="/mista/al_kat/al_kat.html">Al-Kat</a>
                 <a target="_self" alt="Denthir" title="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
@@ -84,7 +84,7 @@
                 <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
-            <div class="dropdown-div" style="visibility:hidden;max-height:0px" id="div3">
+            <div class="dropdown-div" style="max-height:0px" id="div3">
                 <a target="_self" alt="Aloca" title="Aloca" class="misto" href="/frakce/aloca.html">Aloca</a>
                 <a target="_self" alt="bratrstvo lovu" title="Bratrstvo lovu" class="misto" href="/frakce/lov.html">Bratrstvo lovu</a>
                 <a target="_self" alt="stráž garagoru" title="Garagorská stráž" class="misto" href="/frakce/straz.html">Gargorská stráž</a>
@@ -99,7 +99,7 @@
               <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
-            <div class="dropdown-div" id="div4" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="div4" style="max-height:0px">
             <a href="/bohove/adanos.html" class="postava">Adanos</a>
             <a href="/bohove/bane.html" class="postava">Bane</a>
             <a href="/bohove/beliar.html" class="postava">Beliar</a>
@@ -119,7 +119,7 @@
                 <span><i class="arrow down"></i></span>
             </button>
             <hr class="solid">
-            <div class="dropdown-div" id="divSpell" style="visibility:hidden;max-height:0px">
+            <div class="dropdown-div" id="divSpell" style="max-height:0px">
               <a href="https://dnd5e.wikidot.com/spells:druid" class="postava">Druid</a>
               <a href="https://dnd5e.wikidot.com/spells:cleric" class="postava">Klerik</a>  
               <a href="https://dnd5e.wikidot.com/spells:paladin" class="postava">Paladin</a>
