@@ -15,12 +15,12 @@ function napisSidebar() {
               <span><i class="arrow down"></i></span>
             </button>
             <div class="dropdown-div" id="postavy" style="max-height:0px">
-              <a href="/postavy/brom.html" class="postava">Brom</a> 
+              <a href="/postavy/brom.html" class="postava">Brom Forgeborn</a> 
               <a href="/postavy/emer.html" class="postava">Emer z Dorinu</a>
               <a href="/postavy/garth.html" class="postava">Garth McLaughlin</a>
-              <a href="/postavy/chloe.html" class="postava" id="mort">Chloe</a> 
-              <a href="/postavy/joe.html" class="postava">Joe</a>
-              <a href="/postavy/joli.html" class="postava">Joli</a>
+              <a href="/postavy/chloe.html" class="postava" id="mort">Chloe Lionfell</a> 
+              <a href="/postavy/joe.html" class="postava">Jonathan O. Edwards</a>
+              <a href="/postavy/joli.html" class="postava">Joli Rouge</a>
               <a href="/postavy/kharak.html" class="postava">Kharak Narantl</a> 
               <a href="/postavy/pertan.html" class="postava">Pertan Perlík</a> 
               <a href="/postavy/sirael.html" class="postava">Sirael Cockven</a>
@@ -74,63 +74,68 @@ function napisSidebar() {
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="lokVar" style="max-height:0px">
-                <a target="_self" alt="Adanosův chrám" class="misto" href="/mista/adanos/adanos.html">Adanosův chrám</a>
-                <a target="_self" alt="Ruiny Al Katu" class="misto" href="/mista/al_kat/al_kat.html">Al-Kat</a>
-                <a target="_self" alt="Durnhelm" class="misto" href="/mista/durnhelm/durnhelm.html">Durnhelm</a>
-                <a target="_self" alt="Garagor" class="misto" href="/mista/garagor/garagor.html">Garagor</a> 
-                <a target="_self" alt="Ghetto" class="misto" href="/mista/ghetto/ghetto.html">Ghetto</a>
-                <a target="_self" alt="Les Gost" class="misto" href="/mista/gost/gost.html">Gost</a> 
-                <a target="_self" alt="Grabštejn" class="misto" href="/mista/grabstejn/grabstejn.html">Grabštejn</a>
-                <a target="_self" alt="Hornická Oblast" class="misto" href="/mista/doly/doly.html">Hornická oblast</a>
-                <a target="_self" alt="Horská pevnost" class="misto" href="/mista/horska_pevnost/horska_pevnost.html">Horská pevnost</a>
-                <a target="_self" alt="Chvozd" class="misto" href="/mista/chvozd/chvozd.html">Chvozd</a>
-                <a target="_self" alt="Ječín" class="misto" href="/mista/jecin/jecin.html">Ječín</a>
-                <a target="_self" alt="Kriegberg" class="misto" href="/mista/kriegberg/kriegberg.html">Kriegberg</a>
-                <a target="_self" alt="Kriegstein" class="misto" href="/mista/kriegstein/kriegstein.html">Kriegstein</a>
-                <a target="_self" alt="Les Mrtvých Vesnic" class="misto" href="/mista/les_mrtvych_vesnic/les_mrtvych_vesnic.html">Les Mrtvých Vesnic</a>
-                <a target="_self" alt="Pełzacz" class="misto" href="/mista/pelzacz/pelzacz.html">Pełzacz </a>
-                <a target="_self" alt="Morgstadt" class="misto" href="/mista/morgstadt/morgstadt.html">Morgstadt</a>
-                <a target="_self" alt="Pełzacz" class="misto" href="/mista/pelzacz/pelzacz.html">Pełzacz</a>
-                <a target="_self" alt="Pole Smutku" class="misto" href="/mista/pole_smutku/pole_smutku.html">Pole Smutku</a>
-                <a target="_self" alt="Pons Varoli" class="misto" href="/mista/pons/pons.html">Pons Varoli</a>
-                <a target="_self" alt="Přechod" class="misto" href="/mista/prechod/prechod.html">Přechod</a>
-                <a target="_self" alt="Pustina" class="misto" href="/mista/pustina/pustina.html">Pustina</a>
-                <a target="_self" alt="Sucholes" class="misto" href="/mista/sucholes/sucholes.html">Sucholes</a>
-                <a target="_self" alt="Trombus" class="misto" href="/mista/trombus/trombus.html">Trombus</a>
-                <a target="_self" alt="Trpasličí Zátoka" class="misto" href="/mista/zatoka/zatoka.html">Trpasličí Zátoka</a>
-                <a target="_self" alt="Varka" class="misto" href="/mista/varka/varka.html">Varka</a>
-                <a target="_self" alt="Věž" class="misto" href="/mista/vez/vez.html">Věž</a>
+                <br>
+                <a target="_self" alt="Varka" class="varka" href="/mista/varka.html">o Varce</a>
+                <hr>
+                <a target="_self" alt="Adanosův chrám" class="misto" href="/mista/adanos.html">Adanosův chrám</a>
+                <a target="_self" alt="Ruiny Al Katu" class="misto" href="/mista/al_kat.html">Al-Kat</a>
+                <a target="_self" alt="Durnhelm" class="misto" href="/mista/durnhelm.html">Durnhelm</a>
+                <a target="_self" alt="Garagor" class="misto" href="/mista/garagor.html">Garagor</a> 
+                <a target="_self" alt="Ghetto" class="misto" href="/mista/ghetto.html">Ghetto</a>
+                <a target="_self" alt="Les Gost" class="misto" href="/mista/gost.html">Gost</a> 
+                <a target="_self" alt="Grabštejn" class="misto" href="/mista/grabstejn.html">Grabštejn</a>
+                <a target="_self" alt="Hornická Oblast" class="misto" href="/mista/doly.html">Hornická oblast</a>
+                <a target="_self" alt="Horská pevnost" class="misto" href="/mista/horska_pevnost.html">Horská pevnost</a>
+                <a target="_self" alt="Chvozd" class="misto" href="/mista/chvozd.html">Chvozd</a>
+                <a target="_self" alt="Ječín" class="misto" href="/mista/jecin.html">Ječín</a>
+                <a target="_self" alt="Kriegberg" class="misto" href="/mista/kriegberg.html">Kriegberg</a>
+                <a target="_self" alt="Kriegstein" class="misto" href="/mista/kriegstein.html">Kriegstein</a>
+                <a target="_self" alt="Les Mrtvých Vesnic" class="misto" href="/mista/les_mrtvych_vesnic.html">Les Mrtvých Vesnic</a>
+                <a target="_self" alt="Pełzacz" class="misto" href="/mista/pelzacz.html">Pełzacz </a>
+                <a target="_self" alt="Morgstadt" class="misto" href="/mista/morgstadt.html">Morgstadt</a>
+                <a target="_self" alt="Pełzacz" class="misto" href="/mista/pelzacz.html">Pełzacz</a>
+                <a target="_self" alt="Pole Smutku" class="misto" href="/mista/pole_smutku.html">Pole Smutku</a>
+                <a target="_self" alt="Pons Varoli" class="misto" href="/mista/pons.html">Pons Varoli</a>
+                <a target="_self" alt="Přechod" class="misto" href="/mista/prechod.html">Přechod</a>
+                <a target="_self" alt="Sucholes" class="misto" href="/mista/sucholes.html">Sucholes</a>
+                <a target="_self" alt="Trombus" class="misto" href="/mista/trombus.html">Trombus</a>
+                <a target="_self" alt="Trpasličí Zátoka" class="misto" href="/mista/zatoka.html">Trpasličí Zátoka</a>
+                <a target="_self" alt="Věž" class="misto" href="/mista/vez.html">Věž</a>
               </div>
               <button class="dropdown-btn2 lareze" onclick="rozbal('lokLar')">
                 Laréze
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="lokLar" style="max-height:0px">
-                <a target="_self" alt="Hayax" class="misto" href="/mista/hayax/hayax.html">Hayax</a>
-                <a target="_self" alt="Laréze" class="misto" href="/mista/lareze/lareze.html">Laréze</a>
-                <a target="_self" alt="Mýtinná" class="misto" href="/mista/mytinna/mytinna.html">Mýtinná</a>
-                <a target="_self" alt="Všehostrom" class="misto" href="/mista/vsehostrom/vsehostrom.html">Všehostrom</a>
+                <br>
+                <a target="_self" alt="Varka" class="lareze" href="/mista/lareze.html">o Laréze</a>
+                <hr>
+                <a target="_self" alt="Hayax" class="misto" href="/mista/hayax.html">Hayax</a>
+                <a target="_self" alt="Mýtinná" class="misto" href="/mista/mytinna.html">Mýtinná</a>
+                <a target="_self" alt="Všehostrom" class="misto" href="/mista/vsehostrom.html">Všehostrom</a>
               </div>
               <button class="dropdown-btn2 sardot" onclick="rozbal('lokSar')">
                 Sardot
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="lokSar" style="max-height:0px">
-                <a target="_self" alt="Denthir" class="misto" href="/mista/denthir/denthir.html">Denthir</a>
-                <a target="_self" alt="Sardot" class="misto" href="/mista/sardot/sardot.html">Sardot</a>
+                <br>
+                <a target="_self" alt="Varka" class="sardot" href="/mista/sardot.html">o Sardotu</a>
+                <hr>
+                <a target="_self" alt="Denthir" class="misto" href="/mista/denthir.html">Denthir</a>
               </div>
               <button class="dropdown-btn2 tarkir" onclick="rozbal('lokTar')">
                 Tarkir
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="lokTar" style="max-height:0px">
-                <a target="_self" alt="Bílé Údolí" class="misto" href="/mista/bile_udoli/bile_udoli.html">Bílé údolí</a>
-                <a target="_self" alt="Dračí Rohy" class="misto" href="/mista/draci_rohy/draci_rohy.html">Dračí rohy</a>
-                <a target="_self" alt="Dračí Sedlo" class="misto" href="/mista/draci_sedlo/draci_sedlo.html">Dračí sedlo</a>
-                <a target="_self" alt="Dračí Rohy" class="misto" href="/mista/draci_rohy/draci_rohy.html">Dračí rohy</a>
+                <a target="_self" alt="Bílé Údolí" class="misto" href="/mista/bile_udoli.html">Bílé údolí</a>
+                <a target="_self" alt="Dračí Rohy" class="misto" href="/mista/draci_rohy.html">Dračí rohy</a>
+                <a target="_self" alt="Dračí Sedlo" class="misto" href="/mista/draci_sedlo.html">Dračí sedlo</a>
+                <a target="_self" alt="Dračí Rohy" class="misto" href="/mista/draci_rohy.html">Dračí rohy</a>
                 
               </div>
-              <a target="_self" alt="Liedemar" class="misto" href="/mista/liedemar/liedemar.html">Liedemar</a>
+              <a target="_self" alt="Liedemar" class="misto" href="/mista/liedemar.html">Liedemar</a>
             </div>
             <br>
 
@@ -195,12 +200,27 @@ function napisSidebar() {
   let MortName = document.getElementById("mort");
   console.log(MortName);
 
+  const mortNames = [
+    "Mort Songbird",
+    "Stark Brund",
+    "Chloe Lionrise",
+    "Kain Tork",
+    "Margaret Hopsová"
+  ];
+
+  let intervalId = null;
+
   MortName.addEventListener("mouseover", () => {
-    MortName.textContent = "Mort";
+    let index = 0;
+    intervalId = setInterval(() => {
+      MortName.textContent = mortNames[index];
+      index = (index + 1) % mortNames.length;
+    }, 1000);
   });
 
   MortName.addEventListener("mouseout", () => {
-    MortName.textContent = "Chloe";
+    clearInterval(intervalId);
+    MortName.textContent = "Chloe Lionfell";
   });
 
   document.querySelectorAll(".dropdown-btn").forEach((d) => {

@@ -447,38 +447,38 @@ footer {
   100% {opacity: 0;}
 }
 
-.lareze {
+.lareze, .sidenav a.lareze {
     color: var(--lareze);
     transition: color 0.5s ease;
 }
 
-.lareze:hover {
+.lareze:hover, .sidenav a.lareze:hover {
     color: var(--lareze-hover);
 }
 
-.sardot {
+.sardot, .sidenav a.sardot {
     color: var(--sardot);
     transition: color 0.5s ease;
 }
 
-.sardot:hover {
+.sardot:hover, .sidenav a.sardot:hover {
     color: var(--sardot-hover);
 }
 
-.tarkir {
+.tarkir, .sidenav a.tarkir {
     color: var(--tarkir);
     transition: color 0.5s ease;
 }
 
-.tarkir:hover {
+.tarkir:hover, .sidenav a.tarkir:hover {
     color: var(--tarkir-hover);
 }
 
-.varka {
+.varka, .sidenav a.varka {
     color: var(--varka);
     transition: color 0.5s ease;
 }
 
-.varka:hover {
+.varka:hover, .sidenav a.varka:hover{
     color: var(--varka-hover);
 }

@@ -83,6 +83,7 @@ p.popis_postrani::first-letter {
 
 i {
     text-align: center;
+    padding: 0 0 0 var(--space-4);
 }
 
 dd,
