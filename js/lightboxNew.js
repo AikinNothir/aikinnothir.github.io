@@ -1,6 +1,8 @@
 let currentIndex = 0;
 let galleryImgs = [];
-galleryImgs = Array.from(document.querySelectorAll(".gallery a"));
+galleryImgs = Array.from(document.querySelectorAll(".gallery a")).filter(
+  (link) => link.querySelector("img"),
+);
 
 document.querySelectorAll("a[data-text]").forEach((link) => {
   const img = link.querySelector("img");
@@ -102,7 +104,7 @@ function logKey(e) {
   }
 }
 
-document.querySelectorAll(".gallery a").forEach((a, cisloPoradi) => {
+galleryImgs.forEach((a, cisloPoradi) => {
   a.addEventListener("click", (f) => {
     f.preventDefault();
     currentIndex = cisloPoradi;
@@ -123,7 +125,7 @@ function getWidth() {
     document.documentElement.scrollWidth,
     document.body.offsetWidth,
     document.documentElement.offsetWidth,
-    document.documentElement.clientWidth
+    document.documentElement.clientWidth,
   );
 }
 

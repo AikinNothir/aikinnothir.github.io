@@ -205,7 +205,8 @@ function napisSidebar() {
     "Stark Brund",
     "Chloe Lionrise",
     "Kain Tork",
-    "Margaret Hopsová"
+    "Margaret Hopsová",
+    "C̵͎̤̃͑̀͂̀͊̃́͆͂͐̂̓̔̅̈́̕̚̚͝ḩ̴͕̟̤̞͎̭͚͈̩̣̱̱̙̟̠͗̌́͒̈́́͐̅͛͋̿͌̀͗͘̚͜͜͠ļ̸̡͔̜̻̮͈͕͔͚̺̱̟̥͙̥̬̰͚̳̾̄̂̎͜͜ͅǫ̷̨̨̱̟͓͖̮̥̻̭̬͔̰̠̻̲̤̮̥̘̚͜ė̴̯̘̩̩̜̫̣̪͓͍̑̀͘ͅ",
   ];
 
   let intervalId = null;
@@ -223,7 +224,7 @@ function napisSidebar() {
     MortName.textContent = "Chloe Lionfell";
   });
 
-  document.querySelectorAll(".dropdown-btn").forEach((d) => {
+  document.querySelectorAll(".dropdown-btn, .dropdown-btn2").forEach((d) => {
     d.addEventListener("click", () => {
       const icon = d.querySelector("i.arrow");
       if (icon) {
