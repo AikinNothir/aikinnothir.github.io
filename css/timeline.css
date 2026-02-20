@@ -114,10 +114,20 @@ h3 {
 }
 
 h4 {
+    color: rgb(255, 255, 255);
     margin: 0;
     text-align: center;
-    padding: 4px 0;
+    padding: 4px;
     font-variant: small-caps;
+    text-decoration: underline;
+}
+
+i {
+    color: rgb(179, 179, 179);
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 4px;
 }
 
 .nadpis-pozadi1 {
@@ -127,8 +137,9 @@ h4 {
     margin-bottom: 10px;
 }
 
-.popis_subpage p{
+p{
     color: aliceblue;
+    margin: 0 0 10px 0;
 }
 
 /* The actual content */
