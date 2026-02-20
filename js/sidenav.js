@@ -79,6 +79,7 @@ function napisSidebar() {
                 <hr>
                 <a target="_self" alt="Fenwn" class="misto" href="/mista/lareze/fenwn.html">Fenwn</a>
                 <a target="_self" alt="Hayax" class="misto" href="/mista/lareze/hayax.html">Hayax</a>
+                <a target="_self" alt="Liedemar" class="misto" href="/mista/lareze/liedemar.html">Liedemar</a>  
                 <a target="_self" alt="Mýtinná" class="misto" href="/mista/lareze/mytinna.html">Mýtinná</a>
                 <a target="_self" alt="Tenya" class="misto" href="/mista/lareze/tenya.html">Tenya</a>
                 <a target="_self" alt="Všehostrom" class="misto" href="/mista/lareze/vsehostrom.html">Všehostrom</a>
@@ -95,7 +96,9 @@ function napisSidebar() {
                 <a target="_self" alt="Auvergn" class="misto" href="/mista/sardot/auvergn.html">Auvergn</a>
                 <a target="_self" alt="Denthir" class="misto" href="/mista/sardot/denthir.html">Denthir</a>
                 <a target="_self" alt="Deucreux" class="misto" href="/mista/sardot/deucreux.html">Deucreux</a>
+                <a target="_self" alt="Dornfeld" class="misto" href="/mista/dornfeld.html">Dornfeld</a>
                 <a target="_self" alt="Sontieu" class="misto" href="/mista/sardot/sontieu.html">Sontieu</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/stalwart.html">Stalwart</a>
                 <a target="_self" alt="Venemor" class="misto" href="/mista/sardot/venemor.html">Venemor</a>
                 <a target="_self" alt="Vrieugh" class="misto" href="/mista/sardot/vrieugh.html">Vrieugh</a>
               </div>
@@ -151,9 +154,6 @@ function napisSidebar() {
                 <a target="_self" alt="Věž" class="misto" href="/mista/varka/vez.html">Věž</a>
               </div>
               
-              <a target="_self" alt="Dornfeld" class="misto" href="/mista/dornfeld.html">Dornfeld</a>
-              <a target="_self" alt="Liedemar" class="misto" href="/mista/liedemar.html">Liedemar</a>
-              <a target="_self" alt="Stalwart" class="misto" href="/mista/stalwart.html">Stalwart</a>
             </div>
             <br>
 

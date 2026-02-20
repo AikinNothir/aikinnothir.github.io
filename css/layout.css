@@ -101,6 +101,7 @@ div.popis_subpage {
     padding: var(--space-3);
     text-align: left;
     background: linear-gradient(to right, transparent 0%, var(--bg-alt-faded) 2%, var(--bg-alt-faded) 98%, transparent);
+    width: 100%;
 }
 
 /* Sidebar / gallery column */
