@@ -208,6 +208,7 @@ function napisSidebar() {
             <br>
             <a href="/mapa.html" class="mapa">Interaktivní Mapa</a>
             <a href="/mapabig.html" class="mapa">VELKÁ MAPA!</a>
+            <a href="/mapabig.html" class="mapa">4</a>
             <a href="/cheatsheet.html" class="mapa">Cheatsheet</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
             <br>
