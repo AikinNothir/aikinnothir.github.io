@@ -38,6 +38,7 @@ div.popis_subpage {
   position: relative;
   background-color: inherit;
   width: 50%;
+  cursor:default;
 }
 
 .container:first-of-type {
@@ -106,6 +107,19 @@ div.popis_subpage {
   left: -16px;
 }
 
+.middle {
+  left: 25%;
+  z-index: 1;
+}
+
+.middle .content {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 25, 138, 0.9)10%, rgb(0, 7, 104)50%, rgba(0, 25, 138, 0.9)90%,rgba(0, 0, 0, 0.9));
+}
+
+.middle::after {
+    content: none;
+}   
+
 h3 {
     margin: 0;
     text-align: center;
@@ -142,10 +156,14 @@ p{
     margin: 0 0 10px 0;
 }
 
+p:first-letter {
+    color: rgb(130, 197, 255);
+}
+
 /* The actual content */
 .content {
   padding: 0 0 10px 0;
-  background-color: rgba(71, 0, 0, 0.6);
+  background: linear-gradient(90deg, rgba(0, 0, 0), rgba(71, 0, 0)10%, rgb(71, 0, 0)50%, rgba(71, 0, 0)90%,rgba(0, 0, 0));
   border: 4px solid rgb(71, 0, 0);
   position: relative;
   border-radius: 6px;
