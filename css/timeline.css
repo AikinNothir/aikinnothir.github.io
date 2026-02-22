@@ -68,6 +68,62 @@ div.popis_subpage {
   left: 0;
 }
 
+.container.left::after,
+.container.right::after {
+  content: none;
+}
+
+.container.left .content,
+.container.right .content {
+  max-height: 110px;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+
+.container.left.is-expanded .content,
+.container.right.is-expanded .content {
+  max-height: 2000px;
+}
+
+.timeline-toggle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  top: 15px;
+  border-radius: 50%;
+  border: 4px solid rgb(71, 0, 0);
+  background: radial-gradient(
+    circle at center,
+    rgb(160, 0, 0),
+    rgb(139, 0, 0) 50%,
+    rgb(71, 0, 0) 100%
+  );
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-toggle::before {
+  content: '+';
+  font-size: 14px;
+  line-height: 1;
+}
+
+.container.left.is-expanded .timeline-toggle::before,
+.container.right.is-expanded .timeline-toggle::before {
+  content: '−';
+}
+
+.container.right .timeline-toggle {
+  left: -13px;
+  right: auto;
+}
+
 /* Place the container to the right */
 .right {
   left: 50%;
@@ -133,6 +189,7 @@ h4 {
     padding: 4px;
     font-variant: small-caps;
     text-decoration: underline;
+    font-size: 3vh;
 }
 
 i {
@@ -195,6 +252,12 @@ p:first-letter {
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
     left: 15px;
+  }
+
+  .container.left .timeline-toggle,
+  .container.right .timeline-toggle {
+    left: 15px;
+    right: auto;
   }
 
 /* Make all right containers behave like the left ones */

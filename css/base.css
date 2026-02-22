@@ -17,6 +17,7 @@ body {
     background-image: linear-gradient(var(--bg), transparent), image-set(
          url(/bottom.avif) type("image/avif"), url(/bottom.jpg) type("image/jpeg")
     );
+    background-attachment: fixed;
 }
 
 /* Theme-specific backgrounds using CSS variables */
