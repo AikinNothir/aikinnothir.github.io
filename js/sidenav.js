@@ -209,8 +209,7 @@ function napisSidebar() {
               <a href="/Spellbook/fighterSb.html" class="postava">Válečník</a> 
             </div>
             <br>
-            <a href="/mapa1.html" class="mapa">Interaktivní Mapa</a>
-            <a href="/mapabig.html" class="mapa">VELKÁ MAPA!</a>
+            <a href="/mapa1.html" class="mapa">Mapa</a>
             <a href="/casova-osa.html" class="mapa">Časová osa</a>
             <a href="/cheatsheet.html" class="mapa">Cheatsheet</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
