@@ -96,9 +96,14 @@ function pridatMarkery(pole) {
     L.marker([misto.y, misto.x])
       .addTo(map)
       .bindPopup(`
-        <b>${misto.name}</b><br><br>
+        <div style="text-align:center;">
+            <b>${misto.name}</b>
+        </div>
         <p>${misto.popis}</p><br>
-        <a href="${misto.url}" style="text-align:center;">Víc o místě</a>
+        <div class="lfl-bttn">
+            <a href="${misto.url}" class="intro_button">víc o místě</a>
+        </div>
+        
       `);
   });
 }

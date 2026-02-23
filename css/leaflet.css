@@ -1,3 +1,5 @@
+@import url(colors.css);
+
 html, body {
   height: 100%;
   margin: 0;
@@ -21,4 +23,48 @@ main {
 
 footer {
     position: relative;
+}
+
+.leaflet-popup-content-wrapper {
+    background: url(/obrazky/papyrus.avif) no-repeat center center;
+    background-size: cover;
+    border: 3px solid var(--maroon);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.leaflet-popup-tip {
+    background-color: var(--maroon);
+}
+
+.leaflet-popup-content b {
+  font-weight: bold;
+  font-size: xx-large;
+  font-variant: small-caps;
+}
+
+.leaflet-popup-content b::first-letter {
+  color: var(--maroon);
+}
+
+.leaflet-popup-content p {
+  margin-top: 8px;
+}
+
+.leaflet-popup-content a {
+  color: var(--logo);
+  padding: 0.3rem 0.7rem;
+  border-radius: 10px;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+
+.lfl-bttn {
+  text-align: center;
+  margin-bottom: 16px;
+  transition: 0.2s;
+  position:relative;
+}
+
+.lfl-bttn:hover {
+  transform: scale(1.02);
 }
