@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mapa - souřadnicový nástroj</title>
+
+  <link rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script
+    src="https://unpkg.com/leaflet/dist/leaflet.js">
+  </script>
+
+  <style>
+    body { margin: 0; }
+    #map { height: 100vh; }
+
+    .coords-box {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 6px 10px;
+      font-family: monospace;
+      border-radius: 6px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+<div class="coords-box" id="coords">X: 0 | Y: 0</div>
+
+<script>
+  var map = L.map('map', {
+    crs: L.CRS.Simple,
+    minZoom: -2
+  });
+
+  var imageWidth = 4096;   // ← ZMĚŇ podle své mapy
+  var imageHeight = 3378;  // ← ZMĚŇ podle své mapy
+
+  var bounds = [[0,0], [imageHeight, imageWidth]];
+
+  L.imageOverlay('/obrazky/velkovarka.jpg', bounds).addTo(map);
+  map.fitBounds(bounds);
+
+  L.marker([830, 1420]).addTo(map)
+  .bindPopup(`
+    <b>Město Varka</b><br>
+    Hlavní město království.<br><br>
+    <a href="varka.html">Více informací</a>
+  `);
+
+
+  // 📍 ZOBRAZOVÁNÍ SOUŘADNIC PŘI POHYBU MYŠI
+  map.on('mousemove', function(e) {
+    document.getElementById('coords').innerText =
+      "X: " + e.latlng.lng.toFixed(0) +
+      " | Y: " + e.latlng.lat.toFixed(0);
+  });
+
+  // 📌 KLIK = POPUP + KÓD MARKERU
+  map.on('click', function(e) {
+
+    var x = e.latlng.lng.toFixed(0);
+    var y = e.latlng.lat.toFixed(0);
+
+    var code = `L.marker([${y}, ${x}]).addTo(map);`;
+
+    L.popup()
+      .setLatLng(e.latlng)
+      .setContent(
+        "<b>Souřadnice:</b><br>" +
+        "X: " + x + "<br>" +
+        "Y: " + y +
+        "<hr><b>Kód:</b><br><code>" + code + "</code>"
+      )
+      .openOn(map);
+  });
+</script>
+
+</body>
+</html>

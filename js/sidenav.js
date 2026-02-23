@@ -97,8 +97,11 @@ function napisSidebar() {
                 <a target="_self" alt="Denthir" class="misto" href="/mista/sardot/denthir.html">Denthir</a>
                 <a target="_self" alt="Deucreux" class="misto" href="/mista/sardot/deucreux.html">Deucreux</a>
                 <a target="_self" alt="Dornfeld" class="misto" href="/mista/dornfeld.html">Dornfeld</a>
+                <a target="_self" alt="Poddubí" class="misto" href="/mista/sardot/poddubi.html">Poddubí</a>
                 <a target="_self" alt="Sontieu" class="misto" href="/mista/sardot/sontieu.html">Sontieu</a>
                 <a target="_self" alt="Stalwart" class="misto" href="/mista/stalwart.html">Stalwart</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/tilon.html">Tilonská pevnost</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/trpaslici-pevnost.html">Trpasličí pevnost</a>
                 <a target="_self" alt="Venemor" class="misto" href="/mista/sardot/venemor.html">Venemor</a>
                 <a target="_self" alt="Vrieugh" class="misto" href="/mista/sardot/vrieugh.html">Vrieugh</a>
               </div>
@@ -144,8 +147,8 @@ function napisSidebar() {
                 <a target="_self" alt="Morgstadt" class="misto" href="/mista/varka/morgstadt.html">Morgstadt</a>
                 <a target="_self" alt="Okraj" class="misto" href="/mista/varka/okraj.html">Okraj</a>
                 <a target="_self" alt="Pełzacz" class="misto" href="/mista/varka/pelzacz.html">Pełzacz</a>
-                <a target="_self" alt="Poddubí" class="misto" href="/mista/varka/poddubi.html">Poddubí</a>
                 <a target="_self" alt="Pole Smutku" class="misto" href="/mista/varka/pole_smutku.html">Pole Smutku</a>
+                <a target="_self" alt="Poddubí" class="misto" href="/mista/varka/polna.html">Polná</a>
                 <a target="_self" alt="Pons Varoli" class="misto" href="/mista/varka/pons.html">Pons Varoli</a>
                 <a target="_self" alt="Přechod" class="misto" href="/mista/varka/prechod.html">Přechod</a>
                 <a target="_self" alt="Sucholes" class="misto" href="/mista/varka/sucholes.html">Sucholes</a>
@@ -206,7 +209,7 @@ function napisSidebar() {
               <a href="/Spellbook/fighterSb.html" class="postava">Válečník</a> 
             </div>
             <br>
-            <a href="/mapa.html" class="mapa">Interaktivní Mapa</a>
+            <a href="/mapa1.html" class="mapa">Interaktivní Mapa</a>
             <a href="/mapabig.html" class="mapa">VELKÁ MAPA!</a>
             <a href="/casova-osa.html" class="mapa">Časová osa</a>
             <a href="/cheatsheet.html" class="mapa">Cheatsheet</a>

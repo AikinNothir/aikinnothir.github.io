@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  margin: 0;
+}
+
+#mapa-leaflet {
+  flex: 1;
+  background: rgba(255, 208, 54, 0);
+}
+
+footer {
+    position: relative;
+}
