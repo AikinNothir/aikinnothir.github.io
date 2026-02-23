@@ -16,7 +16,7 @@ div.logo {
 
 header.podlogo {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: static;
     align-items: center;
     right: 0;
@@ -24,6 +24,10 @@ header.podlogo {
     top: 0;
     background-color: var(--maroon);
     padding: var(--space-3) 0;
+}
+
+.podlogo div {
+    width: 33%;
 }
 
 .podlogo span {
@@ -37,7 +41,6 @@ header.podlogo {
 
 #player {
     padding: 0.1875rem; /* 3px */
-    width: fit-content;
 }
 
 #player iframe {
@@ -55,7 +58,7 @@ header.podlogo {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 1001;
     top: 0;
     left: 0;
     background-color: var(--black);
@@ -91,6 +94,14 @@ header.podlogo {
 
 .introMainPage {
     padding: var(--space-10) var(--space-12) 0.625rem; /* 10px */
+}
+
+.introMainPage div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-4);
 }
 
 .obsah_subpage {

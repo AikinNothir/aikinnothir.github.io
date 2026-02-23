@@ -7,7 +7,9 @@
     border: solid var(--black) var(--border-1);
     border-radius: var(--radius-3);
     cursor: pointer;
-    margin-top: var(--space-12);
+    margin-top: var(--space-6);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 
     background-size: 200% 200%;
     -webkit-animation: Animation 5s ease infinite;
@@ -18,17 +20,17 @@
 @-webkit-keyframes Animation {
     0%{background-position:10% 0%}
     50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+    100%{background-position:9% 0%}
 }
 @-moz-keyframes Animation {
     0%{background-position:10% 0%}
     50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+    100%{background-position:9% 0%}
 }
 @keyframes Animation { 
     0%{background-position:10% 0%}
     50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+    100%{background-position:9% 0%}
 }
 
 /* Logos & headings inside header */
@@ -43,12 +45,8 @@
     flex-shrink: 0;
 }
 
-.podlogoFirstDiv {
+.podlogoSpan {
     text-align:left;
-    margin-left: var(--space-3);
-    width:33%;
-    align-content: center;
-    justify-content: center;
 }
 
 /* Players & map previews */
@@ -311,38 +309,6 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 2px 0;
-}
-
-.intro_button {
-    color: var(--logo);
-    background: linear-gradient(135deg, var(--maroon) 40%, #8f3535 50%, var(--maroon) 60%);
-    font-size: 2vh;
-    padding: var(--space-3) var(--space-6);
-    border: solid var(--black) var(--border-1);
-    border-radius: var(--radius-3);
-    cursor: pointer;
-    margin-top: var(--space-5);
-
-    background-size: 200% 200%;
-    -webkit-animation: Animation 5s ease infinite;
-    -moz-animation: Animation 5s ease infinite;
-    animation: Animation 5s ease infinite;
-}
-
-@-webkit-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
-}
-@-moz-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
-}
-@keyframes Animation { 
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
 }
 
 .lightboxXD {
