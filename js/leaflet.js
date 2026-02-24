@@ -9,16 +9,17 @@ var imageHeight = 3378;  // ← ZMĚŇ podle své mapy
 var bounds = [[0,0], [imageHeight, imageWidth]];
 
 L.imageOverlay('/obrazky/velkovarka.jpg', bounds).addTo(map);
-map.fitBounds(bounds);
+map.setMaxBounds(bounds);
+map.setView([1796, 2616], 0);
 
-L.marker([830, 1420]).addTo(map)
-.bindPopup(`
-<b>Město Varka</b><br>
-Hlavní město království.<br><br>
-<a href="varka.html">Více informací</a>
-`);
 
-setView([1796, 2616], 0);
+/*   L.marker([830, 1420]).addTo(map).bindPopup(`
+      <b>Město Varka</b><br>
+      <p>Hlavní město království.<p><br><br>
+      <div class="lfl-bttn">
+        <a href="/mista/varka.html" class="intro_button">víc o místě</a>
+      </div>
+   `);                          */
 
 // =============================
 // DATA PODLE TYPU
@@ -98,7 +99,7 @@ function pridatMarkery(pole) {
     L.marker([misto.y, misto.x])
       .addTo(map)
       .bindPopup(`
-        <div style="text-align:center;">
+        <div class="nadpis">
             <b>${misto.name}</b>
         </div>
         <p>${misto.popis}</p><br>
