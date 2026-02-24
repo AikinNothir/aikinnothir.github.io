@@ -6,10 +6,11 @@ minZoom: -2
 var imageWidth = 4096;   // ← ZMĚŇ podle své mapy
 var imageHeight = 3378;  // ← ZMĚŇ podle své mapy
 
-var bounds = [[0,0], [imageHeight, imageWidth]];
+var bounds = [[0,0], [(imageHeight), (imageWidth)]];
+var bounds2 = [[-500,-500], [(imageHeight+500), (imageWidth+500)]];
 
 L.imageOverlay('/obrazky/velkovarka.jpg', bounds).addTo(map);
-map.setMaxBounds(bounds);
+map.setMaxBounds(bounds2);
 map.setView([1796, 2616], 0);
 
 
@@ -98,16 +99,20 @@ function pridatMarkery(pole) {
   pole.forEach(misto => {
     L.marker([misto.y, misto.x])
       .addTo(map)
-      .bindPopup(`
-        <div class="nadpis">
+      .bindPopup(
+        `<div class="nadpis">
             <b>${misto.name}</b>
         </div>
         <p>${misto.popis}</p><br>
         <div class="lfl-bttn">
             <a href="${misto.url}" class="intro_button">víc o místě</a>
-        </div>
-        
-      `);
+        </div>`,
+        {
+          autoPan: true,
+          autoPanPaddingTopLeft: [50, 50],
+          autoPanPaddingBottomRight: [50, 50],
+        }
+      );
   });
 }
 
@@ -118,3 +123,5 @@ pridatMarkery(Hrad);
 pridatMarkery(Klaster);
 pridatMarkery(Zajimavost);
 pridatMarkery(Hvozd);
+console.log(bounds);
+console.log(bounds2);
