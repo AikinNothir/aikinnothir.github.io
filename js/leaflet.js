@@ -18,6 +18,8 @@ Hlavní město království.<br><br>
 <a href="varka.html">Více informací</a>
 `);
 
+setView([1796, 2616], 0);
+
 // =============================
 // DATA PODLE TYPU
 // =============================
