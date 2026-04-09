@@ -80,6 +80,10 @@ header.podlogo {
     margin-left: 3.125rem; /* 50px */
 }
 
+.closebtn:hover {
+    translate: 0;
+}
+
 .misto {
     text-align: left;
 }
