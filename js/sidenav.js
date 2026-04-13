@@ -61,6 +61,7 @@ function napisSidebar() {
               <a href="/npc/ignus.html" class="postava">Ignus</a>
               <a href="/npc/narmer.html" class="postava">Narmer</a>
               <a href="/npc/neera.html" class="postava">Neera</a>
+              <a href="/npc/rubius.html" class="postava">Rubius Rosenstern</a>
               <a href="/npc/sgreti.html" class="postava">Sgréti</a>
             </div>
             <br>
@@ -172,6 +173,7 @@ function napisSidebar() {
               <a target="_self" alt="Kult očistného plamene" class="misto" href="/frakce/kultop.html">Kult Očistného Plamene</a>
               <a target="_self" alt="Stříbro" class="misto" href="/frakce/stribro.html">Stříbrné lemování</a>
               <a target="_self" alt="Stráž Al-katu" class="misto" href="/frakce/straze_al-katu.html">Stráž Al-Katu</a>
+              <a target="_self" alt="Železná Inkvizice" class="misto" href="/frakce/inkvizice.html">Železná Inkvizice</a>
             </div>
             <br>
 
