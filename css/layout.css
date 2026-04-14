@@ -68,9 +68,6 @@ header.podlogo {
     text-align: left;
 }
 
-.sidenav h2 {
-    color: var(--logo);
-}
 
 .sidenav .closebtn {
     position: absolute;
