@@ -5,10 +5,12 @@
 div.postrani_obr_memes {
     width: 100%;
     max-width: 95%;
-    min-height: 100svh;
     height: fit-content;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: var(--space-4);
+    align-items: start;
+    justify-items: center;
     background: black;
     z-index: 0;
     padding: var(--space-5) 0;
@@ -17,9 +19,37 @@ div.postrani_obr_memes {
     margin: 0 0 var(--space-8) 0;
 }
 
+div.postrani_obr_memes > a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 div.popis_subpage_memes {
     padding: var(--space-3);
     text-align: left;
     width: 100%;
+}
+
+@media (max-width: 1200px) {
+    div.postrani_obr_memes {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    div.postrani_obr_memes {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    div.postrani_obr_memes {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    position: static;
 }
 
