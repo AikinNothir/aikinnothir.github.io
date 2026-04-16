@@ -1,0 +1,25 @@
+.obsah_subpage_memes {
+    background: linear-gradient(to right, transparent 0%, var(--bg-alt-faded) 2%, var(--bg-alt-faded) 98%, transparent);
+}
+
+div.postrani_obr_memes {
+    width: 100%;
+    max-width: 95%;
+    min-height: 100svh;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    z-index: 0;
+    padding: var(--space-5) 0;
+    overflow-y: auto;
+    border-radius: 1.25rem;
+    margin: 0 0 var(--space-8) 0;
+}
+
+div.popis_subpage_memes {
+    padding: var(--space-3);
+    text-align: left;
+    width: 100%;
+}
+

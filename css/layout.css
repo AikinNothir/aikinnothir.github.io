@@ -181,9 +181,7 @@ div.statblock {
     div.obsah_subpage {
         flex-direction: column;
     }
-    div.popis_subpage {
-        width: 100%;
-    }
+
     div.postrani_obr {
         width: 100%;
         max-width: 100%;

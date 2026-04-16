@@ -217,7 +217,8 @@ function napisSidebar() {
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
             <br>
             <br>
-            <a href="/info.html" class="postava">O stránce</a> `;
+            <a href="/info.html" class="postava">O stránce</a>
+            <a href="/memes.html" class="postava">Memes</a> `;
   console.log(document.getElementById("SIDE"));
 
   let MortName = document.getElementById("mort");
