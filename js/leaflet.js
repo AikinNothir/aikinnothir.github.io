@@ -9,7 +9,7 @@ var imageHeight = 3378;  // ← ZMĚŇ podle své mapy
 var bounds = [[0,0], [(imageHeight), (imageWidth)]];
 var bounds2 = [[-500,-500], [(imageHeight+500), (imageWidth+500)]];
 
-L.imageOverlay('/obrazky/velkovarka.jpg', bounds).addTo(map);
+L.imageOverlay('/obrazky/velkovarka.webp', bounds).addTo(map);
 map.setMaxBounds(bounds2);
 map.setView([1796, 2616], 0);
 
