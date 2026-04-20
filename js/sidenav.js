@@ -36,6 +36,10 @@ function napisSidebar() {
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="npcSar" style="max-height:0px">
+                <a href="/npc/sardot/derrick.html" class="postava">Derrick Valtren</a>
+                <a href="/npc/sardot/garrick.html" class="postava">Garrick Valtren</a>
+                <a href="/npc/sardot/jarrick.html" class="postava">Jarrick Valtren</a>
+                <a href="/npc/sardot/rick.html" class="postava">Rick Valtren</a>   
                 <a href="/npc/sardot/elisa.html" class="postava">Elisa</a>
                 <a href="/npc/sardot/motieur.html" class="postava">Motieur</a>
                 <a href="/npc/sardot/tibalt.html" class="postava">Tibalt</a>  
