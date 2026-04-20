@@ -97,12 +97,12 @@ function napisSidebar() {
                 <a target="_self" alt="Auvergn" class="misto" href="/mista/sardot/auvergn.html">Auvergn</a>
                 <a target="_self" alt="Denthir" class="misto" href="/mista/sardot/denthir.html">Denthir</a>
                 <a target="_self" alt="Deucreux" class="misto" href="/mista/sardot/deucreux.html">Deucreux</a>
-                <a target="_self" alt="Dornfeld" class="misto" href="/mista/dornfeld.html">Dornfeld</a>
+                <a target="_self" alt="Dornfeld" class="misto" href="/mista/sardot/dornfeld.html">Dornfeld</a>
                 <a target="_self" alt="Poddubí" class="misto" href="/mista/sardot/poddubi.html">Poddubí</a>
                 <a target="_self" alt="Sontieu" class="misto" href="/mista/sardot/sontieu.html">Sontieu</a>
-                <a target="_self" alt="Stalwart" class="misto" href="/mista/stalwart.html">Stalwart</a>
-                <a target="_self" alt="Stalwart" class="misto" href="/mista/tilon.html">Tilonská pevnost</a>
-                <a target="_self" alt="Stalwart" class="misto" href="/mista/trpaslici-pevnost.html">Trpasličí pevnost</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/stalwart.html">Stalwart</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/tilon.html">Tilonská pevnost</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/trpaslici-pevnost.html">Trpasličí pevnost</a>
                 <a target="_self" alt="Venemor" class="misto" href="/mista/sardot/venemor.html">Venemor</a>
                 <a target="_self" alt="Vrieugh" class="misto" href="/mista/sardot/vrieugh.html">Vrieugh</a>
               </div>
