@@ -68,9 +68,6 @@ header.podlogo {
     text-align: left;
 }
 
-.sidenav h2 {
-    color: var(--logo);
-}
 
 .sidenav .closebtn {
     position: absolute;
@@ -184,9 +181,7 @@ div.statblock {
     div.obsah_subpage {
         flex-direction: column;
     }
-    div.popis_subpage {
-        width: 100%;
-    }
+
     div.postrani_obr {
         width: 100%;
         max-width: 100%;

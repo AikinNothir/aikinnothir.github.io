@@ -36,6 +36,10 @@ function napisSidebar() {
                 <span><i class="arrow down"></i></span>
               </button>
               <div class="dropdown-div2" id="npcSar" style="max-height:0px">
+                <a href="/npc/sardot/derrick.html" class="postava">Derrick Valtren</a>
+                <a href="/npc/sardot/garrick.html" class="postava">Garrick Valtren</a>
+                <a href="/npc/sardot/jarrick.html" class="postava">Jarrick Valtren</a>
+                <a href="/npc/sardot/rick.html" class="postava">Rick Valtren</a>   
                 <a href="/npc/sardot/elisa.html" class="postava">Elisa</a>
                 <a href="/npc/sardot/motieur.html" class="postava">Motieur</a>
                 <a href="/npc/sardot/tibalt.html" class="postava">Tibalt</a>  
@@ -97,12 +101,12 @@ function napisSidebar() {
                 <a target="_self" alt="Auvergn" class="misto" href="/mista/sardot/auvergn.html">Auvergn</a>
                 <a target="_self" alt="Denthir" class="misto" href="/mista/sardot/denthir.html">Denthir</a>
                 <a target="_self" alt="Deucreux" class="misto" href="/mista/sardot/deucreux.html">Deucreux</a>
-                <a target="_self" alt="Dornfeld" class="misto" href="/mista/dornfeld.html">Dornfeld</a>
+                <a target="_self" alt="Dornfeld" class="misto" href="/mista/sardot/dornfeld.html">Dornfeld</a>
                 <a target="_self" alt="Poddubí" class="misto" href="/mista/sardot/poddubi.html">Poddubí</a>
                 <a target="_self" alt="Sontieu" class="misto" href="/mista/sardot/sontieu.html">Sontieu</a>
-                <a target="_self" alt="Stalwart" class="misto" href="/mista/stalwart.html">Stalwart</a>
-                <a target="_self" alt="Stalwart" class="misto" href="/mista/tilon.html">Tilonská pevnost</a>
-                <a target="_self" alt="Stalwart" class="misto" href="/mista/trpaslici-pevnost.html">Trpasličí pevnost</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/stalwart.html">Stalwart</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/tilon.html">Tilonská pevnost</a>
+                <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/trpaslici-pevnost.html">Trpasličí pevnost</a>
                 <a target="_self" alt="Venemor" class="misto" href="/mista/sardot/venemor.html">Venemor</a>
                 <a target="_self" alt="Vrieugh" class="misto" href="/mista/sardot/vrieugh.html">Vrieugh</a>
               </div>
@@ -217,7 +221,8 @@ function napisSidebar() {
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
             <br>
             <br>
-            <a href="/info.html" class="postava">O stránce</a> `;
+            <a href="/info.html" class="postava">O stránce</a>
+            <a href="/memes.html" class="postava">Memes</a> `;
   console.log(document.getElementById("SIDE"));
 
   let MortName = document.getElementById("mort");
