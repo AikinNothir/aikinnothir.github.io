@@ -222,7 +222,8 @@ function napisSidebar() {
             <br>
             <br>
             <a href="/info.html" class="postava">O stránce</a>
-            <a href="/memes.html" class="postava">Memes</a> `;
+            <a href="/memes.html" class="postava">Memes</a> 
+            <a href="/vvv.pptx" class="postava" download>Kvíz</a>`;
   console.log(document.getElementById("SIDE"));
 
   let MortName = document.getElementById("mort");
