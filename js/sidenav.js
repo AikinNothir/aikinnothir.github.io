@@ -24,6 +24,7 @@ function napisSidebar() {
               <a href="/postavy/kharak.html" class="postava">Kharak Narantl</a> 
               <a href="/postavy/pertan.html" class="postava">Pertan Perlík</a> 
               <a href="/postavy/sirael.html" class="postava">Sirael Cockven</a>
+              <a href="/postavy/vael-eryd.html" class="postava">Vael Eryd</a>
               <a href="/postavy/zuana.html" class="postava">Zuana</a>  
             </div>
             <br>
