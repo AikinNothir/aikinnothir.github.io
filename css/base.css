@@ -137,6 +137,10 @@ hr.solid {
     width: 90%;
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
 .nadpis {
     text-align: center;
 }
