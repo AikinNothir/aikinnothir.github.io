@@ -228,7 +228,7 @@ const Mesto = [
     y: 280,
     x: 2374,
     url: "/mista/tarkir/draci_rohy.html",
-    popis: "Dračí rohy jsou Tarkirským sídlem, kde sídlí hlavní síla Tarkiru.",
+    popis: "Dračí rohy jsou posvátným místem pro drakorozené, shromažďují se zde a vzdávají úctu svým dračím předkům.",
   },
   {
     name: "Ocas Draka",
