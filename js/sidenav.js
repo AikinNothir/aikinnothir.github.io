@@ -132,7 +132,7 @@ function napisSidebar() {
               </button>
               <div class="dropdown-div2" id="lokVar" style="max-height:0px">
                 <br>
-                <a target="_self" alt="Varka" class="varka" href="/mista/varka.html">o Varce</a>
+                <a target="_self" alt="Varka" class="varka" href="/mista/varka/varka.html">o Varce</a>
                 <hr>
                 <a target="_self" alt="Adanosův chrám" class="misto" href="/mista/varka/adanos.html">Adanosův chrám</a>
                 <a target="_self" alt="Ruiny Al Katu" class="misto" href="/mista/varka/al_kat.html">Al-Kat</a>
