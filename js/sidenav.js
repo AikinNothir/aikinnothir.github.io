@@ -16,8 +16,10 @@ function napisSidebar() {
             </button>
             <div class="dropdown-div" id="postavy" style="max-height:0px">
               <a href="/postavy/brom.html" class="postava">Brom Forgeborn</a> 
+              <a href="/postavy/boris.html" class="postava">Boris Malý</a> 
               <a href="/postavy/emer.html" class="postava">Emer z Dorinu</a>
               <a href="/postavy/garth.html" class="postava">Garth McLaughlin</a>
+              <a href="/postavy/gramus.html" class="postava">Gramus Synmagr</a>
               <a href="/postavy/chloe.html" class="postava" id="mort">Chloe Lionfell</a> 
               <a href="/postavy/joe.html" class="postava">Jonathan O. Edwards</a>
               <a href="/postavy/joli.html" class="postava">Joli Rouge</a>
