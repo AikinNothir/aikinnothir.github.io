@@ -141,7 +141,7 @@ function napisSidebar() {
                 <a target="_self" alt="Durnhelm" class="misto" href="/mista/varka/durnhelm.html">Durnhelm</a>
                 <a target="_self" alt="Garagor" class="misto" href="/mista/varka/garagor.html">Garagor</a> 
                 <a target="_self" alt="Ghetto" class="misto" href="/mista/varka/ghetto.html">Ghetto</a>
-                <a target="_self" alt="Les Gost" class="misto" href="/mista/varka/gost.html">Gost</a> 
+                <a target="_self" alt="Fénixův hvozd" class="misto" href="/mista/varka/gost.html">Fénixův Hvozd</a> 
                 <a target="_self" alt="Grabštejn" class="misto" href="/mista/varka/grabstejn.html">Grabštejn</a>
                 <a target="_self" alt="Hornická Oblast" class="misto" href="/mista/varka/doly.html">Hornická oblast</a>
                 <a target="_self" alt="Horská pevnost" class="misto" href="/mista/varka/horska_pevnost.html">Horská pevnost</a>
