@@ -17,7 +17,32 @@ var bounds2 = [
 
 L.imageOverlay("/obrazky/velkovarka.webp", bounds).addTo(map);
 map.setMaxBounds(bounds2);
-map.setView([1796, 2616], 0);
+
+// ===== DEFAULT VIEW =====
+let defaultLat = 1796;
+let defaultLng = 2616;
+let defaultZoom = 0;
+
+
+
+// ===== URL PARAMS =====
+const params = new URLSearchParams(window.location.search);
+
+const lat = parseFloat(params.get("y"));
+const lng = parseFloat(params.get("x"));
+const zoom = parseInt(params.get("zoom"));
+
+
+
+// ===== POKUD JSOU PARAMETRY =====
+if (!isNaN(lat) && !isNaN(lng)) {
+  map.setView(
+    [lat, lng],
+    !isNaN(zoom) ? zoom : defaultZoom
+  );
+} else {
+  map.setView([defaultLat, defaultLng], defaultZoom);
+}
 
 /*   L.marker([830, 1420]).addTo(map).bindPopup(`
       <b>Město Varka</b><br>
