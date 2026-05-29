@@ -128,7 +128,7 @@ const Mesto = [
     name: "Sardot",
     y: 2735,
     x: 1046,
-    url: "/mista/sardot/sardot.html",
+    url: "/mista/sardot/sardot-city.html",
     popis: "Hlavní město Sardotského království oplývající bohatstvím",
   },
   {

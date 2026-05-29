@@ -21,6 +21,7 @@ const mistaMapButtons = {
   "/mista/sardot/deucreux.html": { y: 2829, x: 1494 },
   "/mista/sardot/dornfeld.html": { y: 3293, x: 792 },
   "/mista/sardot/poddubi.html": { y: 2030, x: 1202 },
+  "/mista/sardot/sardot-city.html": { y: 2735, x: 1046 },
   "/mista/sardot/sontieu.html": { y: 2598, x: 452 },
   "/mista/sardot/stalwart.html": { y: 3293, x: 1176 },
   "/mista/sardot/tilon.html": { y: 2406, x: 1288 },
