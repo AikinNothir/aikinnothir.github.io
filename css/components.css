@@ -7,7 +7,8 @@
     border: solid var(--black) var(--border-1);
     border-radius: var(--radius-3);
     cursor: pointer;
-    margin-top: var(--space-6);
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-3);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -31,6 +32,25 @@
     0%{background-position:10% 0%}
     50%{background-position:91% 100%}
     100%{background-position:9% 0%}
+}
+
+.intro_button_slower {
+    color: var(--logo);
+    background: linear-gradient(135deg, var(--maroon) 40%, #8f3535 50%, var(--maroon) 60%);
+    font-size: 2vh;
+    padding: var(--space-3) var(--space-6);
+    border: solid var(--black) var(--border-1);
+    border-radius: var(--radius-3);
+    cursor: pointer;
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-3);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-size: 200% 200%;
+    -webkit-animation: Animation 15s ease infinite;
+    -moz-animation: Animation 15s ease infinite;
+    animation: Animation 15s ease infinite;
 }
 
 /* Logos & headings inside header */
