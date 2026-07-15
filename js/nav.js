@@ -97,3 +97,15 @@ if (document.readyState === "loading") {
 } else {
   pridatButtonMapyMista();
 }
+
+document.querySelectorAll("dl dt").forEach(dt => {
+    dt.addEventListener("click", () => {
+        const dd = dt.nextElementSibling;
+
+        if (dd && dd.tagName === "DD") {
+            dd.classList.toggle("open");
+        }
+
+        dt.classList.toggle("activedt");
+    });
+});
