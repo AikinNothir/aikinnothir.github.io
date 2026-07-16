@@ -219,6 +219,7 @@ function napisSidebar() {
             </div>
             <br>
             <a href="/mapa1.html" class="mapa">Mapa</a>
+            <a href="/dobrodruzstvi.html" class="mapa">Prožitá dobrodružství</a>
             <a href="/casova-osa.html" class="mapa">Časová osa</a>
             <a href="/cheatsheet.html" class="mapa">Cheatsheet</a>
             <a href="/denik.pdf" class="mapa" download>Deník!</a>
