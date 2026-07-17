@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   timelineContainers.forEach((container, index) => {
-    const content = container.querySelector(".content");
+    const content = container.querySelector(".content-timeline");
     if (!content) {
       return;
     }
