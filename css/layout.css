@@ -133,7 +133,6 @@ div.postrani_obr {
     overflow-y: auto;
     border-bottom-left-radius: 1.25rem; /* 20px */
     border-bottom-right-radius: 1.25rem; /* 20px */
-    margin: 0 0 var(--space-8) 0; /* 32px */
 }
 
 div.statblock {
