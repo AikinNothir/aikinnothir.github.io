@@ -31,10 +31,6 @@ body {
     background-image: linear-gradient(var(--bg), transparent), var(--bg-image-set);
 }
 
-main {
-    margin: 0 0 0 var(--space-10);
-}
-
 h1 {
     margin-bottom: 10px;
     padding: var(--space-2) var(--space-2) 0 var(--space-8);
