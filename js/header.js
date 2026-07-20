@@ -1,7 +1,7 @@
 function napisHeader() {
-  document.getElementById(
+    document.getElementById(
     "header"
-  ).innerHTML = `<div class="podlogoFirstDiv">
+    ).innerHTML = `<div class="podlogoFirstDiv">
         <span class="spanNahore" onclick="openNav();napisSidebar()">&#9776; </span>
     </div>
     <div class="logo w33">
