@@ -141,8 +141,7 @@ div.statblock {
     padding: var(--space-2);
     border-radius: 12px;
     background-color: antiquewhite;
-    margin-top: 0px;
-    margin-bottom: 12px;
+    margin:0 8px 12px;
 }
 
 /* RWD breakpoints */
