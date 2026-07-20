@@ -1,70 +1,70 @@
 @import url(colors.css);
 
 html, body {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-  flex: 1;
-  display: flex;
-  margin: 0;
+    flex: 1;
+    display: flex;
+    margin: 0;
 }
 
 #mapa-leaflet {
-  flex: 1;
-  background: rgba(255, 208, 54, 0);
+    flex: 1;
+    background: rgba(255, 208, 54, 0);
 }
 
 footer {
-    position: relative;
+        position: relative;
 }
 
 .leaflet-popup-content-wrapper {
-    background: url(/obrazky/papyrus.avif) no-repeat center center;
-    background-size: cover;
-    border: 3px solid var(--maroon);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        background: url(/obrazky/papyrus.avif) no-repeat center center;
+        background-size: cover;
+        border: 3px solid var(--maroon);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 .leaflet-popup-tip {
-    background-color: var(--maroon);
+        background-color: var(--maroon);
 }
 
 .leaflet-popup-content b {
-  font-weight: bold;
-  font-size: xx-large;
-  font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    font-variant: small-caps;
 }
 
 .leaflet-popup-content b::first-letter {
-  color: var(--maroon);
+    color: var(--maroon);
 }
 
 .leaflet-popup-content p {
-  margin-top: 8px;
+    margin-top: 8px;
 }
 
 .leaflet-popup-content a {
-  color: var(--logo);
-  padding: 0.3rem 0.7rem;
-  border-radius: 10px;
-  font-variant: small-caps;
-  text-decoration: none;
+    color: var(--logo);
+    padding: 0.3rem 0.7rem;
+    border-radius: 10px;
+    font-variant: small-caps;
+    text-decoration: none;
 }
 
 .lfl-bttn {
-  text-align: center;
-  margin-bottom: 16px;
-  transition: 0.2s;
-  position:relative;
+    text-align: center;
+    margin-bottom: 16px;
+    transition: 0.2s;
+    position:relative;
 }
 
 .lfl-bttn:hover {
-  transform: scale(1.02);
+    transform: scale(1.02);
 }
