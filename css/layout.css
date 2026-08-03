@@ -110,10 +110,11 @@ header.podlogo {
 }
 
 div.popis_subpage {
-    padding: var(--space-3);
+    padding: var(--space-3) var(--space-12);
     text-align: left;
     background: linear-gradient(to right, transparent 0%, var(--bg-alt-faded) 2%, var(--bg-alt-faded) 98%, transparent);
     width: 100%;
+    min-height: 100svh;
 }
 
 /* Sidebar / gallery column */
@@ -132,7 +133,6 @@ div.postrani_obr {
     overflow-y: auto;
     border-bottom-left-radius: 1.25rem; /* 20px */
     border-bottom-right-radius: 1.25rem; /* 20px */
-    margin: 0 0 var(--space-8) 0; /* 32px */
 }
 
 div.statblock {
@@ -141,8 +141,7 @@ div.statblock {
     padding: var(--space-2);
     border-radius: 12px;
     background-color: antiquewhite;
-    margin-top: 0px;
-    margin-bottom: 12px;
+    margin:0 8px 12px;
 }
 
 /* RWD breakpoints */

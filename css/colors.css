@@ -1,7 +1,7 @@
 :root {
     /* Backgrounds */
     --bg: rgb(192, 179, 173);
-    --bg-alt-faded: rgba(191, 179, 173, 0.5);
+    --bg-alt-faded: rgba(191, 179, 173, 0.7);
 
     /* Accents / brand */
     --logo: #f9f291;
