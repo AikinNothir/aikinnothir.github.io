@@ -65,6 +65,7 @@ function napisSidebar() {
               </div>
               <a href="/npc/bestie.html" class="postava">Bestie</a>
               <a href="/postavy/folgrim.html" class="postava">Folgrim</a>
+              <a href="/npc/hagen.html" class="postava">Hágen</a>
               <a href="/npc/ignus.html" class="postava">Ignus</a>
               <a href="/npc/narmer.html" class="postava">Narmer</a>
               <a href="/npc/neera.html" class="postava">Neera</a>
@@ -175,9 +176,11 @@ function napisSidebar() {
               <a target="_self" alt="Aloka" class="misto" href="/frakce/aloka.html">Aloka</a>
               <a target="_self" alt="Alchymistický cech" class="misto" href="/frakce/alchym_cech.html">Alchymistický cech</a>
               <a target="_self" alt="bratrstvo lovu" class="misto" href="/frakce/lov.html">Bratrstvo lovu</a>
+              <a target="_self" alt="Černí Ševci" class="misto" href="/frakce/sevci.html">Černí Ševci</a>
               <a target="_self" alt="stráž garagoru" class="misto" href="/frakce/straz.html">Gargorská stráž</a>
               <a target="_self" alt="GGG" class="misto" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
               <a target="_self" alt="Kult očistného plamene" class="misto" href="/frakce/kultop.html">Kult Očistného Plamene</a>
+              <a target="_self" alt="Notáři Smrti" class="misto" href="/frakce/notari.html">Notáři Smrti</a>
               <a target="_self" alt="Stříbro" class="misto" href="/frakce/stribro.html">Stříbrné lemování</a>
               <a target="_self" alt="Stráž Al-katu" class="misto" href="/frakce/straze_al-katu.html">Stráž Al-Katu</a>
               <a target="_self" alt="Železná Inkvizice" class="misto" href="/frakce/inkvizice.html">Železná Inkvizice</a>
