@@ -499,6 +499,11 @@ footer {
     background-color: #f1f1f1;
 }
 
+.content p {
+    text-align: left;
+    font-variant: normal;
+}
+
 dl dt {
         cursor: pointer;
         user-select: none;
