@@ -451,7 +451,7 @@ a.postava img {
         margin-right: var(--space-2);
 }
 
-#postavy.open {
+div.open {
         padding-bottom: var(--space-3);
 }
 

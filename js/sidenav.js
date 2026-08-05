@@ -165,7 +165,7 @@ function napisSidebar() {
                                 <a target="_self" alt="Trpasličí Zátoka" class="misto" href="/mista/varka/zatoka.html">Trpasličí Zátoka</a>
                                 <a target="_self" alt="Věž" class="misto" href="/mista/varka/vez.html">Věž</a>
                             </div>
-                            
+                            <a target="_self" alt="Ohnivá sféra" class="misto" href="/mista/sfery/ohnivasfera.html">Ohnivá sféra</a>
                         </div>
                         <br>
 
@@ -173,17 +173,16 @@ function napisSidebar() {
                                 <span><i class="arrow down"></i></span>
                         </button>
                         <div class="dropdown-div" style="max-height:0px" id="div3">
-                            <a target="_self" alt="Aloka" class="misto" href="/frakce/aloka.html">Aloka</a>
-                            <a target="_self" alt="Alchymistický cech" class="misto" href="/frakce/alchym_cech.html">Alchymistický cech</a>
-                            <a target="_self" alt="bratrstvo lovu" class="misto" href="/frakce/lov.html">Bratrstvo lovu</a>
-                            <a target="_self" alt="Černí Ševci" class="misto" href="/frakce/sevci.html">Černí Ševci</a>
-                            <a target="_self" alt="stráž garagoru" class="misto" href="/frakce/straz.html">Gargorská stráž</a>
-                            <a target="_self" alt="GGG" class="misto" href="/frakce/ggg.html">Gargorský Gang Gaunerů</a>
-                            <a target="_self" alt="Kult očistného plamene" class="misto" href="/frakce/kultop.html">Kult Očistného Plamene</a>
-                            <a target="_self" alt="Notáři Smrti" class="misto" href="/frakce/notari.html">Notáři Smrti</a>
-                            <a target="_self" alt="Stříbro" class="misto" href="/frakce/stribro.html">Stříbrné lemování</a>
-                            <a target="_self" alt="Stráž Al-katu" class="misto" href="/frakce/straze_al-katu.html">Stráž Al-Katu</a>
-                            <a target="_self" alt="Železná Inkvizice" class="misto" href="/frakce/inkvizice.html">Železná Inkvizice</a>
+                            <a target="_self" alt="Aloka" class="postava" href="/frakce/aloka.html">Aloka</a>
+                            <a target="_self" alt="Alchymistický cech" class="postava" href="/frakce/alchym_cech.html">Alchymistický cech</a>
+                            <a target="_self" alt="bratrstvo lovu" class="postava" href="/frakce/lov.html">Bratrstvo lovu</a>
+                            <a target="_self" alt="Černí Ševci" class="postava" href="/frakce/sevci.html"><img src="/frakce/obr/icons/sevci.png" class="sidenav_icon">Černí Ševci</a>
+                            <a target="_self" alt="GGG" class="postava" href="/frakce/ggg.html"><img src="/frakce/obr/icons/straz.png" class="sidenav_icon">Gargorská stráž (GGG)</a>
+                            <a target="_self" alt="Kult očistného plamene" class="postava" href="/frakce/kultop.html"><img src="/frakce/obr/icons/plameny.png" class="sidenav_icon">Plameny</a>
+                            <a target="_self" alt="Notáři Smrti" class="postava" href="/frakce/notari.html"><img src="/frakce/obr/icons/notari.png" class="sidenav_icon">Notáři Smrti</a>
+                            <a target="_self" alt="Stříbro" class="postava" href="/frakce/stribro.html"><img src="/frakce/obr/icons/stribro.png" class="sidenav_icon">Stříbrné lemování</a>
+                            <a target="_self" alt="Stráž Al-katu" class="postava" href="/frakce/straze_al-katu.html"><img src="/frakce/obr/icons/alkat.png" class="sidenav_icon">Stráž Al-Katu</a>
+                            <a target="_self" alt="Železná Inkvizice" class="postava" href="/frakce/inkvizice.html"><img src="/frakce/obr/icons/inkvizice.png" class="sidenav_icon">Železná Inkvizice</a>
                         </div>
                         <br>
 

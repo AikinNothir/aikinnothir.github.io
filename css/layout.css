@@ -146,7 +146,7 @@ div.statblock {
 
 /* RWD breakpoints */
 @media (max-width:1000px) {
-    #player {
+    #player:first-child {
         display: none;
     }
 
@@ -179,6 +179,14 @@ div.statblock {
 
     div.obsah_subpage {
         flex-direction: column;
+    }
+
+    div.popis_subpage {
+        padding: var(--space-3) var(--space-4);
+    }
+
+    div.content {
+        padding: 0 var(--space-2);
     }
 
     div.postrani_obr {
