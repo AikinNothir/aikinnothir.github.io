@@ -19,13 +19,13 @@ function napisSidebar() {
                             <a href="/postavy/boris.html" class="postava"><img src="/postavy/obr/icon/boris.png" class="sidenav_icon">Boris Malý</a> 
                             <a href="/postavy/emer.html" class="postava"><img src="/postavy/obr/icon/emer.png" class="sidenav_icon">Emer z Dorinu</a>
                             <a href="/postavy/garth.html" class="postava"><img src="/postavy/obr/icon/garth.png" class="sidenav_icon">Garth McLaughlin</a>
-                            <a href="/postavy/gramus.html" class="postava">Gramus Synmagr</a>
-                            <a href="/postavy/chloe.html" class="postava" id="mort"><img src="/postavy/obr/icon/chloe.png" class="sidenav_icon">Chloe Lionfell</a> 
-                            <a href="/postavy/joe.html" class="postava">Jonathan O. Edwards</a>
-                            <a href="/postavy/joli.html" class="postava">Joli Rouge</a>
-                            <a href="/postavy/kharak.html" class="postava">Kharak Narantl</a> 
+                            <a href="/postavy/gramus.html" class="postava"><img src="/postavy/obr/icon/gramus.png" class="sidenav_icon">Gramus Synmagr</a>
+                            <a href="/postavy/chloe.html" class="postava"><img src="/postavy/obr/icon/chloe.png" class="sidenav_icon"><span id="mort">Chloe Lionfell</span></a> 
+                            <a href="/postavy/joe.html" class="postava"><img src="/postavy/obr/icon/joe.png" class="sidenav_icon">Jonathan O. Edwards</a>
+                            <a href="/postavy/joli.html" class="postava"><img src="/postavy/obr/icon/joli.png" class="sidenav_icon">Joli Rouge</a>
+                            <a href="/postavy/kharak.html" class="postava"><img src="/postavy/obr/icon/kharak.png" class="sidenav_icon">Kharak Narantl</a> 
                             <a href="/postavy/pertan.html" class="postava"><img src="/postavy/obr/icon/pertan.png" class="sidenav_icon">Pertan Perlík</a> 
-                            <a href="/postavy/sirael.html" class="postava">Sirael Cockven</a>
+                            <a href="/postavy/sirael.html" class="postava"><img src="/postavy/obr/icon/sirael.png" class="sidenav_icon">Sirael Cockven</a>
                             <a href="/postavy/vael-eryd.html" class="postava"><img src="/postavy/obr/icon/vael.png" class="sidenav_icon">Vael Eryd</a>
                             <a href="/postavy/zuana.html" class="postava"><img src="/postavy/obr/icon/zuana.png" class="sidenav_icon">Zuana</a>  
                         </div>

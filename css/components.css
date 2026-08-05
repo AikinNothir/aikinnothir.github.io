@@ -113,7 +113,7 @@
 
 /* Sidenav links */
 .sidenav a {
-        padding: var(--space-2) var(--space-2) var(--space-2) var(--space-2);
+        padding: var(--space-2) var(--space-2) var(--space-2) var(--space-5);
         text-decoration: none;
         font-size: 2.5vh;
         color: var(--gray-818);
@@ -441,10 +441,18 @@ footer {
         max-height: 2.5rem;
         max-width: 2.5rem;
         position: relative;
-        bottom: -0.45rem;
+        bottom: -0.75rem;
         left: -0.15rem;
-        border-radius: var(--radius-6);
+        border-radius: 50px;
         border: aliceblue solid var(--border-1);
+}
+
+a.postava img {
+        margin-right: var(--space-2);
+}
+
+#postavy.open {
+        padding-bottom: var(--space-3);
 }
 
 .lareze, .sidenav a.lareze {
