@@ -85,7 +85,10 @@ function napisSidebar() {
                         </button>
                         <div class="dropdown-div" id="div2" style="max-height:0px">
                             <button class="dropdown-btn2 lareze" onclick="rozbal('lokLar')">
-                                Laréze
+                                <span>
+                                    <img src="/mista/obr/icon/lareze2.png" class="sidenav_erb">
+                                    Laréze
+                                </span>
                                 <span><i class="arrow down"></i></span>
                             </button>
                             <div class="dropdown-div2" id="lokLar" style="max-height:0px">
