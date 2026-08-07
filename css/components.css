@@ -236,6 +236,10 @@ div.obrazek-a-border::after {
         border-bottom: var(--logo) solid var(--border-1);
 }
 
+.dropdown-btn2 span {
+        align-content: center;
+}
+
 .dropdown-btn:hover {
         color: var(--logo-darker);
 }
@@ -445,6 +449,14 @@ footer {
         left: -0.15rem;
         border-radius: 50px;
         border: aliceblue solid var(--border-1);
+}
+
+.sidenav_erb {
+        max-height: 2.5rem;
+        max-width: 2.5rem;
+        position: relative;
+        bottom: -0.75rem;
+        left: -0.15rem;
 }
 
 a.postava img {

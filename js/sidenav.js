@@ -35,7 +35,10 @@ function napisSidebar() {
                         </button>
                         <div class="dropdown-div" id="div1" style="max-height:0px">
                             <button class="dropdown-btn2 sardot" onclick="rozbal('npcSar')">
-                                Sardot
+                                <span>
+                                    <img src="/mista/obr/icon/sardot2.png" class="sidenav_erb">
+                                    Sardot
+                                </span>
                                 <span><i class="arrow down"></i></span>
                             </button>
                             <div class="dropdown-div2" id="npcSar" style="max-height:0px">
@@ -48,7 +51,10 @@ function napisSidebar() {
                                 <a href="/npc/sardot/tibalt.html" class="postava">Tibalt</a>  
                             </div>
                             <button class="dropdown-btn2 varka" onclick="rozbal('npcVar')">
-                                Varka
+                                <span>
+                                    <img src="/mista/obr/icon/varka2.png" class="sidenav_erb">
+                                    Varka
+                                </span>
                                 <span><i class="arrow down"></i></span>
                             </button>
                             <div class="dropdown-div2" id="npcVar" style="max-height:0px">
@@ -95,18 +101,22 @@ function napisSidebar() {
                             </div>
 
                             <button class="dropdown-btn2 sardot" onclick="rozbal('lokSar')">
-                                Sardot
+                                <span>
+                                    <img src="/mista/obr/icon/sardot2.png" class="sidenav_erb">
+                                    Sardot
+                                </span>
                                 <span><i class="arrow down"></i></span>
                             </button>
                             <div class="dropdown-div2" id="lokSar" style="max-height:0px">
                                 <br>
-                                <a target="_self" alt="Varka" class="sardot" href="/mista/sardot/sardot.html">o Sardotu</a>
+                                <a target="_self" alt="Varka" class="sardot" href="/mista/sardot/sardot.html">o Sardotském království</a>
                                 <hr>
                                 <a target="_self" alt="Auvergn" class="misto" href="/mista/sardot/auvergn.html">Auvergn</a>
                                 <a target="_self" alt="Denthir" class="misto" href="/mista/sardot/denthir.html">Denthir</a>
                                 <a target="_self" alt="Deucreux" class="misto" href="/mista/sardot/deucreux.html">Deucreux</a>
                                 <a target="_self" alt="Dornfeld" class="misto" href="/mista/sardot/dornfeld.html">Dornfeld</a>
                                 <a target="_self" alt="Poddubí" class="misto" href="/mista/sardot/poddubi.html">Poddubí</a>
+                                <a target="_self" alt="Sontieu" class="misto" href="/mista/sardot/sardot-city.html">Sardot</a>
                                 <a target="_self" alt="Sontieu" class="misto" href="/mista/sardot/sontieu.html">Sontieu</a>
                                 <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/stalwart.html">Stalwart</a>
                                 <a target="_self" alt="Stalwart" class="misto" href="/mista/sardot/tilon.html">Tilonská pevnost</a>
@@ -130,7 +140,10 @@ function napisSidebar() {
                             </div>
 
                             <button class="dropdown-btn2 varka" onclick="rozbal('lokVar')">
-                                Varka
+                                <span>
+                                    <img src="/mista/obr/icon/varka2.png" class="sidenav_erb">
+                                    Varka
+                                </span>
                                 <span><i class="arrow down"></i></span>
                             </button>
                             <div class="dropdown-div2" id="lokVar" style="max-height:0px">
