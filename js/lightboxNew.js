@@ -1,7 +1,8 @@
 let currentIndex = 0;
-let galleryImgs = [];
-galleryImgs = Array.from(document.querySelectorAll(".gallery a")).filter(
-    (link) => link.querySelector("img"),
+let galleryItems = Array.from(
+    document.querySelectorAll(".gallery a")
+).filter(
+    (link) => link.querySelector("img") || link.dataset.type === "video"
 );
 
 document.querySelectorAll("a[data-text]").forEach((link) => {
@@ -11,22 +12,54 @@ document.querySelectorAll("a[data-text]").forEach((link) => {
     }
 });
 
+function createMedia(item) {
+    const type = item.dataset.type || "image";
+
+    if (type === "video") {
+        const video = document.createElement("video");
+        video.classList.add("mainImgClass");
+        video.id = "imgModalu";
+        video.src = item.href;
+        video.controls = true;
+        video.autoplay = true;
+        video.loop = false;
+
+        return video;
+    }
+
+    const img = document.createElement("img");
+    img.classList.add("mainImgClass");
+    img.id = "imgModalu";
+    img.src = item.href;
+    img.alt = item.dataset.text || "";
+
+    return img;
+    
+}
+
 function change(item) {
     item.classList.toggle("change");
 }
 
 function changeImg(direction) {
     currentIndex += direction;
+
     if (currentIndex < 0) {
-        currentIndex = galleryImgs.length - 1; // loop zpět na poslední
-    } else if (currentIndex >= galleryImgs.length) {
-        currentIndex = 0; // loop zpět na první
+        currentIndex = galleryItems.length - 1;
+    } else if (currentIndex >= galleryItems.length) {
+        currentIndex = 0;
     }
-    document.getElementById("imgModalu").src = galleryImgs[currentIndex].href;
-    document.getElementById("imgModalu").alt = galleryImgs[currentIndex].href;
+
+    const oldMedia = document.getElementById("imgModalu");
+    const newMedia = createMedia(galleryItems[currentIndex]);
+
+    oldMedia.replaceWith(newMedia);
+
     const popisObal = document.querySelector("#modalLightbox .popisek");
+
     if (popisObal) {
-        popisObal.innerText = galleryImgs[currentIndex].getAttribute("data-text");
+        popisObal.innerText =
+            galleryItems[currentIndex].getAttribute("data-text") || "";
     }
 
     console.log(currentIndex);
@@ -41,19 +74,20 @@ function initiateGall(clickedImg) {
         newDiv.setAttribute("id", "modalLightbox");
         document.body.appendChild(newDiv);
 
-        const mainImg = document.createElement("img");
-        mainImg.setAttribute("class", "mainImgClass");
-        mainImg.setAttribute("id", "imgModalu");
+        let mainImg;
+
+        if (clickedImg) {
+            mainImg = createMedia(clickedImg);
+        } else {
+            mainImg = createMedia(galleryItems[currentIndex]);
+        }
 
         const popisObal = document.createElement("p");
         popisObal.setAttribute("class", "popisek");
-        newDiv.appendChild(popisObal);
 
-        if (clickedImg) {
-            mainImg.setAttribute("src", clickedImg.href);
-            mainImg.setAttribute("alt", clickedImg.href);
-            popisObal.innerText = clickedImg.getAttribute("data-text");
-        }
+        const currentItem = clickedImg || galleryItems[currentIndex];
+        popisObal.innerText = currentItem.getAttribute("data-text") || "";
+        newDiv.appendChild(popisObal);
 
         newDiv.appendChild(mainImg);
         const bar1 = document.createElement("div");
@@ -104,7 +138,7 @@ function logKey(e) {
     }
 }
 
-galleryImgs.forEach((a, cisloPoradi) => {
+galleryItems.forEach((a, cisloPoradi) => {
     a.addEventListener("click", (f) => {
         f.preventDefault();
         currentIndex = cisloPoradi;
