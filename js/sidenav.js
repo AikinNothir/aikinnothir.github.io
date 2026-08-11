@@ -129,7 +129,10 @@ function napisSidebar() {
                             </div>
 
                             <button class="dropdown-btn2 tarkir" onclick="rozbal('lokTar')">
-                                Tarkir
+                                <span>
+                                    <img src="/mista/obr/icon/tarkirErb1.png" class="sidenav_erb">
+                                    Tarkir
+                                </span>
                                 <span><i class="arrow down"></i></span>
                             </button>
                             <div class="dropdown-div2" id="lokTar" style="max-height:0px">
@@ -181,7 +184,9 @@ function napisSidebar() {
                                 <a target="_self" alt="Trpasličí Zátoka" class="misto" href="/mista/varka/zatoka.html">Trpasličí Zátoka</a>
                                 <a target="_self" alt="Věž" class="misto" href="/mista/varka/vez.html">Věž</a>
                             </div>
-                            <a target="_self" alt="Ohnivá sféra" class="misto" href="/mista/sfery/ohnivasfera.html">Ohnivá sféra</a>
+                            <a target="_self" alt="Ohnivá sféra" class="misto" href="/mista/sfery/ohnivasfera.html">
+                                <span>Ohnivá sféra</span>
+                            </a>
                         </div>
                         <br>
 
