@@ -130,7 +130,7 @@ function napisSidebar() {
 
                             <button class="dropdown-btn2 tarkir" onclick="rozbal('lokTar')">
                                 <span>
-                                    <img src="/mista/obr/icon/tarkirErb1.png" class="sidenav_erb">
+                                    <img src="/mista/obr/icon/tarkir.png" class="sidenav_erb">
                                     Tarkir
                                 </span>
                                 <span><i class="arrow down"></i></span>
