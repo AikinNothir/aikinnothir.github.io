@@ -211,20 +211,24 @@ function napisSidebar() {
                             <span><i class="arrow down"></i></span>
                         </button>
                         <div class="dropdown-div" id="div4" style="max-height:0px">
+                            <button class="dropdown-btn2 varka" onclick="rozbal('prastari')">Prastaří bozi
+                                <span><i class="arrow down"></i></span>
+                            </button>
+                            <div class="dropdown-div2" id="prastari" style="max-height:0px">
+                                <a href="/bohove/posledni.html" class="postava">Ten Poslední</a>
+                                <a href="/bohove/slepa.html" class="postava">Slepá</a>
+                                <a href="/bohove/zkrouceny.html" class="postava">Zkroucený</a>
+                            </div>
                             <a href="/bohove/aaauph.html" class="postava">Aaauph</a>
                             <a href="/bohove/adanos.html" class="postava">Adanos</a>
                             <a href="/bohove/bane.html" class="postava">Bane</a>
                             <a href="/bohove/beliar.html" class="postava">Beliar</a>
                             <a href="/bohove/bhaal.html" class="postava">Bhaal</a>
                             <a href="/bohove/ilmater.html" class="postava">Ilmater</a>
-                            <a href="/bohove/innos.html" class="postava">Innos</a>
                             <a href="/bohove/magran.html" class="postava">Magran</a>
                             <a href="/bohove/myrkul.html" class="postava">Myrkul</a>
-                            <a href="/bohove/posledni.html" class="postava">Ten Poslední</a>
-                            <a href="/bohove/slepa.html" class="postava">Slepá</a>
                             <a href="/bohove/tlem.html" class="postava">Tlem</a>
                             <a href="/bohove/woedika.html" class="postava">Woedika</a>
-                            <a href="/bohove/zkrouceny.html" class="postava">Zkroucený</a>
                             <a href="/bohove/panna.html" class="postava">Žulová Panna</a>   
                         </div>
                         <br>
@@ -241,8 +245,18 @@ function napisSidebar() {
                             <a href="/Spellbook/fighterSb.html" class="postava">Válečník</a> 
                         </div>
                         <br>
-                        <a href="/mapa1.html" class="mapa">Mapa</a>
-                        <a href="/dobrodruzstvi.html" class="mapa">Prožitá dobrodružství</a>
+                        <a href="/mapa1.html" class="mapa">
+                            <span>
+                                <img src="/mista/obr/icon/velkovarka.jpg" class="sidenav_icon">
+                                Mapa
+                            </span>
+                        </a>
+                        <a href="/dobrodruzstvi.html" class="mapa">
+                            <span>
+                                <img src="/obrazky/journal.png" class="sidenav_erb">
+                                Prožitá dobrodružství
+                            </span>
+                        </a>
                         <a href="/casova-osa.html" class="mapa">Časová osa</a>
                         <a href="/cheatsheet.html" class="mapa">Cheatsheet</a>
                         <a href="/denik.pdf" class="mapa" download>Deník!</a>
