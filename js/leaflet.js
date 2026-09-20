@@ -290,7 +290,7 @@ const Hrad = [
         name: "Trpasličí pevnost",
         y: 3199,
         x: 1866,
-        url: "/mista/trpaslici-pevnost.html",
+        url: "/mista/sardot/trpaslici-pevnost.html",
         popis: "Pevnost na severu Denthiru",
     },
     {
