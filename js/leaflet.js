@@ -1,6 +1,9 @@
 var map = L.map("mapa-leaflet", {
     crs: L.CRS.Simple,
     minZoom: -2,
+    wheelPxPerZoomLevel: 120,
+    zoomSnap: 0.25,
+    zoomDelta: 0.25,
 });
 
 var imageWidth = 4096; // ← ZMĚŇ podle své mapy
