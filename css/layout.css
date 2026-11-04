@@ -85,6 +85,11 @@ header.podlogo {
     text-align: left;
 }
 
+a.misto2 {
+    text-align: left;
+    margin-top: var(--space-2);
+}
+
 /* Page structure */
 .new-map,
 .druzina {

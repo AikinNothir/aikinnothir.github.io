@@ -184,9 +184,8 @@ function napisSidebar() {
                                 <a target="_self" alt="Trpasličí Zátoka" class="misto" href="/mista/varka/zatoka.html">Trpasličí Zátoka</a>
                                 <a target="_self" alt="Věž" class="misto" href="/mista/varka/vez.html">Věž</a>
                             </div>
-                            <a target="_self" alt="Ohnivá sféra" class="misto" href="/mista/sfery/ohnivasfera.html">
-                                <span>Ohnivá sféra</span>
-                            </a>
+                            <a target="_self" alt="Ohnivá sféra" class="misto2" href="/mista/sfery/ohnivasfera.html"><span>Ohnivá sféra</span></a>
+                            <a target="_self" alt="Velkovarka" class="misto2" href="/mista/velkovarka.html">O kontinentu</a>
                         </div>
                         <br>
 
